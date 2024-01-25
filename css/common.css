@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+
+#wrap {width: 100%; height: auto; margin: 0 auto; background-color: #1A1A1A; }
+.container{ height: 100%; margin: 0 5.42%;}
+
+
+header {width: 100%; height: 100vh; margin: 0 auto; background-color: #F3EEE8;}
+#topbar { width: 100%; height: 15%; background-color: cadetblue;}
+#logo {float: left; margin-top: 15px; }
+#hambuger {width: 53px; height: 20px; margin: 0 auto; padding-top: 40px;}
+
+#menu li {float: right; margin: 0px 10px; }
+#menu li span {color: #F3EEE8;}
+#menu .round {float: right; background-color: #1A1A1A; border-radius: 50%; height: 100px; width: 100px; margin-top: -40px;
+        display: flex; justify-content: center; align-items: center;}
+.round a {text-align: center;}
+
+.titlebox {text-align: center; font-family: 'Ethereal Demo Font Regular';}
+.small {font-size: 8em; position: relative; z-index: 2; margin-top: 10px;}
+.big {font-size: 30em; color: #9585A0; margin: -200px; position: relative; z-index: 1;}
+
+#slider {height: 1583px;}
+.text1 {font-family: 'Ethereal Demo Font Regular'; color: #F3EEE8; font-size: 3em;
+        padding: 120px 0 10px 200px;}
+.text2 {font-family: 'Ethereal Demo Font Regular'; color: #9585A0; font-size: 5em;
+        padding: 10px 0 10px 200px;}
+.text3 {font-family: 'Ethereal Demo Font Regular'; color: #F3EEE8; font-size: 2em;
+        text-align: right;}
+
+
+
+
+
+
+
+
+#section {height: 6987px; background-color: #F3EEE8;}
+
+#info {height: 713px; background-color: violet;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {height: 300px;}
+.ftitle1 {color: #3E3E40; font-size: 3em; font-family: 'Ethereal Demo Font Regular'; 
+          transform: rotate(-90deg) translateX(-100%); transform-origin: left top; width: 450px;}
+.ftitle1-1 {color: #3E3E40; font-size: 3em; font-family: 'Ethereal Demo Font Regular'; margin: 37px 0 0 60px;
+            transform: rotate(-90deg) translateX(-50%); transform-origin: left top; width: 210px;}
+
+.table {color: #c2c2c2; float: left; margin: -130px 180px;}
+.table li {padding: 5px; font-size: 0.8em;}
+
+.fbox1 {padding: 20px;}
+.fbox2 {padding: 20px;}
+.fbox3 {padding: 20px;}
+
+.flogo img {float: right; width: 188px; height: 44px; margin-top: 170px; margin-right: 40px;}
+p {float: right; font-size: 1em; color: #c2c2c2; width: 500px; margin-top: 230px; margin-right: -190px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+@font-face {
+     font-family: 'Ethereal Demo Font Regular';
+     src: url(fonts/Ethereal-Demo-Font-Regular.otf) format('opentype');
+}
+
+     /* reset css */   
+     *{margin: 0; padding: 0;}
+     ul, ol, li {list-style: none;}
+    a {text-decoration: none; color: #1A1A1A;}
+    body {background-color: #1A1A1A;}
