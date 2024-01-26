@@ -1,3 +1,213 @@
 @charset "utf-8";
 
 
+
+#slider {
+        height: 1100px;
+        margin: 0 auto;
+}
+
+.text1 {
+        color: #F3EEE8;
+        font-size: 2em;
+        padding: 130px 0 0px 100px;
+}
+
+.text2 {
+        color: #9585A0;
+        font-size: 4em;
+        padding: 10px 0 10px 100px;
+}
+
+.text3 {
+        color: #F3EEE8;
+}
+
+.text3 .e {
+        float: right;
+        font-size: 3em;
+        width: 500px;
+        margin: 132px 184px 0 0;
+        padding: 20px;
+}
+
+.text3 .k {
+        float: right;
+        font-size: 1.5em;
+        width: 300px;
+        margin: 227px -340px 0 0;
+        padding: 20px;
+}
+
+#slider img {
+        width: 675px;
+        height: 523px;
+        margin: 50px 0 0 100px;
+}
+
+.click {
+        float: right;
+        display: flex;
+        margin: -200px 454px 0px 0;
+}
+
+.arrow {
+        border: 1px solid #F3EEE8;
+        padding: 22px;
+        text-align: center;
+        color: #F3EEE8;
+        background-color: #1A1A1A;
+}
+
+.play {
+        border: 1px solid #F3EEE8;
+        padding: 21px 50px 20px 50px;
+        font-size: 1.5em;
+        color: #F3EEE8;
+        background-color: #1A1A1A;
+        font-family: 'Ethereal Demo Font';
+}
+
+.click:hover {
+        background-color: #F3EEE8;
+        cursor: pointer;
+}
+
+#section {
+        height: 6987px;
+        background-color: #F3EEE8;
+}
+
+.page1 {
+        display: flex;
+}
+
+.toptitle {
+        height: 1300px;
+        width: 850px;
+        background-color: #9585A0;
+}
+
+.first {
+        height: 50px;
+        width: 500px;
+        float: left;
+        font-size: 2em;
+        margin: 10px 0 0 0;
+        padding: 80px 0 0 0;
+        background-color: darkcyan;
+}
+
+.second {
+        height: 350px;
+        width: 800px;
+        float: left;
+        font-size: 5em;
+        margin: 0px 0 0 0;
+        background-color: darkseagreen;
+}
+
+.third {
+        height: 700px;
+        width: 500px;
+        float: left;
+        font-size: 1.5em;
+        margin: 10px 0 0 100px;
+        font-family: 'NanumMyeongjoOTF';
+        background-color: darkkhaki;
+        text-align: justify;
+}
+
+.monet {
+        overflow: hidden;
+}
+
+.half1 {
+        width: 500px;
+        height: 900px;
+        border-radius: 500px 0 0 500px;
+        border: 2px solid #9585A0;
+        display: inline-block;
+        margin: 260px 0 0 466px;
+        position: relative;
+
+
+}
+
+.page1 .half2 {
+        width: 400px;
+        height: 800px;
+        border-radius: 500px 0 0 500px;
+        margin: -855px 0px 0 521px;
+        background-color: palegreen;
+        overflow: hidden;
+        position: absolute;
+
+}
+
+.page1 .half2 img {
+        height: 100%;
+        float: right;
+}
+
+.page2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+}
+
+.leftbox {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+}
+
+.chagall {
+        width: 506px;
+        height: 639px;
+        background-color: yellowgreen;
+}
+
+.pissarro {
+        width: 526px;
+        height: 633px;
+        background-color: thistle;
+}
+
+.rightbox {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+}
+
+.renoir {
+        width: 801px;
+        height: 653px;
+        background-color: teal;
+}
+
+.gauguin {
+        width: 701px;
+        height: 456px;
+        background-color: coral;
+}
+
+.dali {
+        width: 542px;
+        height: 628px;
+        background-color: steelblue;
+}
+
+
+
+
+
+
+
+
+
+
+#info {
+        height: 713px;
+        background-color: violet;
+}
