@@ -3,6 +3,7 @@
 
 
 #slider {
+        background-color: #1A1A1A;
         height: 1100px;
         margin: 0 auto;
 }
@@ -82,8 +83,7 @@
 
 
 #section {
-        height: 6300px;
-        background-color: #F3EEE8;
+        height: auto;
 }
 
 .page1 {
@@ -187,7 +187,7 @@
 .page2 {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-between;   
 }
 
 .leftbox {
@@ -216,6 +216,8 @@
         padding-bottom: 73px;
         border-bottom: 3px solid #9585A0;
         line-height: 2em;
+        display: flex;
+        flex-wrap: wrap;
 }
 
 .pissarro img {
@@ -258,9 +260,8 @@
 }
 
 .dali {
-        width: 730px;
+        width: 750px;
         height: 628px;
-        background-color: steelblue;
         margin: 250px 0px 350px 0;
 }
 
@@ -268,14 +269,15 @@
         display: flex;
         align-items: flex-end;
         flex-direction: row-reverse;
-        padding-bottom: 20px;
-        border-bottom: 3px solid #9585A0;
-        line-height: 2em;
+
 }
 
 .dali img {
         width: 542px;
         height: 628px;
+        padding-bottom: 17px;
+        border-bottom: 3px solid #9585A0;
+        line-height: 2em;        
 }
 
 .miro {
@@ -357,6 +359,8 @@
 .dname {
         font-size: 2em;
         width: 190px;
+        padding-left: 20px;
+        margin-bottom: 10px;
 }
 
 .textbox1 {
@@ -371,29 +375,65 @@
         line-height: 0em;
 }
 
+.textbox3 {
+        font-family: 'NanumSquareNeoOTF-Rg';
+        font-size: 1.7em;
+        line-height: 1.8em;
+}
+
+.textbox4 {
+        font-family: 'NanumSquareNeoOTF-Rg';
+        font-size: 1em;
+        line-height: 1em;
+}
+
 .bodyarrow {
         float: right;
         margin: 20px 0;
 }
 
+.bodyarrowdali {
+        float: right;
+        margin: 20px 210px 0 0;
+}
 
-#info table {
+
+
+
+#info {
         font-family: 'NanumSquareNeoOTF-Rg';
-        float: left;
+        width: 700px;
+        height: 500px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding: 50px;
 }
 
-#info .left {
-        width: 377px;
-        height: 400px;
-        background-color: yellowgreen;
+
+#info .top {
+        font-size: 1.3em;
+        font-weight: bold;
+        width: 250px;
+        border-bottom: solid 2px #C2C2C2;
+        padding-bottom: 10px;
 }
 
-#info .right {
-        width: 377px;
-        height: 400px;
-        background-color: yellowgreen;
+#info .bottom {
+        padding: 10px 0 20px 0;
 }
 
+#info .bottom2{
+        padding: 3px;
+}
+
+#info .bottom3 {
+        padding: 10px 0 0 4px;
+}
+
+#info .bottom4 {
+        padding: 3px 0 19px 1px;
+}
 
 
 
@@ -404,5 +444,119 @@
 
 #select {
         height: 713px;
-        background-color: violet;
+        font-family: 'PretendardRegular';
 }
+
+#select .container {
+        width: 75%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        border-top: #9585A0 3px solid;
+        margin: 0 auto;
+}
+
+
+.navname {
+        width: 10%;
+        font-size: 3em;
+        font-weight: bold;
+       
+        padding: 60px 0 20px 20px;
+        text-align: left;
+}
+
+nav {
+        width: 90%;
+        height: 100px;
+        float: right;
+        margin-top: -110px;
+        margin-right: -20px;
+        padding-top: 30px;
+}
+
+
+nav li {
+        float: left;
+        width: 120px;
+        background-color: #1A1A1A;
+        border-radius: 60px;
+        font-size: 1.6em;
+        text-align: center;
+        padding: 10px;
+        margin: 0 0px 30px 50px;
+        font-weight: bold;
+}
+
+nav .ch {
+        width: 200px;
+}
+
+nav li a {
+        color: #F3EEE8;
+}
+
+.art:not(:first-of-type) {
+display: none;
+}
+
+
+#all {
+        font-family: 'PretendardRegular';
+        clear: both;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+}
+
+.poster {
+        padding: 20px;
+}
+
+.poster img {
+        width: 293px;
+        height: 293px;
+}
+
+
+.city {
+        font-weight: bold;
+        width: 300px;
+        border-top: #C2C2C2 3px solid;
+        margin-top: -4px;
+        padding: 10px 0 10px 0;
+}
+.name {
+        font-weight: bold;
+        font-size: 1.2em;
+}
+.date {
+        font-size: 0.8em;
+        color: #C2C2C2;
+        padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

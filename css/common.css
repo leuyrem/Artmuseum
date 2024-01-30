@@ -5,7 +5,7 @@
         width: 100%;
         height: auto;
         margin: 0 auto;
-        background-color: #1A1A1A;
+        background-color: #F3EEE8;
 }
 
 .container {
@@ -18,7 +18,7 @@ header {
         width: 100%;
         height: 100vh;
         margin: 0 auto;
-        background-color: #F3EEE8;
+
 }
 
 #topbar {
@@ -66,6 +66,8 @@ header {
 
 .titlebox {
         text-align: center;
+        overflow: hidden;
+        height: 83%;
 }
 
 .small {
@@ -96,30 +98,32 @@ header {
 
 
 footer {
-        height: 400px;
+        height: 600px;
+        background-color: #1A1A1A;
 }
 
 .ftitle1 {
         color: #3E3E40;
-        font-size: 3em;
-        transform: rotate(-90deg) translateX(-100%);
-        transform-origin: left top;
-        width: 450px;
+        font-size: 2em;
+        /* transform: rotate(-90deg) translateX(-100%);
+        transform-origin: left bottom; */
+        width: 100%;
+
 }
 
 .ftitle1-1 {
         color: #3E3E40;
-        font-size: 3em;
-        margin: 37px 0 0 60px;
-        transform: rotate(-90deg) translateX(-50%);
-        transform-origin: left top;
-        width: 210px;
+        font-size: 2em;
+        /* transform: rotate(-90deg) translateX(-50%);
+        transform-origin: left bottom;
+        width: 500px;
+        margin-right: 0px; */
 }
 
 .table {
         color: #c2c2c2;
         float: left;
-        margin: -130px 180px;
+        margin: 130px 180px;
 }
 
 .table li {
@@ -144,8 +148,7 @@ footer {
         float: right;
         width: 188px;
         height: 44px;
-        margin-top: 170px;
-        margin-right: 40px;
+        margin: 320px -70px 0 0;
 }
 
 .flogo p {
@@ -153,7 +156,7 @@ footer {
         font-size: 1em;
         color: #c2c2c2;
         width: 500px;
-        margin-top: 230px;
-        margin-right: -190px;
+        height: 30px;
         font-family: 'PretendardRegular';
+        margin: 400px -200px 0 0;
 }
