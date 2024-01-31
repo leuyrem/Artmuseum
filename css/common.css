@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-
+/* 헤더 */
 #wrap {
         width: 100%;
         height: auto;
@@ -46,6 +46,7 @@ header {
 
 #menu li span {
         color: #F3EEE8;
+        font-weight: bold;
 }
 
 #menu .round {
@@ -64,99 +65,77 @@ header {
         text-align: center;
 }
 
-.titlebox {
-        text-align: center;
-        overflow: hidden;
-        height: 83%;
-}
-
-.small {
-        font-size: 8em;
-        position: relative;
-        z-index: 2;
-        margin-top: 10px;
-}
-
-.big {
-        font-size: 30em;
-        color: #9585A0;
-        margin: -200px;
-        position: relative;
-        z-index: 1;
-}
 
 
-
-
-
-
-
-
-
-
-
-
-
+/* 푸터 */
 footer {
-        height: 600px;
+        height: 400px;
         background-color: #1A1A1A;
+        position: relative;
 }
 
-.ftitle1 {
+.biglogo1 {
         color: #3E3E40;
-        font-size: 2em;
-        /* transform: rotate(-90deg) translateX(-100%);
-        transform-origin: left bottom; */
-        width: 100%;
-
-}
-
-.ftitle1-1 {
-        color: #3E3E40;
-        font-size: 2em;
-        /* transform: rotate(-90deg) translateX(-50%);
-        transform-origin: left bottom;
-        width: 500px;
-        margin-right: 0px; */
-}
-
-.table {
-        color: #c2c2c2;
+        font-size: 4em;
+        font-weight: bold;
         float: left;
-        margin: 130px 180px;
+        position: absolute;        
+        top: 243px; 
+        left: 70px;
+
 }
 
-.table li {
+.biglogo2 {
+        color: #3E3E40;
+        font-size: 6em;
+        font-weight: bold;
+        position: absolute; 
+        top: 292px; 
+        left: 870px;  
+}
+
+
+
+
+.infotext {
+        color: #c2c2c2;
+        width: 350px;
+        display: flex;
+        margin-left: -110px;
+} 
+
+.infotext li {
         padding: 5px;
         font-size: 0.8em;
         font-family: 'PretendardRegular';
 }
 
-.fbox1 {
-        padding: 20px;
+.fbox { 
+        padding: 60px 0 0 50px ;
 }
 
-.fbox2 {
-        padding: 20px;
-}
 
-.fbox3 {
-        padding: 20px;
-}
+
+
+
 
 .flogo img {
         float: right;
         width: 188px;
         height: 44px;
-        margin: 320px -70px 0 0;
+        margin: -103px 80px 0 0;
 }
 
 .flogo p {
         float: right;
         font-size: 1em;
-        color: #c2c2c2;
+        color: #3E3E40;
         width: 500px;
         height: 30px;
         font-family: 'PretendardRegular';
-        margin: 400px -200px 0 0;
+        margin: -44px 73px 0px 0px;
 }
+
+
+
+
