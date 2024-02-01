@@ -1,4 +1,21 @@
 
+$(document).ready(function () {
+    $("#hambuger").click(function () {
+      $(".hamnav").animate({
+        height: 'toggle'
+      });
+    });
+
+    $("#hambuger").click(function(){
+        $('.line:nth-child(1)').toggle();
+        $('.line:nth-child(2)').toggle();
+    });
+
+  });
+
+
+
+
 
 // 헤더 아래에서
 $(document).ready(function () {
@@ -25,14 +42,77 @@ $(window).scroll(function () {
         $('.text3').css("transform", "translateX(0px)").css("opacity", "1");
     }
 
-});
-
 // 섹션
-$(window).scroll(function () {
-    var ws = $(this).scrollTop();
-    
+    var first = $('.first').offset().top;
+    if(ws > first - 700) {
+        $('.first').css("transform", "translateY(0px)").css("opacity", "1");
+    }
+
+    var second = $('.second p').offset().top;
+    if(ws > second - 700) {
+        $('.second p').css("transform", "translateY(0px)").css("opacity", "1");
+    }
+
+
+
 });
 
+
+//전시 정보
+$(function(){
+    $('button:nth-of-type(1)').click(function(){
+        $("#all").fadeIn();
+        $("#seo").hide();
+        $("#gwa").hide();
+        $("#deok").hide();
+        $("#cheong").hide();
+        $("#child").hide();
+    });
+
+    $('button:nth-of-type(2)').click(function(){
+        $("#all").fadeIn();
+        $("#seo").hide();
+        $("#gwa").hide();
+        $("#deok").hide();
+        $("#cheong").hide();
+        $("#child").hide();
+    });
+
+    $('button:nth-of-type(3)').click(function(){
+        $("#all").fadeIn();
+        $("#seo").hide();
+        $("#gwa").hide();
+        $("#deok").hide();
+        $("#cheong").hide();
+        $("#child").hide();
+    });
+
+    $('button:nth-of-type(4)').click(function(){
+        $("#all").fadeIn();
+        $("#seo").hide();
+        $("#gwa").hide();
+        $("#deok").hide();
+        $("#cheong").hide();
+        $("#child").hide();
+    });
+
+    $('button:nth-of-type(5)').click(function(){
+        $("#all").fadeIn();
+        $("#seo").hide();
+        $("#gwa").hide();
+        $("#deok").hide();
+        $("#cheong").hide();
+        $("#child").hide();
+    });
+    $('button:nth-of-type(6)').click(function(){
+        $("#all").fadeIn();
+        $("#seo").hide();
+        $("#gwa").hide();
+        $("#deok").hide();
+        $("#cheong").hide();
+        $("#child").hide();
+    });
+});
 
 
 

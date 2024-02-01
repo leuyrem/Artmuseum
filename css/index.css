@@ -152,9 +152,9 @@
         width: 500px;
         float: left;
         font-size: 2em;
-        margin: 10px 0 0 0;
+        margin: 70px 0 0 0;
         padding: 80px 0 0 0;
-        transform: translateY(150px);
+        transform: translateY(50px);
         opacity: 0;
         transition: 1s ease-in-out;
         transition-delay: 0.5s;
@@ -165,15 +165,35 @@
         width: 800px;
         float: left;
         font-size: 5em;
-        margin: 0px 0 0 0;
+        margin: 11px 0 -96px 0;
+
 }
+
+.second p {
+        transform: translateY(150px);
+        opacity: 0;
+        transition: 1s ease-in-out;
+}
+
+.second p:nth-of-type(1) {
+        transition-delay: 1s;
+}
+
+.second p:nth-of-type(2) {
+        transition-delay: 1.5s;
+}
+
+.second p:nth-of-type(3) {
+        transition-delay: 2s;
+}
+
 
 .third {
         height: 900px;
-        width: 600px;
+        width: 583px;
         float: left;
         font-size: 1.5em;
-        margin: 20px 0 0 163px;
+        margin: 130px 0 0 58px;
         font-family: 'NanumMyeongjoOTF';
         text-align: justify;
         line-height: 2em;
@@ -288,7 +308,7 @@
 .renoir {
         width: 780px;
         height: 653px;
-        margin: 100px 0px 100px 0px;
+        margin: 31px 0px 100px 0px;
         padding-bottom: 73px;
         border-bottom: 3px solid #9585A0;
         line-height: 2em;
@@ -539,15 +559,14 @@ nav li {
         padding: 10px;
         margin: 0 0px 30px 50px;
         font-weight: bold;
+        color: #F3EEE8;
 }
 
 nav .ch {
         width: 200px;
 }
 
-nav li a {
-        color: #F3EEE8;
-}
+
 
 .art:not(:first-of-type) {
         display: none;
@@ -576,7 +595,7 @@ nav li a {
         font-weight: bold;
         width: 300px;
         border-top: #C2C2C2 3px solid;
-        margin-top: -4px;
+        margin-top: -3px;
         padding: 10px 0 10px 0;
 }
 
@@ -587,6 +606,6 @@ nav li a {
 
 .date {
         font-size: 0.8em;
-        color: #a5a5a5;
+        color: #777777;
         padding-top: 10px;
 }

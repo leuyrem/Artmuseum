@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/index.css">
 
-    
+
     <link rel="shortcut icon" type="image/x-icon" href="img/logoicon.ico">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="js/index.js"></script>
@@ -28,10 +28,22 @@
                     </div>
 
                     <div id="hambuger">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="52" height="18" viewBox="0 0 52 18" fill="none">
-                            <line y1="1.5" x2="52" y2="1.5" stroke="#1A1A1A" stroke-width="3" />
-                            <line y1="16.5" x2="52" y2="16.5" stroke="#1A1A1A" stroke-width="3" />
-                        </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="52" height="60" viewBox="0 0 52 90" fill="none">
+                            <line class="line" y1="1.5" x2="52" y2="1.5" stroke="#1A1A1A" stroke-width="3" />
+                            <line class="line" y1="16.5" x2="52" y2="16.5" stroke="#1A1A1A" stroke-width="3" />
+                        </svg>                            
+   
+  
+                        <div class="hamnav">
+                            <ul>
+                                <li>관람·참여</li>
+                                <li>전시</li>
+                                <li>교육</li>
+                                <li>소장품</li>
+                                <li>미술연구</li>
+                                <li>디지털미술관</li>
+                            </ul>
+                        </div>
                     </div>
 
                     <div id="menu">
@@ -93,7 +105,11 @@
                 <div class="page1">
                     <div class="toptitle">
                         <p class="first">MMCA Lee Kun-hee Collection</p>
-                        <p class="second">Monet, Picasso and <br> the Masters of the <br> Belle Epoque</p>
+                        <div class="second">
+                            <p>Monet, Picasso and</p>
+                            <p>the Masters of the</p>
+                            <p>Belle Epoque</p>
+                        </div>
                         <p class="third">«MMCA 이건희컬렉션 특별전: 모네와 피카소, 파리의 아름다운 순간들»은 2021년 국립현대미술관에 기증된 이건희컬렉션에 포함된 마르크
                             샤갈,
                             살바도르 달리, 카미유 피사로, 클로드 모네, 폴 고갱, 피에르 오귀스트 르누아르, 호안 미로의 회화 7점과 파블로 피카소의 도자 90점을 소개하는 전시입니다.
@@ -282,18 +298,18 @@
 
 
 
-        <!-- 정보 -->
+        <!-- 전시 정보 -->
         <div id="select">
             <div class="container">
                 <p class="navname">전시</p>
                 <nav>
                     <ul>
-                        <li><a href="">전체</a></li>
-                        <li><a href="">서울</a></li>
-                        <li><a href="">과천</a></li>
-                        <li><a href="">덕수궁</a></li>
-                        <li><a href="">청주</a></li>
-                        <li class="ch"><a href="#">어린이 미술관</a></li>
+                        <li type="button">전체</li>
+                        <li type="button">서울</li>
+                        <li type="button">과천</li>
+                        <li type="button">덕수궁</li>
+                        <li type="button">청주</li>
+                        <li type="button" class="ch">어린이 미술관</li>
                     </ul>
                 </nav>
 
@@ -325,20 +341,106 @@
                     </div>
                 </div>
 
-                <div id="seo" class="art"></div>
-                <div id="gwa" class="art"></div>
-                <div id="deok" class="art"></div>
-                <div id="cheong" class="art"></div>
-                <div id="child" class="art"></div>
+                <div id="seo" class="art">
+                    <div class="poster">
+                        <img src="img/poster5.png" alt="poster5">
+                        <p class="city">서울</p>
+                        <p class="name">프로젝트 해시태그 2023</p>
+                        <p class="date">2023-11-03~2024-04-07</p>
+                    </div>
+                    <div class="poster">
+                        <img src="img/poster6.gif" alt="poster6">
+                        <p class="city">서울</p>
+                        <p class="name">김구림</p>
+                        <p class="date">2023-08-25~2024-02-12</p>
+                    </div>
+                    <div class="poster">
+                        <img src="img/poster1.png" alt="poster1">
+                        <p class="city">서울</p>
+                        <p class="name">미술관을 말할 때 우리가<br>이야기하는 것들</p>
+                        <p class="date">2023-12-22 ~ 2024-04-06</p>
+                    </div>
+                    <div class="poster">
+                        <img src="img/poster7.gif" alt="poster7">
+                        <p class="city">서울</p>
+                        <p class="name">국립현대미술관 다원예술 2023: 전자적 숲; 소진된 인간</p>
+                        <p class="date">2023-05-26~2024-02-25</p>
+                    </div>
+                </div>
 
+                <div id="gwa" class="art">
+                    <div class="poster">
+                        <img src="img/poster4.png" alt="poster4">
+                        <p class="city">과천</p>
+                        <p class="name">한국의 기하학적 추상미술</p>
+                        <p class="date">2023-11-16 ~ 2024-05-19</p>
+                    </div>
+                    <div class="poster">
+                        <img src="img/poster8.png" alt="poster8">
+                        <p class="city">과천</p>
+                        <p class="name">MMCA 과천프로젝트 2023: 연결</p>
+                        <p class="date">2023-11-15~2024-10-20</p>
+                    </div>
+                    <div class="poster">
+                        <img src="img/poster9.png" alt="poster9">
+                        <p class="city">과천</p>
+                        <p class="name">동녘에서 거닐다: 동산 박주환 컬렉션 특별전</p>
+                        <p class="date">2023-05-18~2024-02-12</p>
+                    </div>
+                    <div class="poster">
+                        <img src="img/poster10.gif" alt="poster10">
+                        <p class="city">과천</p>
+                        <p class="name">다다익선: 즐거운 협연</p>
+                        <p class="date">2022-09-15~2024-04-07</p>
+                    </div>
+                </div>
 
+                <div id="deok" class="art">
+                    <div class="poster">
+                        <img src="img/poster11.png" alt="poster11">
+                        <p class="city">덕수궁</p>
+                        <p class="name">가장 진지한 고백: 장욱진 회고전</p>
+                        <p class="date">2023-09-14~2024-02-12</p>
+                    </div>
+                </div>
 
+                <div id="cheong" class="art">
+                    <div class="poster">
+                        <img src="img/poster2.png" alt="poster2">
+                        <p class="city">청주</p>
+                        <p class="name">특별수장고 «국립현대미술관 <br>
+                            드로잉소장품»</p>
+                        <p class="date">2023-12-14 ~ 2024-07-31</p>
+                    </div>
+                    <div class="poster">
+                        <img src="img/poster12.png" alt="poster12">
+                        <p class="city">청주</p>
+                        <p class="name">국립현대미술관 청주 개방 수장고 : 전뢰진 조각·드로잉</p>
+                        <p class="date">2023-11-07~2024-03-03</p>
+                    </div>
+                    <div class="poster">
+                        <img src="img/poster13.png" alt="poster13">
+                        <p class="city">청주</p>
+                        <p class="name">미술관 길목 프로젝트: 정세인</p>
+                        <p class="date">2023-10-31~2024-10-31</p>
+                    </div>
+                    <div class="poster">
+                        <img src="img/poster14.png" alt="poster14">
+                        <p class="city">청주</p>
+                        <p class="name">디지털스토리 : 이야기가 필요해</p>
+                        <p class="date">2022-11-22~2024-12-31</p>
+                    </div>
+                </div>
+                
+                <div id="child" class="art">
+                    <div class="poster">
+                        <img src="img/poster15.png" alt="poster15">
+                        <p class="city">어린이미술관</p>
+                        <p class="name">MMCA 예술놀이마당</p>
+                        <p class="date">2022-12-28~2024-05-31</p>
+                    </div>
 
-
-
-
-
-
+                </div>
 
             </div>
         </div>
@@ -377,11 +479,11 @@
 
 
             </div>
-                <div class="flogo">
-                    <img src="img/flogo.png" alt="flogo">
+            <div class="flogo">
+                <img src="img/flogo.png" alt="flogo">
 
-                    <p>© 2021 National Museum of Modern and Contemporary Art, Korea</p>
-                </div>
+                <p>© 2021 National Museum of Modern and Contemporary Art, Korea</p>
+            </div>
 
         </footer>
     </div>
