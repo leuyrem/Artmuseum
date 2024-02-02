@@ -31,15 +31,78 @@ header {
         margin-top: 30px;
 }
 
-#hambuger {
-        width: 53px;
+
+#allmenu {
+        width: 2rem;
+        border: 0;
+        background-color: transparent;
+        padding: 0;
+        position: relative;
+        left: 30%;
+        top: 32px;
+}
+
+#allmenu span {
+        display: block;
+        height: 2px;
+        background-color: #1A1A1A;
+        margin: 11px 0;
+}
+
+#allmenu:after,
+#allmenu:before {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 2px;
+        background-color: #1A1A1A;
+        left: 0;
+        width: 100%;
+}
+
+#allmenu:after {
+        bottom: 0;
+}
+
+#allmenu:before {
+        top: 0;
+}
+
+/* 햄버거 버튼 클릭 */
+#allmenu.open span {display: none;}
+
+/* 햄버거 버튼 크로스 */
+#allmenu.open:after {
+        transform: rotate(-45deg);
+}
+#allmenu.open:before {
+        transform: rotate(45deg);
+}
+
+/* open되고 ul이 나올때 */
+#allmenu.open + .depth1{
+        display: block !important;
+        position: absolute;
+        background-color: #1A1A1A;
+        left: 0;
+        right: 0;
+        padding: 20px;
+        top: 100%;
+}
+
+#allmenu.open + .depth1 {color:white}
+
+
+/* #hambuger {
+         width: 53px;
         height: 20px;
         margin: 0 auto;
         padding-top: 40px;
-        position: relative;
-}
+        position: relative;       
+} */
 
-#hambuger .line {
+
+/* #hambuger .line {
         display: block;
         margin: auto;
         transition: all 1s ease-in-out;
@@ -51,26 +114,14 @@ header {
 
 .line:nth-child(2) {
         transform: rotate(-135deg) translate(-79px, -26px);
-}
+} */
 
-.hamnav {
-        width: 1500px;
-        height: 100px;
-        /* background-color: turquoise; */
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-}
 
-.hamnav ul {
-        display: flex;
-        justify-content: center;
-}
 
-.hamnav li {
-        font-size: 2em;
-        margin: 6px 30px;
-}
+
+
+
+
 
 #menu li {
         float: right;

@@ -197,6 +197,10 @@
         font-family: 'NanumMyeongjoOTF';
         text-align: justify;
         line-height: 2em;
+        transform: translateX(100px);
+        opacity: 0;
+        transition: 2s ease-in-out;
+        transition-delay: 2s;
 }
 
 .monet {
@@ -534,7 +538,6 @@
         width: 10%;
         font-size: 3em;
         font-weight: bold;
-
         padding: 60px 0 20px 20px;
         text-align: left;
 }
@@ -548,8 +551,11 @@ nav {
         padding-top: 30px;
 }
 
+nav #btn {
+        border: 3px solid #1A1A1A;
+}
 
-nav li {
+nav button {
         float: left;
         width: 120px;
         background-color: #1A1A1A;
@@ -560,6 +566,14 @@ nav li {
         margin: 0 0px 30px 50px;
         font-weight: bold;
         color: #F3EEE8;
+        border: none;
+}
+
+nav button:hover {
+        cursor: pointer;
+        background-color: #F3EEE8;
+        color: #1A1A1A;
+
 }
 
 nav .ch {
@@ -567,8 +581,7 @@ nav .ch {
 }
 
 
-
-.art:not(:first-of-type) {
+#select .art:not(:first-of-type) {
         display: none;
 }
 
@@ -581,13 +594,38 @@ nav .ch {
         justify-content: space-between;
 }
 
+#seo {
+        font-family: 'PretendardRegular';
+        clear: both;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+}
+
+#gwa {
+        font-family: 'PretendardRegular';
+        clear: both;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+}
+
+#cheong {
+        font-family: 'PretendardRegular';
+        clear: both;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+}
+
+
 .poster {
         padding: 20px;
 }
 
 .poster img {
         width: 293px;
-        height: 293px;
+        height: 293px;     
 }
 
 
@@ -595,7 +633,7 @@ nav .ch {
         font-weight: bold;
         width: 300px;
         border-top: #C2C2C2 3px solid;
-        margin-top: -3px;
+        margin-top: -4px;
         padding: 10px 0 10px 0;
 }
 

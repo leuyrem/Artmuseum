@@ -28,13 +28,11 @@
                     </div>
 
                     <div id="hambuger">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="52" height="60" viewBox="0 0 52 90" fill="none">
-                            <line class="line" y1="1.5" x2="52" y2="1.5" stroke="#1A1A1A" stroke-width="3" />
-                            <line class="line" y1="16.5" x2="52" y2="16.5" stroke="#1A1A1A" stroke-width="3" />
-                        </svg>                            
-   
-  
-                        <div class="hamnav">
+                        <button id="allmenu">
+                            <span></span>
+                        </button>
+
+                        <div class="depth1 hamnav">
                             <ul>
                                 <li>관람·참여</li>
                                 <li>전시</li>
@@ -111,14 +109,11 @@
                             <p>Belle Epoque</p>
                         </div>
                         <p class="third">«MMCA 이건희컬렉션 특별전: 모네와 피카소, 파리의 아름다운 순간들»은 2021년 국립현대미술관에 기증된 이건희컬렉션에 포함된 마르크
-                            샤갈,
-                            살바도르 달리, 카미유 피사로, 클로드 모네, 폴 고갱, 피에르 오귀스트 르누아르, 호안 미로의 회화 7점과 파블로 피카소의 도자 90점을 소개하는 전시입니다.
+                            샤갈, 살바도르 달리, 카미유 피사로, 클로드 모네, 폴 고갱, 피에르 오귀스트 르누아르, 호안 미로의 회화 7점과 파블로 피카소의 도자 90점을 소개하는 전시입니다.
                             <br>
                             이들은 미술 중심지였던 파리에서 스승과 제자, 선배와 후배, 혹은 동료로 만나 서로의 성장을 응원해 주며 20세기 서양 현대미술사의 흐름을 함께 만들어간
-                            거장들입니다. 이번
-                            전시는 여덟 명의 거장이 파리에서 맺었던 다양한 관계에 초점을 맞추어 이들의 작품을 감상할 수 있도록 구성했습니다. 회화 간 관계성뿐만 아니라 피카소의 도자와 다른
-                            거장들의
-                            회화가 어떻게 연관하는지도 살펴보고자 합니다. «MMCA 이건희컬렉션 특별전: 모네와 피카소, 파리의 아름다운 순간들»을 통해 거장들이 서로에게 표현한 우정과 존경의
+                            거장들입니다. 이번 전시는 여덟 명의 거장이 파리에서 맺었던 다양한 관계에 초점을 맞추어 이들의 작품을 감상할 수 있도록 구성했습니다. 회화 간 관계성뿐만 아니라 피카소의 도자와 다른
+                            거장들의 회화가 어떻게 연관하는지도 살펴보고자 합니다. «MMCA 이건희컬렉션 특별전: 모네와 피카소, 파리의 아름다운 순간들»을 통해 거장들이 서로에게 표현한 우정과 존경의
                             감정으로 충만했던 파리의 아름다운 순간들을 경험해 보시기 바랍니다.
                         </p>
                     </div>
@@ -304,12 +299,12 @@
                 <p class="navname">전시</p>
                 <nav>
                     <ul>
-                        <li type="button">전체</li>
-                        <li type="button">서울</li>
-                        <li type="button">과천</li>
-                        <li type="button">덕수궁</li>
-                        <li type="button">청주</li>
-                        <li type="button" class="ch">어린이 미술관</li>
+                        <button type="button" id="btn">전체</button>
+                        <button type="button" id="btn">서울</button>
+                        <button type="button" id="btn">과천</button>
+                        <button type="button" id="btn">덕수궁</button>
+                        <button type="button" id="btn">청주</button>
+                        <button type="button" id="btn" class="ch">어린이 미술관</button>
                     </ul>
                 </nav>
 
@@ -317,13 +312,14 @@
                     <div class="poster">
                         <img src="img/poster1.png" alt="poster1">
                         <p class="city">서울</p>
-                        <p class="name">미술관을 말할 때 우리가<br>이야기하는 것들</p>
+                        <p class="name">미술관을 말할 때 우리가<br>
+                            이야기하는 것들</p>
                         <p class="date">2023-12-22 ~ 2024-04-06</p>
                     </div>
                     <div class="poster">
                         <img src="img/poster2.png" alt="poster2">
                         <p class="city">청주</p>
-                        <p class="name">특별수장고 «국립현대미술관 <br>
+                        <p class="name">특별수장고 «국립현대미술관<br>
                             드로잉소장품»</p>
                         <p class="date">2023-12-14 ~ 2024-07-31</p>
                     </div>
@@ -357,13 +353,15 @@
                     <div class="poster">
                         <img src="img/poster1.png" alt="poster1">
                         <p class="city">서울</p>
-                        <p class="name">미술관을 말할 때 우리가<br>이야기하는 것들</p>
+                        <p class="name">미술관을 말할 때 우리가<br>
+                            이야기하는 것들</p>
                         <p class="date">2023-12-22 ~ 2024-04-06</p>
                     </div>
                     <div class="poster">
                         <img src="img/poster7.gif" alt="poster7">
                         <p class="city">서울</p>
-                        <p class="name">국립현대미술관 다원예술 2023: 전자적 숲; 소진된 인간</p>
+                        <p class="name">국립현대미술관 다원예술<br>
+                            2023: 전자적 숲; 소진된 인간</p>
                         <p class="date">2023-05-26~2024-02-25</p>
                     </div>
                 </div>
@@ -384,7 +382,8 @@
                     <div class="poster">
                         <img src="img/poster9.png" alt="poster9">
                         <p class="city">과천</p>
-                        <p class="name">동녘에서 거닐다: 동산 박주환 컬렉션 특별전</p>
+                        <p class="name">동녘에서 거닐다: 동산 박주환<br>
+                            컬렉션 특별전</p>
                         <p class="date">2023-05-18~2024-02-12</p>
                     </div>
                     <div class="poster">
@@ -408,14 +407,15 @@
                     <div class="poster">
                         <img src="img/poster2.png" alt="poster2">
                         <p class="city">청주</p>
-                        <p class="name">특별수장고 «국립현대미술관 <br>
+                        <p class="name">특별수장고 «국립현대미술관<br>
                             드로잉소장품»</p>
                         <p class="date">2023-12-14 ~ 2024-07-31</p>
                     </div>
                     <div class="poster">
                         <img src="img/poster12.png" alt="poster12">
                         <p class="city">청주</p>
-                        <p class="name">국립현대미술관 청주 개방 수장고 : 전뢰진 조각·드로잉</p>
+                        <p class="name">국립현대미술관 청주 개방 수장고<br>
+                            : 전뢰진 조각·드로잉</p>
                         <p class="date">2023-11-07~2024-03-03</p>
                     </div>
                     <div class="poster">
@@ -431,7 +431,7 @@
                         <p class="date">2022-11-22~2024-12-31</p>
                     </div>
                 </div>
-                
+
                 <div id="child" class="art">
                     <div class="poster">
                         <img src="img/poster15.png" alt="poster15">

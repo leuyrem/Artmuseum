@@ -1,17 +1,26 @@
+//햄버거버튼
+$(document).ready(function(){ 
+$('#allmenu').click(function(){
+    $(this).toggleClass('open');
+})
+});
 
-$(document).ready(function () {
-    $("#hambuger").click(function () {
-      $(".hamnav").animate({
-        height: 'toggle'
-      });
-    });
 
-    $("#hambuger").click(function(){
-        $('.line:nth-child(1)').toggle();
-        $('.line:nth-child(2)').toggle();
-    });
+// $(document).ready(function(){
+//     $(window).scroll(function(){
+//         i($(window).scrollTop()> 0) 
+//     });
+// });
 
-  });
+
+
+
+
+
+
+
+
+
 
 
 
@@ -53,65 +62,22 @@ $(window).scroll(function () {
         $('.second p').css("transform", "translateY(0px)").css("opacity", "1");
     }
 
-
+    var third = $('.third').offset().top;
+    if(ws > third - 700) {
+        $('.third').css("transform", "translateY(0px)").css("opacity", "1");
+    }
 
 });
 
 
 //전시 정보
 $(function(){
-    $('button:nth-of-type(1)').click(function(){
-        $("#all").fadeIn();
-        $("#seo").hide();
-        $("#gwa").hide();
-        $("#deok").hide();
-        $("#cheong").hide();
-        $("#child").hide();
+    $('button').click(function(){
+        let idx = $(this).index();  
+        $('.art').hide();
+        $(".art").eq(idx).fadeIn().css("display","flex");
     });
 
-    $('button:nth-of-type(2)').click(function(){
-        $("#all").fadeIn();
-        $("#seo").hide();
-        $("#gwa").hide();
-        $("#deok").hide();
-        $("#cheong").hide();
-        $("#child").hide();
-    });
-
-    $('button:nth-of-type(3)').click(function(){
-        $("#all").fadeIn();
-        $("#seo").hide();
-        $("#gwa").hide();
-        $("#deok").hide();
-        $("#cheong").hide();
-        $("#child").hide();
-    });
-
-    $('button:nth-of-type(4)').click(function(){
-        $("#all").fadeIn();
-        $("#seo").hide();
-        $("#gwa").hide();
-        $("#deok").hide();
-        $("#cheong").hide();
-        $("#child").hide();
-    });
-
-    $('button:nth-of-type(5)').click(function(){
-        $("#all").fadeIn();
-        $("#seo").hide();
-        $("#gwa").hide();
-        $("#deok").hide();
-        $("#cheong").hide();
-        $("#child").hide();
-    });
-    $('button:nth-of-type(6)').click(function(){
-        $("#all").fadeIn();
-        $("#seo").hide();
-        $("#gwa").hide();
-        $("#deok").hide();
-        $("#cheong").hide();
-        $("#child").hide();
-    });
 });
 
 
