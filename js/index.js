@@ -2,6 +2,7 @@
 $(document).ready(function(){ 
 $('#allmenu').click(function(){
     $(this).toggleClass('open');
+    $('.depth1').toggle();
 })
 });
 
