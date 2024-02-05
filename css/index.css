@@ -1,5 +1,58 @@
 @charset "utf-8";
 
+
+@media (min-width: 1364px) and (max-width: 1759px) {
+        .text3 .e {
+                float: right;
+                font-size: 3em;
+                width: 500px;
+                margin: 500px 184px 0 0;
+                padding: 20px;
+        }
+        
+        .text3 .k {
+                float: right;
+                font-size: 1.5em;
+                width: 300px;
+                margin: 227px -340px 0 0;
+                padding: 20px;
+        }
+        
+        #slider img {
+                width: 20%;
+                height: 523px;
+                margin: 50px 0 0 100px;
+        }
+        
+        .click {
+                float: left;
+                display: flex;
+                margin: -200px 454px 0px 0;
+        }
+        
+        .arrow {
+                border: 1px solid #F3EEE8;
+                padding: 22px;
+                text-align: center;
+                color: #F3EEE8;
+                background-color: #1A1A1A;
+        }
+        
+        .play {
+                border: 1px solid #F3EEE8;
+                padding: 21px 50px 20px 50px;
+                font-size: 1.5em;
+                color: #F3EEE8;
+                background-color: #1A1A1A;
+                font-family: 'Ethereal Demo Font';
+        }
+}
+
+
+
+
+
+
 /* 헤더 */
 .titlebox {
         text-align: center;
@@ -279,15 +332,35 @@
 .chagall {
         width: 506px;
         height: 639px;
-        margin: 500px 0 500px 0px;
+        margin: 500px 0;
         padding-bottom: 73px;
         border-bottom: 3px solid #9585A0;
         line-height: 2em;
+        /* position: relative; */
 }
+
+/* .chagall:before {
+        content: "";
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        display: block;
+        width: 10px;
+        height: 10px;
+        background-color: #444;
+        transition: all linear 0.5s;
+} */
 
 .chagall img {
         width: 506px;
         height: 639px;
+        /* transition: all 0.3s linear; */
+}
+
+.chagall img:hover::before {
+        width: 506px;
+        /* transform: scale(1.2); */
+
 }
 
 .pissarro {
@@ -625,7 +698,7 @@ nav .ch {
 
 .poster img {
         width: 293px;
-        height: 293px;     
+        height: 293px;
 }
 
 
