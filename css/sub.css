@@ -3,7 +3,7 @@
 /* 슬라이더 */
 #slider {
     width: 100%;
-    height: 700px;
+    height: 900px;
     margin: 0 auto;
 }
 
@@ -14,8 +14,8 @@
 
 #left {
     width: 825px;
-    height: 700px;
-
+    height: 900px;
+    background-color: yellowgreen;
 }
 
 .arrowleft1 {
@@ -59,14 +59,16 @@
 .top {
     width: 50px;
     font-size: 1.5rem;
-    margin-top: 30px;
+    margin-top: 50px;
+    background-color: violet;
 }
 
 .bottom1 {
     width: 250px;
     font-size: 1.5rem;
     transform: rotate(-90deg);
-    margin: 350px 0 0 -110px;
+    margin: 500px 0 0 -110px;
+    background-color: yellow;
 }
 
 .bottom2 {
@@ -74,12 +76,13 @@
     font-size: 1.5rem;
     transform: rotate(-90deg);
     margin: -100px 0 0 -110px;
+    background-color: tomato;
 }
 
 .picture {
     width: 500px;
     height: 650px;
-    margin: -430px 0px 0 0;
+    margin: -450px 0px 0 0;
     float: right;
 }
 
@@ -90,8 +93,9 @@
 
 #right {
     width: 825px;
-    height: 700px;
+    height: 900px;
     box-sizing: border-box;
+    background-color: yellow;
 }
 
 .name {
