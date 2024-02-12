@@ -32,7 +32,7 @@
     border-top: 3px solid #1A1A1A;
     border-right: 3px solid #1A1A1A;
     transform: rotate(225deg);
-    margin-top: 80px;
+    margin-top: -5px;
     margin-left: 5px;
 }
 
@@ -46,6 +46,7 @@
 
 .arrowleft {
     position: relative;
+    cursor: pointer;
 }
 
 .arrowleft::after {
