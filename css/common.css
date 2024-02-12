@@ -419,17 +419,18 @@
         .flogo img {
                 float: right;
                 width: 150px;
-                margin: -103px 80px 0 0;
+                margin: -103px 55px 0 0;
         }
 
         .flogo p {
                 float: right;
                 font-size: 0.8em;
                 color: #3E3E40;
-                width: 500px;
+                width: 400px;
                 height: 30px;
                 font-family: 'PretendardRegular';
-                margin: -49px -27px 0px 0px;
+                margin: -49px 55px 0px 0px;
+                float: right;
         }
 }
 
@@ -536,6 +537,10 @@
                 font-size: 1.2rem;
         }
 
+        .depth1 {
+                display: none;
+        }
+
         .depth1 ul {
                 display: flex;
                 justify-content: space-evenly;
@@ -553,6 +558,9 @@
                 align-items: center;
         }
 
+        #menu {
+                display: none;
+        }
 
         #menu li {
                 float: right;
@@ -808,7 +816,7 @@
 
         /* 푸터 */
         footer {
-                height: 400px;
+                height: auto;
                 background-color: #1A1A1A;
                 position: relative;
         }
@@ -863,7 +871,7 @@
                 float: left;
                 font-size: 0.5em;
                 color: #3E3E40;
-                width: calc(100% - 20px);
+                width: calc(100% - 25px);
                 height: 30px;
                 font-family: 'PretendardRegular';
                 margin: -20px 0px 20px 25px;

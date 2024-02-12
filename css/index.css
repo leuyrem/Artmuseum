@@ -1,10 +1,5 @@
 @charset "utf-8";
 
-
-
-
-
-
 @media (min-width: 1835px) {
 
         /* 헤더 */
@@ -208,8 +203,8 @@
         .monet {
                 overflow: hidden;
                 position: relative;
-                width: 525px;
-                height: 910px;
+                width: 580px;
+                height: 1050px;
                 align-self: center;
                 left: 17%;
         }
@@ -232,8 +227,8 @@
                 background-color: palegreen;
                 overflow: hidden;
                 position: absolute;
-                top: 50%;
-                left: 52%;
+                top: 43%;
+                left: 57%;
                 transform: translate(-50%, -50%);
         }
 
@@ -249,7 +244,7 @@
                 background-color: #292929;
                 position: absolute;
                 top: 45%;
-                left: 5px;
+                left: 61px;
         }
 
         .smallround2 {
@@ -258,11 +253,32 @@
                 border-radius: 60%;
                 background-color: #292929;
                 position: absolute;
-                top: 1.5%;
-                right: 35%;
+                top: 2%;
+                left: 62%;
         }
 
+        .mname {
+                font-size: 2em;
+                margin-top: 930px;
+                float: right;
+        }
 
+        .textboxm1 {
+                font-family: 'NanumSquareNeoOTF-Rg';
+                font-size: 1.7em;
+                line-height: 2.5em;
+                font-weight: bold;
+                margin: 950px -190px 0 0px;
+                float: right;
+        }
+
+        .textboxm2 {
+                font-family: 'NanumSquareNeoOTF-Rg';
+                font-size: 1em;
+                line-height: 0em;
+                margin: 1015px -230px 0 0px;
+                float: right;
+        }
 
 
 
@@ -334,7 +350,7 @@
         .renoir {
                 width: 780px;
                 height: 653px;
-                margin: 31px 0px 100px 0px;
+                margin: 200px 0px 100px 0px;
                 padding-bottom: 73px;
                 border-bottom: 3px solid #9585A0;
                 line-height: 2em;
@@ -463,6 +479,7 @@
                 margin-bottom: 10px;
         }
 
+
         .textbox1 {
                 font-family: 'NanumSquareNeoOTF-Rg';
                 font-size: 1.7em;
@@ -504,7 +521,7 @@
         #info {
                 font-family: 'NanumSquareNeoOTF-Rg';
                 width: 700px;
-                height: 500px;
+                height: 550px;
                 display: flex;
                 justify-content: space-between;
                 margin: 0 auto;
@@ -616,6 +633,7 @@
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: space-between;
+                margin-top: 50px;
         }
 
         #seo {
@@ -624,6 +642,7 @@
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: space-between;
+                margin-top: 50px;
         }
 
         #gwa {
@@ -632,6 +651,7 @@
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: space-between;
+                margin-top: 50px;
         }
 
         #cheong {
@@ -640,8 +660,13 @@
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: space-between;
+                margin-top: 50px;
         }
 
+        #deok,
+        #child {
+                margin-top: 50px;
+        }
 
         .poster {
                 padding: 20px;
@@ -650,6 +675,7 @@
         .poster img {
                 width: 293px;
                 height: 293px;
+                cursor: pointer;
         }
 
 
@@ -886,7 +912,6 @@
                 height: 910px;
                 align-self: center;
                 left: 10%;
-
         }
 
         .half1 {
@@ -918,8 +943,8 @@
         }
 
         .smallround1 {
-                width: 5.5%;
-                height: 3.3%;
+                width: 29px;
+                height: 29px;
                 border-radius: 60%;
                 background-color: #292929;
                 position: absolute;
@@ -934,10 +959,31 @@
                 background-color: #292929;
                 position: absolute;
                 top: 1.5%;
-                right: 33%;
+                left: 63%;
         }
 
+        .mname {
+                font-size: 2em;
+                margin-top: 755px;
+                float: right;
+        }
 
+        .textboxm1 {
+                font-family: 'NanumSquareNeoOTF-Rg';
+                font-size: 1.7em;
+                line-height: 2.5em;
+                font-weight: bold;
+                margin: 775px -190px 0 0px;
+                float: right;
+        }
+
+        .textboxm2 {
+                font-family: 'NanumSquareNeoOTF-Rg';
+                font-size: 1em;
+                line-height: 0em;
+                margin: 840px -230px 0 0px;
+                float: right;
+        }
 
 
 
@@ -1009,7 +1055,7 @@
         .renoir {
                 width: 780px;
                 height: 653px;
-                margin: 31px 0px 100px 0px;
+                margin: 130px 0px 100px 0px;
                 padding-bottom: 73px;
                 border-bottom: 3px solid #9585A0;
                 line-height: 2em;
@@ -1179,7 +1225,7 @@
         #info {
                 font-family: 'NanumSquareNeoOTF-Rg';
                 width: 700px;
-                height: 500px;
+                height: 520px;
                 display: flex;
                 justify-content: space-between;
                 margin: 0 auto;
@@ -1219,7 +1265,7 @@
 
         /* 전시 정보 */
         #select {
-                height: 713px;
+                height: 1500px;
                 font-family: 'PretendardRegular';
         }
 
@@ -1290,7 +1336,8 @@
                 clear: both;
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-between;
+                justify-content: center;
+                margin-top: 70px;
         }
 
         #seo {
@@ -1298,7 +1345,8 @@
                 clear: both;
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-between;
+                justify-content: center;
+                margin-top: 70px;
         }
 
         #gwa {
@@ -1306,7 +1354,8 @@
                 clear: both;
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-between;
+                justify-content: center;
+                margin-top: 70px;
         }
 
         #cheong {
@@ -1314,23 +1363,32 @@
                 clear: both;
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-between;
+                justify-content: center;
+                margin-top: 70px;
         }
 
+        #deok,
+        #child {
+                margin-top: 70px;
+        }
 
         .poster {
-                padding: 20px;
+                width: 400px;
+                padding: 30px;
+                margin: 0 50px 100px 0;
+                background-color: violet;
         }
 
         .poster img {
-                width: 240px;
-                height: 240px;
+                width: 350px;
+                height: 350px;
+                cursor: pointer;
         }
 
 
         .city {
                 font-weight: bold;
-                width: 260px;
+                width: 400px;
                 border-top: #C2C2C2 3px solid;
                 margin-top: -4px;
                 padding: 10px 0 10px 0;
@@ -1338,7 +1396,7 @@
 
         .name {
                 font-weight: bold;
-                font-size: 1.2em;
+                font-size: 1.1em;
         }
 
         .date {
@@ -1554,8 +1612,8 @@
         .monet {
                 overflow: hidden;
                 position: relative;
-                width: 550px;
-                height: 710px;
+                width: 500px;
+                height: 700px;
                 align-self: center;
         }
 
@@ -1577,9 +1635,9 @@
                 background-color: palegreen;
                 overflow: hidden;
                 position: absolute;
-                top: 35%;
-                right: 5%;
-                transform: translateY(-50%);
+                top: 36%;
+                left: 68%;
+                transform: translate(-50%, -50%);
         }
 
         .page1 .half2 img {
@@ -1588,13 +1646,13 @@
         }
 
         .smallround1 {
-                width: 28px;
-                height: 28px;
+                width: 26px;
+                height: 26px;
                 border-radius: 60%;
                 background-color: #292929;
                 position: absolute;
                 top: 35%;
-                right: 53%;
+                left: 34%;
         }
 
         .smallround2 {
@@ -1604,15 +1662,33 @@
                 background-color: #292929;
                 position: absolute;
                 top: 1.8%;
-                right: 27%;
+                left: 67%;
+        }
+
+        .mname {
+                font-size: 2em;
+                margin-top: 525px;
+                float: right;
+        }
+
+        .textboxm1 {
+                font-family: 'NanumSquareNeoOTF-Rg';
+                font-size: 1.7em;
+                line-height: 2.5em;
+                font-weight: bold;
+                margin: 545px -190px 0 0px;
+                float: right;
+        }
+
+        .textboxm2 {
+                font-family: 'NanumSquareNeoOTF-Rg';
+                font-size: 1em;
+                line-height: 0em;
+                margin: 610px -230px 0 0px;
+                float: right;
         }
 
 
-
-
-
-        .page2 {
-        }
 
         .leftbox {
                 display: flex;
@@ -1871,7 +1947,7 @@
 
         /* 전시 정보 */
         #select {
-                height: 713px;
+                height: 1500px;
                 font-family: 'PretendardRegular';
         }
 
@@ -1942,7 +2018,8 @@
                 clear: both;
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-between;
+                justify-content: center;
+                margin-top: 70px;
         }
 
         #seo {
@@ -1950,7 +2027,8 @@
                 clear: both;
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-between;
+                justify-content: center;
+                margin-top: 70px;
         }
 
         #gwa {
@@ -1958,7 +2036,8 @@
                 clear: both;
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-between;
+                justify-content: center;
+                margin-top: 70px;
         }
 
         #cheong {
@@ -1966,23 +2045,32 @@
                 clear: both;
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-between;
+                justify-content: center;
+                margin-top: 70px;
         }
 
+        #deok,
+        #child {
+                margin-top: 70px;
+        }
 
         .poster {
-                padding: 20px;
+                width: 400px;
+                padding: 30px;
+                margin: 0 50px 100px 0;
+                background-color: yellowgreen;
         }
 
         .poster img {
-                width: 220px;
-                height: 220px;
+                width: 350px;
+                height: 350px;
+                cursor: pointer;
         }
 
 
         .city {
                 font-weight: bold;
-                width: 220px;
+                width: 400px;
                 border-top: #C2C2C2 3px solid;
                 margin-top: -4px;
                 padding: 10px 0 10px 0;
@@ -1990,7 +2078,7 @@
 
         .name {
                 font-weight: bold;
-                font-size: 1.2em;
+                font-size: 1.1em;
         }
 
         .date {
@@ -2203,9 +2291,9 @@
                 overflow: hidden;
                 position: relative;
                 width: 400px;
-                height: 710px;
+                height: 680px;
                 align-self: center;
-                right: -10%;
+                right: -6%;
         }
 
         .half1 {
@@ -2226,9 +2314,9 @@
                 background-color: palegreen;
                 overflow: hidden;
                 position: absolute;
-                top: 35%;
-                right: 7%;
-                transform: translateY(-50%);
+                top: 37%;
+                left: 62%;
+                transform: translate(-50%, -50%);
         }
 
         .page1 .half2 img {
@@ -2252,16 +2340,36 @@
                 border-radius: 60%;
                 background-color: #292929;
                 position: absolute;
-                top: 0%;
-                right: 27%;
+                top: 2%;
+                left: 60%;
+        }
+
+        .mname {
+                font-size: 2em;
+                margin-top: 525px;
+                float: right;
+        }
+
+        .textboxm1 {
+                font-family: 'NanumSquareNeoOTF-Rg';
+                font-size: 1.6em;
+                line-height: 2.5em;
+                font-weight: bold;
+                margin: 545px -190px 0 0px;
+                float: right;
+        }
+
+        .textboxm2 {
+                font-family: 'NanumSquareNeoOTF-Rg';
+                font-size: 1em;
+                line-height: 0em;
+                margin: 610px -230px 0 0px;
+                float: right;
         }
 
 
 
-
-
-        .page2 {
-        }
+     
 
         .leftbox {
                 display: flex;
@@ -2520,7 +2628,7 @@
 
         /* 전시 정보 */
         #select {
-                height: 713px;
+                height: 1500px;
                 font-family: 'PretendardRegular';
         }
 
@@ -2591,7 +2699,8 @@
                 clear: both;
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-between;
+                justify-content: center;
+                margin-top: 70px;
         }
 
         #seo {
@@ -2599,7 +2708,8 @@
                 clear: both;
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-between;
+                justify-content: center;
+                margin-top: 70px;
         }
 
         #gwa {
@@ -2607,7 +2717,8 @@
                 clear: both;
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-between;
+                justify-content: center;
+                margin-top: 70px;
         }
 
         #cheong {
@@ -2615,36 +2726,44 @@
                 clear: both;
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-between;
+                justify-content: center;
+                margin-top: 70px;
         }
 
+        #deok,
+        #child {
+                margin-top: 70px;
+        }
 
         .poster {
-                padding: 20px;
+                width: 300px;
+                padding: 30px;
+                margin: 0 50px 100px 0;
+                background-color: powderblue;
         }
 
         .poster img {
-                width: 180px;
-                height: 180px;
+                width: 350px;
+                height: 350px;
+                cursor: pointer;
         }
 
 
         .city {
                 font-weight: bold;
-                width: 180px;
+                width: 300px;
                 border-top: #C2C2C2 3px solid;
                 margin-top: -4px;
                 padding: 10px 0 10px 0;
-                font-size: 0.8em;
         }
 
         .name {
                 font-weight: bold;
-                font-size: 1em;
+                font-size: 1.1em;
         }
 
         .date {
-                font-size: 0.7em;
+                font-size: 0.8em;
                 color: #777777;
                 padding-top: 10px;
         }
@@ -2854,7 +2973,7 @@
                 overflow: hidden;
                 position: relative;
                 width: 400px;
-                height: 710px;
+                height: 800px;
                 align-self: center;
         }
 
@@ -2876,9 +2995,9 @@
                 background-color: palegreen;
                 overflow: hidden;
                 position: absolute;
-                top: 55%;
-                right: 7%;
-                transform: translateY(-50%);
+                top: 51.5%;
+                left: 61%;
+                transform: translate(-50%, -50%);
         }
 
         .page1 .half2 img {
@@ -2887,31 +3006,51 @@
         }
 
         .smallround1 {
-                width: 28px;
-                height: 28px;
+                width: 25px;
+                height: 25px;
                 border-radius: 60%;
                 background-color: #292929;
                 position: absolute;
-                top: 55%;
-                right: 72%;
+                top: 52%;
+                left: 20%;
         }
 
         .smallround2 {
-                width: 18px;
-                height: 18px;
+                width: 16px;
+                height: 16px;
                 border-radius: 60%;
                 background-color: #292929;
                 position: absolute;
-                top: 21%;
-                right: 30%;
+                top: 22%;
+                left: 58%;
+        }
+
+        .mname {
+                font-size: 2em;
+                margin-top: 680px;
+                float: right;
+        }
+
+        .textboxm1 {
+                font-family: 'NanumSquareNeoOTF-Rg';
+                font-size: 1.5em;
+                line-height: 2.5em;
+                font-weight: bold;
+                margin: 700px -190px 0 0px;
+                float: right;
+        }
+
+        .textboxm2 {
+                font-family: 'NanumSquareNeoOTF-Rg';
+                font-size: 1em;
+                line-height: 0em;
+                margin: 765px -200px 0 0px;
+                float: right;
         }
 
 
 
 
-
-        .page2 {
-        }
 
         .leftbox {
                 display: flex;
@@ -3172,7 +3311,7 @@
 
         /* 전시 정보 */
         #select {
-                height: 1100px;
+                height: 2800px;
                 font-family: 'PretendardRegular';
         }
 
@@ -3242,9 +3381,9 @@
                 font-family: 'PretendardRegular';
                 clear: both;
                 display: flex;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                margin-top: 110px;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 150px;
         }
 
         #seo {
@@ -3252,7 +3391,8 @@
                 clear: both;
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-between;
+                justify-content: center;
+                margin-top: 150px;
         }
 
         #gwa {
@@ -3260,7 +3400,8 @@
                 clear: both;
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-between;
+                justify-content: center;
+                margin-top: 150px;
         }
 
         #cheong {
@@ -3268,24 +3409,32 @@
                 clear: both;
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-between;
+                justify-content: center;
+                margin-top: 150px;
         }
 
+        #deok,
+        #child {
+                margin-top: 150px;
+                display: flex;
+                justify-content: center;
+        }
 
         .poster {
                 padding: 20px;
-                margin-bottom: 20px;
+                margin-bottom: 80px;
         }
 
         .poster img {
-                width: 240px;
-                height: 240px;
+                width: 390px;
+                height: 390px;
+                cursor: pointer;
         }
 
 
         .city {
                 font-weight: bold;
-                width: 242px;
+                width: 400px;
                 border-top: #C2C2C2 3px solid;
                 margin-top: -4px;
                 padding: 10px 0 10px 0;
@@ -3466,11 +3615,10 @@
 
         .second {
                 height: 350px;
-                width: 800px;
+                width: 500px;
                 float: left;
                 font-size: 3.5em;
                 margin: 11px 0 -96px 0;
-
         }
 
         .second p {
@@ -3521,7 +3669,7 @@
                 border: 2px solid #9585A0;
                 position: absolute;
                 top: 2%;
-                right: 2%;
+                left: 2%;
         }
 
         .page1 .half2 {
@@ -3531,8 +3679,8 @@
                 background-color: palegreen;
                 overflow: hidden;
                 position: absolute;
-                top: 7.5%;
-                right: 7.5%;
+                top: 7.7%;
+                left: 7.7%;
         }
 
         .page1 .half2 img {
@@ -3548,7 +3696,7 @@
                 background-color: #292929;
                 position: absolute;
                 top: 50%;
-                right: 95%;
+                left: 0%;
         }
 
         .smallround2 {
@@ -3558,15 +3706,32 @@
                 background-color: #292929;
                 position: absolute;
                 top: 15%;
-                right: 14%;
+                left: 83%;
+        }
+
+        .mname {
+                font-size: 2em;
+                margin-top: 570px;
+                text-align: center;
+        }
+
+        .textboxm1 {
+                font-family: 'NanumSquareNeoOTF-Rg';
+                font-size: 1.2em;
+                font-weight: bold;
+                text-align: center;
+        }
+
+        .textboxm2 {
+                font-family: 'NanumSquareNeoOTF-Rg';
+                font-size: 0.8em;
+                text-align: center;
+                margin-top: 5px;
         }
 
 
 
-
-
-        .page2 {
-        }
+     
 
         .leftbox {
                 display: flex;
@@ -3577,7 +3742,7 @@
         .chagall {
                 width: 550px;
                 height: 693px;
-                margin: 100px 0 300px 0; 
+                margin: 400px 0 300px 0; 
                 padding-bottom: 73px;
                 border-bottom: 3px solid #9585A0;
                 line-height: 2em;
@@ -3833,7 +3998,7 @@
 
         /* 전시 정보 */
         #select {
-                height: 3000px;
+                height: 2900px;
                 font-family: 'PretendardRegular';
         }
 
@@ -3903,7 +4068,7 @@
                 clear: both;
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-between;
+                justify-content: center;
                 margin-top: 250px;
         }
 
@@ -3912,7 +4077,7 @@
                 clear: both;
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-between;
+                justify-content: center;
                 margin-top: 250px;
         }
 
@@ -3921,7 +4086,7 @@
                 clear: both;
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-between;
+                justify-content: center;
                 margin-top: 250px;
         }
 
@@ -3930,23 +4095,26 @@
                 clear: both;
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-between;
+                justify-content: center;
                 margin-top: 250px;
         }
 
         #deok,
         #child {
                 margin-top: 250px;
+                display: flex;
+                justify-content: center;
         }
 
         .poster {
                 padding: 20px;
-                margin-bottom: 20px;
+                margin-bottom: 80px;
         }
 
         .poster img {
                 width: 390px;
                 height: 390px;
+                cursor: pointer;
         }
 
 
@@ -4181,7 +4349,7 @@
                 border: 2px solid #9585A0;
                 position: absolute;
                 top: 2%;
-                right: 2%;
+                left: 2%;
         }
 
         .page1 .half2 {
@@ -4192,7 +4360,7 @@
                 overflow: hidden;
                 position: absolute;
                 top: 7.5%;
-                right: 7.5%;
+                left: 7.5%;
         }
 
         .page1 .half2 img {
@@ -4202,26 +4370,44 @@
         }
 
         .smallround1 {
-                width: 28px;
-                height: 28px;
+                width: 23px;
+                height: 23px;
                 border-radius: 60%;
                 background-color: #292929;
                 position: absolute;
                 top: 50%;
-                right: 95%;
+                left: -1%;
         }
 
         .smallround2 {
-                width: 18px;
-                height: 18px;
+                width: 14px;
+                height: 14px;
                 border-radius: 60%;
                 background-color: #292929;
                 position: absolute;
-                top: 15%;
-                right: 14%;
+                top: 16%;
+                left: 83%;
         }
 
+        .mname {
+                font-size: 2em;
+                margin-top: 420px;
+                text-align: center;
+        }
 
+        .textboxm1 {
+                font-family: 'NanumSquareNeoOTF-Rg';
+                font-size: 1.1em;
+                font-weight: bold;
+                text-align: center;
+        }
+
+        .textboxm2 {
+                font-family: 'NanumSquareNeoOTF-Rg';
+                font-size: 0.8em;
+                text-align: center;
+                margin-top: 5px;
+        }
 
 
 
@@ -4240,7 +4426,7 @@
         .chagall {
                 width: 400px;
                 height: 500px;
-                margin: 200px 0 300px 0;
+                margin: 400px 0 300px 0;
                 padding-bottom: 73px;
                 border-bottom: 3px solid #9585A0;
                 line-height: 2em;
@@ -4332,7 +4518,7 @@
         .miro {
                 width: 400px;
                 height: 150px;
-                margin-bottom: 280px;
+                margin: 0 auto 280px auto;                
                 padding-bottom: 23px;
                 border-bottom: 3px solid #9585A0;
                 line-height: 2em;
@@ -4568,7 +4754,7 @@
                 clear: both;
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-between;
+                justify-content: center;
                 margin-top: 300px;
         }
 
@@ -4577,7 +4763,7 @@
                 clear: both;
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-between;
+                justify-content: center;
                 margin-top: 300px;
         }
 
@@ -4586,7 +4772,7 @@
                 clear: both;
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-between;
+                justify-content: center;
                 margin-top: 300px;
         }
 
@@ -4595,24 +4781,26 @@
                 clear: both;
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-between;
+                justify-content: center;
                 margin-top: 300px;
         }
 
         #deok,
         #child {
                 margin-top: 300px;
+                display: flex;
+                justify-content: center;
         }
 
         .poster {
                 padding: 20px;
                 margin-bottom: 90px;
-                cursor: pointer;
         }
 
         .poster img {
                 width: 300px;
                 height: 300px;
+                cursor: pointer;
         }
 
 
