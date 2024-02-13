@@ -3,7 +3,7 @@
 /* 슬라이더 */
 #slider {
     width: 100%;
-    height: 900px;
+    height: 1000px;
     margin: 0 auto;
 }
 
@@ -15,7 +15,6 @@
 #left {
     width: 825px;
     height: 900px;
-    background-color: yellowgreen;
 }
 
 .arrowleft1 {
@@ -36,6 +35,7 @@
     margin-left: 5px;
 }
 
+
 .arrowleft2 {
     height: 40px;
     width: 20px;
@@ -49,6 +49,7 @@
     cursor: pointer;
 }
 
+
 .arrowleft::after {
     position: absolute;
     left: 0;
@@ -60,15 +61,13 @@
     width: 50px;
     font-size: 1.5rem;
     margin-top: 50px;
-    background-color: violet;
 }
 
 .bottom1 {
     width: 250px;
     font-size: 1.5rem;
     transform: rotate(-90deg);
-    margin: 500px 0 0 -110px;
-    background-color: yellow;
+    margin: 550px 0 0 -110px;
 }
 
 .bottom2 {
@@ -76,14 +75,16 @@
     font-size: 1.5rem;
     transform: rotate(-90deg);
     margin: -100px 0 0 -110px;
-    background-color: tomato;
 }
 
 .picture {
-    width: 500px;
-    height: 650px;
-    margin: -450px 0px 0 0;
-    float: right;
+    width: 700px;
+    height: 850px;
+    margin: -665px 0px 0 122px;
+    transform: translateX(20px);
+    opacity: 0;
+    transition: 1s ease-in-out;
+    transition-delay: 0.5s;
 }
 
 .picture img {
@@ -95,11 +96,10 @@
     width: 825px;
     height: 900px;
     box-sizing: border-box;
-    background-color: yellow;
 }
 
 .name {
-    width: 580px;
+    width: 600px;
     height: 150px;
     margin: 40px 0 0 45px;
     padding-top: 13%;
@@ -147,6 +147,7 @@
     height: 20px;
     margin-top: 70px;
     font-style: italic;
+    font-family: 'NanumMyeongjoOTF';
 }
 
 .arrowright1 {
@@ -188,35 +189,41 @@
     content: "";
 }
 
+.box {
+    transform: translateY(50px);
+    opacity: 0;
+    transition: 1s ease-in-out;
+    transition-delay: 0.5s;
+}
 
 .artname {
     width: 120px;
-    margin: 0px 0 0 45px;
-    padding: 3% 0 1% 0;
+    margin: 30px 0 0 45px;
     font-weight: bold;
 }
 
 .explain {
-    width: 350px;
-    height: 340px;
-    margin: 10px 0 0 45px;
+    width: 380px;
+    height: 420px;
+    margin: 0px 0 0 45px;
     text-align: left;
-    line-height: 1.5em;
+    line-height: 2em;
     font-size: 0.8rem;
+    font-family: 'NanumMyeongjoOTF';
 }
 
 .size {
     font-size: 1rem;
     height: 20px;
     width: 100px;
-    margin: -390px 0px 0 525px;
+    margin: -460px 0px 0 545px;
+    font-family: 'NanumMyeongjoOTF';
 }
 
 .navpicture {
     width: 170px;
     height: 200px;
-    margin: 80px 0 0 455px;
-    background-color: yellowgreen;
+    margin: 80px 0 0 475px;
 }
 
 .navpicture img {
@@ -228,6 +235,7 @@
     border: none;
     font-family: 'Ethereal Demo Font';
     cursor: pointer;
+    background-color: #F3EEE8;
 }
 
 #right button:hover {
@@ -239,8 +247,202 @@
     font-size: 0.7rem;
     padding-top: 2%;
     padding-bottom: 1%;
-    margin: 50px 0 0 45px;
+    margin: 180px 0 0 45px;
     border-bottom: 1px solid #1A1A1A;
     text-align: center;
     
 }
+
+
+
+
+
+
+
+/* 미술관 */
+
+#place {
+    height: 650px;
+    font-family: 'PretendardRegular';
+}
+
+.titlewrap {
+    border-top: 1px solid #1A1A1A;
+    padding: 40px 0;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.board {
+
+
+}
+
+.board ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.board ul li {
+    width: 23%;
+    height: 487px;
+    /* background-color: cadetblue; */
+}
+
+.museum img{
+    width: 100%;
+    height: 300px;
+}
+
+
+.tit {
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.type {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.type span {
+    height: 25px;
+    padding: 0 10px;
+    border: 1px solid #333;
+    border-radius: 13px;
+    line-height: 23px;
+    margin: 10px 5px 0px 0px;
+}
+
+
+/* 소장품 */
+#collect {
+    height: 650px;
+    font-family: 'PretendardRegular';
+}
+
+.art img {
+    width: 100%;
+}
+
+.object1 {
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.object2 {
+    font-weight: bold;
+    color: #888888;
+}
+
+
+/* 디지털미술관 */
+#digital {
+    height: 650px;
+    font-family: 'PretendardRegular';
+}
+
+.digiboard ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.digiboard ul li{
+    width: 32%;
+    height: 487px;
+    background-color: cadetblue;
+}
+
+.digivideo img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* 뉴스레더 */
+#newsletter {
+    height: 650px;
+    font-family: 'PretendardRegular';
+}
+
+.letter img {
+    width: 100%;
+}
+
+.newstit {
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.subtit {
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #888888;
+}
+
+
+
+
+
+
+
+/* 새소식 */
+#notice {
+    height: 215px;
+    font-family: 'PretendardRegular';    
+    padding-bottom: 40px;
+}
+
+.noticewrap {
+    padding: 45px 0;
+    border-top: 1px solid #1A1A1A;
+}
+
+.noticetitle {
+    font-size: 26px;
+    font-weight: bold;
+    width: 500px;
+}
+
+.noticetext ul {
+    margin-top: -40px;
+}
+
+.noticetext li{
+    font-size: 26px;
+    padding-left: 170px;
+    width: 800px;
+    margin-left: 200px;
+    padding: 10px;
+
+}
+
+.noticemore {
+    float: right;
+    margin: -160px 0 0 0;
+    font-size: 15px;
+}
+
+
+
+/* MMCA 뉴스레더 구독 신청 */
+#footer2 {
+    height: 378px;
+    font-family: 'PretendardRegular';
+}
+
+

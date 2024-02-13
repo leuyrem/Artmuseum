@@ -570,7 +570,7 @@
                 flex-wrap: wrap;
                 justify-content: space-between;
                 align-items: center;
-                border-top: #9585A0 3px solid;
+                border-top: #9585A0 1px solid;
                 margin: 0 auto;
         }
 
@@ -2363,7 +2363,7 @@
                 font-family: 'NanumSquareNeoOTF-Rg';
                 font-size: 1em;
                 line-height: 0em;
-                margin: 610px -230px 0 0px;
+                margin: 610px -215px 0 0px;
                 float: right;
         }
 
