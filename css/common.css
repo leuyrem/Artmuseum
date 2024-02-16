@@ -217,7 +217,7 @@
                 width: 500px;
                 height: 30px;
                 font-family: 'PretendardRegular';
-                margin: -44px 73px 0px 0px;
+                margin: -44px 29px 0px 0px;
         }
 
 }
@@ -437,7 +437,7 @@
                 width: 400px;
                 height: 30px;
                 font-family: 'PretendardRegular';
-                margin: -49px 55px 0px 0px;
+                margin: -49px 10px 0px 0px;
                 float: right;
         }
 }
@@ -665,11 +665,231 @@
                 width: 500px;
                 height: 30px;
                 font-family: 'PretendardRegular';
-                margin: -20px 0px 20px 38px;
+                margin: -35px 0px 20px 38px;
         }
 }
 
 @media (min-width: 350px) and (max-width: 689px) {
+
+        /* 헤더 */
+        #wrap {
+                width: 100%;
+                height: auto;
+                margin: 0 auto;
+                background-color: #F3EEE8;
+        }
+
+        .container {
+                height: 100%;
+                margin: 0 7%;
+        }
+
+
+        header {
+                width: 100%;
+                height: 600px;
+                margin: 0 auto;
+
+        }
+
+        #topbar {
+                width: 100%;
+                height: 15%;
+        }
+
+        #logo {
+                float: left;
+        }
+
+        #logo img {
+                height: 40px;
+        }
+
+        #allmenu {
+                width: 2rem;
+                border: 0;
+                background-color: transparent;
+                padding: 0;
+                position: relative;
+                left: 30%;
+                cursor: pointer;
+        }
+
+        #allmenu span {
+                display: block;
+                height: 2px;
+                background-color: #1A1A1A;
+                margin: 11px 0;
+        }
+
+        #allmenu:after,
+        #allmenu:before {
+                content: "";
+                display: block;
+                position: absolute;
+                height: 2px;
+                background-color: #1A1A1A;
+                left: 0;
+                width: 100%;
+        }
+
+        #allmenu:after {
+                bottom: 0;
+        }
+
+        #allmenu:before {
+                top: 0;
+        }
+
+        /* 햄버거 버튼 클릭 */
+        #allmenu.open span {
+                display: none;
+        }
+
+        /* 햄버거 버튼 크로스 */
+        #allmenu.open:after {
+                transform: rotate(-45deg);
+        }
+
+        #allmenu.open:before {
+                transform: rotate(45deg);
+        }
+
+        /* open되고 ul이 나올때 */
+        #allmenu.open+.depth1 {
+                width: 100vw;
+                position: absolute;
+                background-color: #1A1A1A;
+                left: 0;
+                padding: 20px;
+                top: 130px;
+                z-index: 5;
+        }
+
+        #allmenu.open+.depth1 {
+                color: white;
+                font-family: 'PretendardRegular';
+                font-size: 1.2rem;
+        }
+
+        .depth1 ul {
+                display: flex;
+                justify-content: space-evenly;
+        }
+
+
+        .depth1 {
+                display: none;
+        }
+
+
+        #topbar {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+        }
+
+        #menu {
+                display: none;
+        }
+
+        #menu li {
+                float: right;
+                margin: 60px 10px;
+                font-family: 'PretendardRegular';
+        }
+
+        #menu li span {
+                color: #F3EEE8;
+                font-weight: bold;
+        }
+
+        #menu .round {
+                float: right;
+                background-color: #1A1A1A;
+                border-radius: 50%;
+                height: 90px;
+                width: 90px;
+                margin: 24px 13px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+        }
+
+        #menu .round a {
+                text-align: center;
+        }
+
+
+
+
+
+
+        /* 푸터 */
+        footer {
+                height: 400px;
+                background-color: #1A1A1A;
+                position: relative;
+        }
+
+        .biglogo1 {
+                color: #3E3E40;
+                font-size: 1.5em;
+                font-weight: bold;
+                float: left;
+                position: absolute;
+                top: 300px;
+                left: 40px;
+        }
+
+        .biglogo2 {
+                color: #3E3E40;
+                font-size: 1.8em;
+                font-weight: bold;
+                position: absolute;
+                top: 322px;
+                left: 335px;
+        }
+
+
+
+
+        .infotext {
+                color: #c2c2c2;
+                width: 300px;
+                display: flex;
+        }
+
+        .infotext li {
+                padding: 4px;
+                font-size: 0.5em;
+                font-family: 'PretendardRegular';
+                margin-right: 50px;
+        }
+
+        .fbox {
+                padding: 50px 0 0 0px;
+        }
+
+
+        .flogo img {
+                float: left;
+                width: 100px;
+                margin: -140px 0px 0 40px;
+        }
+
+        .flogo p {
+                float: left;
+                font-size: 0.3em;
+                color: #3E3E40;
+                width: 300px;
+                height: 30px;
+                font-family: 'PretendardRegular';
+                margin: -40px 0px 20px 38px;
+        }
+}
+
+@media (max-width: 349px) {
 
         /* 헤더 */
         #wrap {
@@ -839,7 +1059,7 @@
                 float: left;
                 position: absolute;
                 top: 307px;
-                left: 40px;
+                left: 30px;
         }
 
         .biglogo2 {
@@ -848,7 +1068,7 @@
                 font-weight: bold;
                 position: absolute;
                 top: 322px;
-                left: 240px;
+                left: 225px;
         }
 
 
@@ -866,6 +1086,7 @@
                 padding: 4px;
                 font-size: 0.5em;
                 font-family: 'PretendardRegular';
+                margin-right: 30px;
         }
 
         .fbox {
@@ -876,16 +1097,16 @@
         .flogo img {
                 float: left;
                 width: 100px;
-                margin: -140px 0px 0 40px;
+                margin: -140px 0px 0 30px;
         }
 
         .flogo p {
                 float: left;
-                font-size: 0.3em;
+                font-size: 0.1em;
                 color: #3E3E40;
-                width: calc(100% - 25px);
+                width: 280px;
                 height: 30px;
                 font-family: 'PretendardRegular';
-                margin: -50px 0px 20px 38px;
+                margin: -50px 0px 20px 30px;
         }
 }

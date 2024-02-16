@@ -256,9 +256,6 @@
 
 
 
-
-
-
 /* 미술관 */
 
 #place {
@@ -341,9 +338,11 @@
 }
 
 
+
+
 /* 디지털미술관 */
 #digital {
-    height: 650px;
+    height: 630px;
     font-family: 'PretendardRegular';
 }
 
@@ -355,16 +354,24 @@
 .digiboard ul li{
     width: 32%;
     height: 487px;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
 }
 
 .digivideo img {
     width: 100%;
 }
 
+.ch {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 25px;
+}
 
-
-
+.digitit {
+    font-size: 1.98rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
 
 
 
