@@ -32,6 +32,10 @@
                 float: left;
         }
 
+        #logo img {
+                height: 60px;
+                margin-top: 20px;
+        }
 
         #allmenu {
                 width: 2rem;
@@ -250,6 +254,10 @@
                 float: left;
         }
 
+        #logo img {
+                height: 60px;
+                margin-top: 20px;
+        }
 
         #allmenu {
                 width: 2rem;
@@ -469,6 +477,9 @@
                 float: left;
         }
 
+        #logo img {
+                height: 50px;
+        }
 
         #allmenu {
                 width: 2rem;
@@ -476,7 +487,7 @@
                 background-color: transparent;
                 padding: 0;
                 position: relative;
-                left: 30%;
+                left: 0%;
                 cursor: pointer;
         }
 
@@ -658,7 +669,7 @@
         }
 }
 
-@media (max-width: 689px) {
+@media (min-width: 350px) and (max-width: 689px) {
 
         /* 헤더 */
         #wrap {
@@ -816,28 +827,28 @@
 
         /* 푸터 */
         footer {
-                height: auto;
+                height: 400px;
                 background-color: #1A1A1A;
                 position: relative;
         }
 
         .biglogo1 {
                 color: #3E3E40;
-                font-size: 1.8em;
+                font-size: 1em;
                 font-weight: bold;
                 float: left;
                 position: absolute;
                 top: 307px;
-                left: 24px;
+                left: 40px;
         }
 
         .biglogo2 {
                 color: #3E3E40;
-                font-size: 2.4em;
+                font-size: 1.3em;
                 font-weight: bold;
                 position: absolute;
-                top: 336px;
-                left: 379px;
+                top: 322px;
+                left: 240px;
         }
 
 
@@ -845,35 +856,36 @@
 
         .infotext {
                 color: #c2c2c2;
-                width: 350px;
+                width: 300px;
                 display: flex;
-                margin-left: -65px;
+                margin: 0 auto;
+
         }
 
         .infotext li {
-                padding: 5px;
-                font-size: 0.8em;
+                padding: 4px;
+                font-size: 0.5em;
                 font-family: 'PretendardRegular';
         }
 
         .fbox {
-                padding: 50px 0 0 50px;
+                padding: 50px 0 0 0px;
         }
 
 
         .flogo img {
-                float: right;
+                float: left;
                 width: 100px;
-                margin: -350px 30px 0 0;
+                margin: -140px 0px 0 40px;
         }
 
         .flogo p {
                 float: left;
-                font-size: 0.5em;
+                font-size: 0.3em;
                 color: #3E3E40;
                 width: calc(100% - 25px);
                 height: 30px;
                 font-family: 'PretendardRegular';
-                margin: -20px 0px 20px 25px;
+                margin: -50px 0px 20px 38px;
         }
 }
