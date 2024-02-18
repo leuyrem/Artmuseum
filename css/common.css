@@ -259,13 +259,47 @@
                 margin-top: 20px;
         }
 
+/* Hamburger */
+.hamburger {
+        height: 45px;
+        margin: 10px;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        justify-items: center;
+      }
+      
+      .hamburger div {
+        background-color: #000;
+        position: relative;
+        width: 40px;
+        height: 5px;
+        margin-top: 7px;
+        transition: all 0.2s ease-in-out;
+        border-radius: 35px;
+      }
+      
+      #toggle {
+        display: none;
+      }
+      
+      #toggle:checked + .hamburger .top {
+        transform: rotate(45deg);
+        margin-top: 22.5px;
+      }
+      
+      #toggle:checked + .hamburger .middle {
+        transform: rotate(-45deg);
+        margin-top: -5px;
+      }
+      
+      #toggle:checked + .hamburger .bottom {
+      transform: scale(0);
+      }
 
 
-
-        #menuToggle {
+        /* #menuToggle {
                 display: block;
                 position: relative;
-                float: right;
                 top: 50px;
                 left: 50px;
                 z-index: 4;
@@ -293,9 +327,9 @@
                 left: -5px;
                 cursor: pointer;
                 opacity: 0;
-                /* hide this */
+            
                 z-index: 5;
-                /* and place it over the hamburger */
+             
                 -webkit-touch-callout: none;
         }
 
@@ -352,7 +386,6 @@
                 padding-top: 125px;
                 background: #1A1A1A;
                 -webkit-font-smoothing: antialiased;
-                /* to stop flickering of text in safari */
 
                 transform-origin: 0% 0%;
                 transform: translate(-100%, 0);
@@ -365,12 +398,10 @@
                 font-size: 22px;
         }
 
-        /*
-  * And let's slide it in from the left
-  */
+
         #menuToggle input:checked~ul {
                 transform: none;
-        }
+        } */
 
 
         /* #allmenu {
@@ -1038,6 +1069,9 @@
         #logo img {
                 height: 40px;
         }
+
+        
+        
 
         #allmenu {
                 width: 2rem;
