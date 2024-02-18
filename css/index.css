@@ -2638,7 +2638,10 @@
                 transition-delay: 0.5s;
         }
 
-
+        .renoirbox {
+                border-bottom: 3px solid #9585A0;
+                padding-bottom: 1%;
+        }
 
         .gauguin {
                 width: 550px;

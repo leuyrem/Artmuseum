@@ -1,10 +1,10 @@
 //햄버거버튼
-$(document).ready(function () {
-    $('#allmenu').click(function () {
-        $(this).toggleClass('open');
-        $('.depth1').toggle();
-    })
-});
+// $(document).ready(function () {
+//     $('#allmenu').click(function () {
+//         $(this).toggleClass('open');
+//         $('.depth1').toggle();
+//     })
+// });
 
 
 // $(document).ready(function(){
@@ -14,7 +14,18 @@ $(document).ready(function () {
 // });
 
 
+$(document).ready(function(){
+    var burger =$('.menu');
 
+    burger.each(function(index){
+        var $this = $(this);
+
+        $this.on('click', function(e){
+            e.preventDefault();
+            $(this).toggleClass('active-8' + (index+1));
+        });
+    });
+})
 
 
 
