@@ -259,114 +259,119 @@
                 margin-top: 20px;
         }
 
-        .menu-trigger {
-                margin-right: 70px;
-                margin-bottom: 50px;
-              }
-              .menu-trigger,
-              .menu-trigger span {
-                display: inline-block;
-                transition: all .4s;
-                box-sizing: border-box;
-              }
-              
-              .menu-trigger {
+
+
+
+        #menuToggle {
+                display: block;
                 position: relative;
-                width: 50px;
-                height: 44px;
-              }
-              
-              .menu-trigger span {
+                float: right;
+                top: 50px;
+                left: 50px;
+                z-index: 4;
+                -webkit-user-select: none;
+                user-select: none;
+        }
+
+        #menuToggle a {
+                text-decoration: none;
+                color: #F3EEE8;
+                transition: color 0.3s ease;
+        }
+
+        #menuToggle a:hover {
+                color: #9585A0;
+        }
+
+
+        #menuToggle input {
+                display: block;
+                width: 40px;
+                height: 32px;
                 position: absolute;
-                left: 0;
-                width: 100%;
+                top: -7px;
+                left: -5px;
+                cursor: pointer;
+                opacity: 0;
+                /* hide this */
+                z-index: 5;
+                /* and place it over the hamburger */
+                -webkit-touch-callout: none;
+        }
+
+
+
+
+        #menuToggle span {
+                display: block;
+                width: 33px;
                 height: 4px;
-                background-color: #fff;
-                border-radius: 4px;
-              }
-              
-              .menu-trigger span:nth-of-type(1) {
-                top: 0;
-              }
-              
-              .menu-trigger span:nth-of-type(2) {
-                top: 20px;
-              }
-              
-              .menu-trigger span:nth-of-type(3) {
-                bottom: 0;
-              }
-
-/* 상하라인이 움직여 화살표 만들기 */
-/* .menu-trigger.active-8 span:nth-of-type(1),
-.menu-trigger.active-8 span:nth-of-type(3) {
-  width : 20px;
-}
-.menu-trigger.active-8 span:nth-of-type(1) {
-  -webkit-transform : translate(-1px, 13px) rotate(-45deg);
-  transform : translate(-1px, 13px) rotate(-45deg);
-}
-.menu-trigger.active-8 span:nth-of-type(3) {
-  -webkit-transform : translate(-1px, -13px) rotate(45deg);
-  transform : translate(-1px, -13px) rotate(45deg);
-} */
-
-
-
-
-        /* .menu {
-                margin-right: 70px;
-                margin-bottom: 50px;
-        }
-
-        .menu,
-        .menu span {
-                display: inline-block;
-                transition: all .4s;
-                box-sizing: border-box;
-        }
-
-        .menu {
+                margin-bottom: 5px;
                 position: relative;
-                width: 50px;
-                height: 44px;
+                background: #1A1A1A;
+                border-radius: 3px;
+                z-index: 4;
+                transform-origin: 4px 0px;
+                transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+                        background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+                        opacity 0.55s ease;
         }
 
-        .menu span {
+        #menuToggle span:first-child {
+                transform-origin: 0% 0%;
+        }
+
+        #menuToggle span:nth-last-child(2) {
+                transform-origin: 0% 100%;
+        }
+
+
+        #menuToggle input:checked~span {
+                opacity: 1;
+                transform: rotate(45deg) translate(-2px, -1px);
+                background: #F3EEE8;
+        }
+
+
+        #menuToggle input:checked~span:nth-last-child(3) {
+                opacity: 0;
+                transform: rotate(0deg) scale(0.2, 0.2);
+        }
+
+
+        #menuToggle input:checked~span:nth-last-child(2) {
+                transform: rotate(-45deg) translate(0, -1px);
+        }
+
+
+        #menu {
                 position: absolute;
-                left: 0;
-                width: 100%;
-                height: 4px;
-                background-color: #1A1A1A;
-                border-radius: 4px;
+                width: 300px;
+                margin: -100px 0 0 -50px;
+                padding: 50px;
+                padding-top: 125px;
+                background: #1A1A1A;
+                -webkit-font-smoothing: antialiased;
+                /* to stop flickering of text in safari */
+
+                transform-origin: 0% 0%;
+                transform: translate(-100%, 0);
+
+                transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
         }
 
-        .menu span:nth-of-type(1) {
-                top: 0;
+        #menu li {
+                padding: 10px 0;
+                font-size: 22px;
         }
 
-        .menu span:nth-of-type(2) {
-                top: 20px;
+        /*
+  * And let's slide it in from the left
+  */
+        #menuToggle input:checked~ul {
+                transform: none;
         }
 
-        .menu span:nth-of-type(3) {
-                bottom: 0;
-        }
-
-        .menu.active-8 span:nth-of-type(1),
-        .menu.active-8 span:nth-of-type(3) {
-                width: 20px;
-        }
-
-        .menu.active-8 span:nth-of-type(1) {
-                -webkit-transform: translate(-1px, 13px) rotate(-45deg);
-                transform: translate(-1px, 13px) rotate(-45deg);
-        }
-
-        .menu.active-8 span:nth-of-type(3) {
-                -webkit-transform: translate(-1px, -13px) rotate(45deg);
-                transform: translate(-1px, -13px) rotate(45deg);
-        } */
 
         /* #allmenu {
                 width: 2rem;

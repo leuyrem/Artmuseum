@@ -28,52 +28,54 @@
                         <img src="img/logo.svg" alt="logo">
                     </div>
 
-                    <a class="menu-trigger" href="#">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </a>
 
-                    <script>
-                        var burger = $('.menu-trigger');
 
-                        burger.each(function (index) {
-                            var $this = $(this);
+<nav role="navigation">
+    <div id="menuToggle">
 
-                            $this.on('click', function (e) {
-                                e.preventDefault();
-                                $(this).toggleClass('.active-' + (index + 1));
-                            })
-                        });
-                    </script>
+      <input type="checkbox" />
+      <span></span>
+      <span></span>
+      <span></span>
 
-                    <!-- <div id="hambuger">
-                        <button id="allmenu">
+      <ul id="menu">
+        <a href="#"><li>Home</li></a>
+        <a href="#"><li>About</li></a>
+        <a href="#"><li>Info</li></a>
+        <a href="#"><li>Contact</li></a>
+        <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
+      </ul>
+    </div>
+  </nav>
+
+
+                 <div id="hambuger">
+                        <!-- <button id="allmenu">
                             <span></span>
                         </button> -->
 
-                    <div class="depth1">
-                        <!-- <ul>
-                                <li>관람·참여</li>
-                                <li>전시</li>
-                                <li>교육</li>
-                                <li>소장품</li>
-                                <li>미술연구</li>
-                                <li>디지털미술관</li>
-                            </ul> -->
-                    </div>
+                        <div class="depth1">
+                                <!-- <ul>
+                                    <li>관람·참여</li>
+                                    <li>전시</li>
+                                    <li>교육</li>
+                                    <li>소장품</li>
+                                    <li>미술연구</li>
+                                    <li>디지털미술관</li>
+                                </ul> -->
+                        </div>
                 </div>
 
-                <div id="menu">
-                    <!-- <ul>
+                <!-- <div id="menu">
+                    <ul>
                             <li><a href="#">한국어 <svg xmlns="http://www.w3.org/2000/svg" width="12" height="5"
                                         viewBox="0 0 12 5" fill="none">
                                         <path d="M1 0.5L6 4L11 0.5" stroke="black" />
                                     </svg></a></li>
                             <li><a href="#">로그인</a></li>
                             <li class="round"><a href="#"><span>MMCA <br> 회원가입</span></a></li>
-                        </ul> -->
-                </div>
+                        </ul>
+                </div> -->
             </div>
 
             <div class="titlebox">
