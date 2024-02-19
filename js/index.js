@@ -1,28 +1,9 @@
 //햄버거버튼
-$(document).ready(function(){
-$('#toggle').click(function(){
-    $('.menu-side').toggleClass('show',400)
+$(document).ready(function () {
+    $('#toggle').click(function () {
+        $('.menu-side').toggleClass('show', 400)
+    });
 });
-
-})
-
-
-
-// $(document).ready(function(){
-//     $(window).scroll(function(){
-//         i($(window).scrollTop()> 0) 
-//     });
-// });
-
-
-
-
-
-
-
-
-
-
 
 
 // 헤더 아래에서
@@ -119,7 +100,7 @@ $(window).scroll(function () {
         $('.p3box').css("animation", "border_anim 1.5s linear forwards");
     }
 
-    
+
 
 
 });
