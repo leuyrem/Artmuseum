@@ -1,10 +1,11 @@
 //햄버거버튼
-// $(document).ready(function () {
-//     $('#allmenu').click(function () {
-//         $(this).toggleClass('open');
-//         $('.depth1').toggle();
-//     })
-// });
+$(document).ready(function(){
+$('#toggle').click(function(){
+    $('.menu-side').toggleClass('show',400)
+});
+
+})
+
 
 
 // $(document).ready(function(){
@@ -12,8 +13,6 @@
 //         i($(window).scrollTop()> 0) 
 //     });
 // });
-
-
 
 
 

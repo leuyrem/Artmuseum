@@ -28,22 +28,24 @@
                         <a href="index.html"><img src="img/logo.svg" alt="logo"></a>
                     </div>
 
-                    <div id="hambuger">
-                        <button id="allmenu">
-                            <span></span>
-                        </button>
-
-                        <div class="depth1">
-                            <ul>
-                                <li>관람·참여</li>
-                                <li>전시</li>
-                                <li>교육</li>
-                                <li>소장품</li>
-                                <li>미술연구</li>
-                                <li>디지털미술관</li>
-                            </ul>
-                        </div>
+                    <div class="menu-side">
+                        <ul class="menubody">
+                            <li>관람·참여</li>
+                            <li>전시</li>
+                            <li>교육</li>
+                            <li>소장품</li>
+                            <li>미술연구</li>
+                            <li>디지털미술관</li>
+                        </ul>
                     </div>
+
+                    <input id="toggle" type="checkbox" />
+                    <label class="hamburger" for="toggle">
+                        <div class="topnav"></div>
+                        <div class="middlenav"></div>
+                        <div class="bottomnav"></div>
+                    </label>
+
                     <a href="index.html">
                         <p class="subtitle">MMCA Lee Kun-hee Collection</p>
                     </a>
@@ -277,7 +279,7 @@
                                     <img src="img/digi3.gif" alt="digi3">
 
                                     <p class="ch">MMCA TV</p>
-                                    <p class="digitit">[오늘, 이 작품] 이강승ㅣ올해의 작가상2023</p>
+                                    <p class="digitit">[오늘, 이 작품] 권병준ㅣ올해의 작가상 2023</p>
                                 </div>
                             </div>
                         </li>
@@ -304,7 +306,7 @@
                                 <div class="letter">
                                     <img src="img/news1.png" alt="news1">
                                     <p class="newstit">포커스</p>
-                                    <p class="subtit">“효율성과 소통..달라진 뱃머리 각도 0.1도를 향해!” 김성희 관장을 만나다</p>
+                                    <p class="subtit">뮤클리 구독자들이 가장 기다리는 2024 전시는?</p>
                                 </div>
                             </div>
                         </li>
@@ -313,7 +315,7 @@
                                 <div class="letter">
                                     <img src="img/news2.png" alt="news2">
                                     <p class="newstit">미술관 플러스</p>
-                                    <p class="subtit">지금 미술관에선?! 전시 작품 모아보기</p>
+                                    <p class="subtit">미술관에 내 목소리를 더하다 #고객자문단 #외국인 서포터즈</p>
                                 </div>
                             </div>
                         </li>
@@ -322,7 +324,7 @@
                                 <div class="letter">
                                     <img src="img/news3.png" alt="news3">
                                     <p class="newstit">미술관 플러스</p>
-                                    <p class="subtit">설 연휴에 예술 나들이 어때? 국립현대미술관 4관 탐방 코스</p>
+                                    <p class="subtit">«올해의 작가상 2023» 권병준 작가 최종 수상!</p>
                                 </div>
                             </div>
                         </li>
@@ -330,8 +332,8 @@
                             <div class="news">
                                 <div class="letter">
                                     <img src="img/news4.png" alt="news4">
-                                    <p class="newstit">미술관 플러스</p>
-                                    <p class="subtit">'친애하는 뮤클리에게'구독자가 보내온 편지</p>
+                                    <p class="newstit">소장품 더보기</p>
+                                    <p class="subtit">모든 것은 새벽의 빛깔을 지닌다, 권옥연 ‹상형(象形)›</p>
                                 </div>
                             </div>
                         </li>
@@ -348,9 +350,9 @@
                     </div>
                     <div class="noticetext">
                         <ul>
-                            <li>2024년 설 연휴 정상 개관 및 무료관람 안내</li>
-                            <li>푸른 용의 해! 설맞이 #국현미전시 이벤트</li>
                             <li>국립현대미술관 청주 미술품수장센터 라키비움 운영 재개 안내</li>
+                            <li>제 5기 국립현대미술관 #helloMMCA 외국인서포터즈 모집 공고문</li>
+                            <li>설 연휴 작품감상 프로그램(전시해설) 안내</li>
                         </ul>
                     </div>
                     <div class="noticemore">새소식 모두 보기 <img src="img/icon_btnMore.svg" alt="iconmore" class="iconmore">
@@ -358,6 +360,56 @@
                 </div>
             </div>
         </div>
+
+        <div id="add">
+            <div class="container">
+                <div class="addboard">
+                    <ul>
+                        <li>
+                            <div class="addbox">
+                                <div class="addmore">
+                                    <img src="img/add1.jpg" alt="add1">
+                                    <p class="addtit">미술은행</p>
+                                    <p class="addsub">더 알아보기</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="addbox">
+                                <div class="addmore">
+                                    <img src="img/add2.jpg" alt="add2">
+                                    <p class="addtit">레지던시</p>
+                                    <p class="addsub">더 알아보기</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="addbox">
+                                <div class="addmore">
+                                    <img src="img/add3.jpg" alt="add3">
+                                    <p class="addtit">도서와 아카이브</p>
+                                    <p class="addsub">더 알아보기</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="addbox">
+                                <div class="addmore">
+                                    <img src="img/add4.jpg" alt="add4">
+                                    <p class="addtit">어린이미술관</p>
+                                    <p class="addsub">더 알아보기</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
 
         <!-- MMCA 뉴스레더 구독 신청 -->
         <div id="footer2">

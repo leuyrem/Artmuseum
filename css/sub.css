@@ -270,10 +270,7 @@
     font-weight: bold;
 }
 
-.board {
 
-
-}
 
 .board ul {
     display: flex;
@@ -342,7 +339,7 @@
 
 /* 디지털미술관 */
 #digital {
-    height: 630px;
+    height: 650px;
     font-family: 'PretendardRegular';
 }
 
@@ -368,7 +365,7 @@
 }
 
 .digitit {
-    font-size: 1.98rem;
+    font-size: 26px;
     font-weight: bold;
     margin-top: 10px;
 }
@@ -391,13 +388,13 @@
 .newstit {
     padding-top: 20px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .subtit {
     padding-top: 10px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 17px;
     color: #888888;
 }
 
@@ -417,6 +414,7 @@
 .noticewrap {
     padding: 45px 0;
     border-top: 1px solid #1A1A1A;
+    border-bottom: 1px solid #1A1A1A;
 }
 
 .noticetitle {
@@ -443,6 +441,52 @@
     margin: -160px 0 0 0;
     font-size: 15px;
 }
+
+
+
+
+/* add */
+
+#add {
+    height: 460px;
+    font-family: 'PretendardRegular';
+}
+
+.addboard {
+    padding: 60px;
+}
+
+.addboard ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.addboard ul li{
+    width: 23%;
+    height: 350px;
+
+}
+
+.addmore img { 
+    width: 100%;
+}
+
+.addtit {
+ font-size: 26px;
+ font-weight: bold;
+ padding-top: 10px;
+}
+
+.addsub {
+    width: 80px;
+    border-bottom: 1px solid #1A1A1A;
+    text-align: center;
+    font-size: 14px;
+    margin-top: -25px;
+    margin-right: 1px;
+    float: right;
+}
+
 
 
 

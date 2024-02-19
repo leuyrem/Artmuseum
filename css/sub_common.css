@@ -27,7 +27,9 @@
         height: 100%;
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
+
 
     #logo {
         float: left;
@@ -35,95 +37,109 @@
 
     #logo img {
         height: 50px;
-        margin: 40px 0;
+        margin-top: 35px;
     }
 
-    #hambuger {
-        width: 32px;
-        height: 24px;
-        padding: 56px 0 0 60px;
+
+
+
+    /* Hamburger */
+    .hamburger {
+        height: 45px;
+        margin-top: 35px;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        justify-items: center;
     }
 
-    #allmenu {
-        width: 2rem;
-        border: 0;
-        background-color: transparent;
-        padding: 0;
+    .hamburger div {
+        background-color: #1A1A1A;
         position: relative;
-        cursor: pointer;
+        width: 35px;
+        height: 4px;
+        margin-top: 5px;
+        transition: all 0.2s ease-in-out;
+        border-radius: 60px;
     }
 
-    #allmenu span {
-        display: block;
-        height: 2px;
+    #toggle {
+        display: none;
+    }
+
+    #toggle:checked+.hamburger .topnav {
+        transform: rotate(45deg);
+        margin-top: 22.5px;
+        margin-left: 900px;
+        background-color: #F3EEE8;
+        z-index: 999;
+        position: fixed;
+
+    }
+
+    #toggle:checked+.hamburger .middlenav {
+        transform: rotate(-45deg);
+        margin-top: 22.5px;
+        margin-left: 900px;
+        background-color: #F3EEE8;
+        z-index: 999;
+        position: fixed;
+    }
+
+    #toggle:checked+.hamburger .bottomnav {
+        transform: scale(0);
+        background-color: #F3EEE8;
+    }
+
+
+
+
+    .menu-side {
+        position: fixed;
+        z-index: 998;
+        right: -100vw;
+        width: 30%;
+        height: 100vh;
         background-color: #1A1A1A;
-        margin: 11px 0;
-    }
-
-    #allmenu:after,
-    #allmenu:before {
-        content: "";
-        display: block;
-        position: absolute;
-        height: 2px;
-        background-color: #1A1A1A;
-        left: 0;
-        width: 100%;
-    }
-
-    #allmenu:after {
-        bottom: 0;
-    }
-
-    #allmenu:before {
+        padding: 30px;
+        box-sizing: border-box;
+        transition: 0.5s all ease-in-out;
         top: 0;
     }
 
-    /* 햄버거 버튼 클릭 */
-    #allmenu.open span {
-        display: none;
-    }
-
-    /* 햄버거 버튼 크로스 */
-    #allmenu.open:after {
-        transform: rotate(-45deg);
-    }
-
-    #allmenu.open:before {
-        transform: rotate(45deg);
-    }
-
-    /* open되고 ul이 나올때 */
-    #allmenu.open+.depth1 {
-        width: 100vw;
-        position: absolute;
+    .show {
+        right: 0;
         background-color: #1A1A1A;
-        left: 0;
-        padding: 20px;
-        top: 130px;
-        z-index: 5;
+        transition: 0.5s all ease-in-out;
     }
 
-    #allmenu.open+.depth1 {
-        color: white;
+
+
+
+    .menubody {
+        position: absolute;
+        width: 500px;
+        padding-top: 100px;
+
+    }
+
+
+
+    .menubody li {
+        font-size: 2em;
+        padding: 15px;
+        color: #F3EEE8;
         font-family: 'PretendardRegular';
-        font-size: 1.2rem;
-    }
-
-    .depth1 ul {
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    .depth1 {
-        display: none;
+        font-weight: bold;
     }
 
 
     .subtitle {
         width: 230px;
         margin-top: 65px;
+        margin-right: -10px;
     }
+
+
 
 
 
@@ -226,7 +242,9 @@
         height: 100%;
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
+
 
     #logo {
         float: left;
@@ -234,95 +252,108 @@
 
     #logo img {
         height: 50px;
-        margin: 40px 0;
+        margin-top: 35px;
     }
 
-    #hambuger {
-        width: 32px;
-        height: 24px;
-        padding: 56px 0 0 60px;
+
+
+
+    /* Hamburger */
+    .hamburger {
+        height: 45px;
+        margin-top: 35px;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        justify-items: center;
     }
 
-    #allmenu {
-        width: 2rem;
-        border: 0;
-        background-color: transparent;
-        padding: 0;
+    .hamburger div {
+        background-color: #1A1A1A;
         position: relative;
-        cursor: pointer;
+        width: 35px;
+        height: 4px;
+        margin-top: 5px;
+        transition: all 0.2s ease-in-out;
+        border-radius: 60px;
     }
 
-    #allmenu span {
-        display: block;
-        height: 2px;
+    #toggle {
+        display: none;
+    }
+
+    #toggle:checked+.hamburger .topnav {
+        transform: rotate(45deg);
+        margin-top: 22.5px;
+        margin-left: 900px;
+        background-color: #F3EEE8;
+        z-index: 999;
+        position: fixed;
+
+    }
+
+    #toggle:checked+.hamburger .middlenav {
+        transform: rotate(-45deg);
+        margin-top: 22.5px;
+        margin-left: 900px;
+        background-color: #F3EEE8;
+        z-index: 999;
+        position: fixed;
+    }
+
+    #toggle:checked+.hamburger .bottomnav {
+        transform: scale(0);
+        background-color: #F3EEE8;
+    }
+
+
+
+
+    .menu-side {
+        position: fixed;
+        z-index: 998;
+        right: -100vw;
+        width: 30%;
+        height: 100vh;
         background-color: #1A1A1A;
-        margin: 11px 0;
-    }
-
-    #allmenu:after,
-    #allmenu:before {
-        content: "";
-        display: block;
-        position: absolute;
-        height: 2px;
-        background-color: #1A1A1A;
-        left: 0;
-        width: 100%;
-    }
-
-    #allmenu:after {
-        bottom: 0;
-    }
-
-    #allmenu:before {
+        padding: 30px;
+        box-sizing: border-box;
+        transition: 0.5s all ease-in-out;
         top: 0;
     }
 
-    /* 햄버거 버튼 클릭 */
-    #allmenu.open span {
-        display: none;
-    }
-
-    /* 햄버거 버튼 크로스 */
-    #allmenu.open:after {
-        transform: rotate(-45deg);
-    }
-
-    #allmenu.open:before {
-        transform: rotate(45deg);
-    }
-
-    /* open되고 ul이 나올때 */
-    #allmenu.open+.depth1 {
-        width: 100vw;
-        position: absolute;
+    .show {
+        right: 0;
         background-color: #1A1A1A;
-        left: 0;
-        padding: 20px;
-        top: 130px;
-        z-index: 5;
+        transition: 0.5s all ease-in-out;
     }
 
-    #allmenu.open+.depth1 {
-        color: white;
+
+
+
+    .menubody {
+        position: absolute;
+        width: 500px;
+        padding-top: 100px;
+
+    }
+
+
+
+    .menubody li {
+        font-size: 2em;
+        padding: 15px;
+        color: #F3EEE8;
         font-family: 'PretendardRegular';
-        font-size: 1.2rem;
-    }
-
-    .depth1 ul {
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    .depth1 {
-        display: none;
+        font-weight: bold;
     }
 
 
     .subtitle {
         width: 230px;
         margin-top: 65px;
+        margin-right: -10px;
     }
+
 
 
 
@@ -422,8 +453,12 @@
 
     #topbar {
         width: 100%;
-        height: 15%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
+
 
     #logo {
         float: left;
@@ -431,95 +466,106 @@
 
     #logo img {
         height: 50px;
-        margin: -70px 0;
+        margin-top: 35px;
     }
 
-    #allmenu {
-        width: 2rem;
-        border: 0;
-        background-color: transparent;
-        padding: 0;
+
+
+
+    /* Hamburger */
+    .hamburger {
+        height: 45px;
+        margin-top: 35px;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        justify-items: center;
+    }
+
+    .hamburger div {
+        background-color: #1A1A1A;
         position: relative;
-        left: 30%;
-        cursor: pointer;
+        width: 35px;
+        height: 4px;
+        margin-top: 5px;
+        transition: all 0.2s ease-in-out;
+        border-radius: 60px;
     }
 
-    #allmenu span {
-        display: block;
-        height: 2px;
+    #toggle {
+        display: none;
+    }
+
+    #toggle:checked+.hamburger .topnav {
+        transform: rotate(45deg);
+        margin-top: 22.5px;
+        margin-left: 900px;
+        background-color: #F3EEE8;
+        z-index: 999;
+        position: fixed;
+
+    }
+
+    #toggle:checked+.hamburger .middlenav {
+        transform: rotate(-45deg);
+        margin-top: 22.5px;
+        margin-left: 900px;
+        background-color: #F3EEE8;
+        z-index: 999;
+        position: fixed;
+    }
+
+    #toggle:checked+.hamburger .bottomnav {
+        transform: scale(0);
+        background-color: #F3EEE8;
+    }
+
+
+
+
+    .menu-side {
+        position: fixed;
+        z-index: 998;
+        right: -100vw;
+        width: 30%;
+        height: 100vh;
         background-color: #1A1A1A;
-        margin: 11px 0;
-    }
-
-    #allmenu:after,
-    #allmenu:before {
-        content: "";
-        display: block;
-        position: absolute;
-        height: 2px;
-        background-color: #1A1A1A;
-        left: 0;
-        width: 100%;
-    }
-
-    #allmenu:after {
-        bottom: 0;
-    }
-
-    #allmenu:before {
+        padding: 30px;
+        box-sizing: border-box;
+        transition: 0.5s all ease-in-out;
         top: 0;
     }
 
-    /* 햄버거 버튼 클릭 */
-    #allmenu.open span {
-        display: none;
-    }
-
-    /* 햄버거 버튼 크로스 */
-    #allmenu.open:after {
-        transform: rotate(-45deg);
-    }
-
-    #allmenu.open:before {
-        transform: rotate(45deg);
-    }
-
-    /* open되고 ul이 나올때 */
-    #allmenu.open+.depth1 {
-        width: 100vw;
-        position: absolute;
+    .show {
+        right: 0;
         background-color: #1A1A1A;
-        left: 0;
-        padding: 20px;
-        top: 130px;
-        z-index: 5;
+        transition: 0.5s all ease-in-out;
     }
 
-    #allmenu.open+.depth1 {
-        color: white;
+
+
+
+    .menubody {
+        position: absolute;
+        width: 500px;
+        padding-top: 100px;
+
+    }
+
+
+
+    .menubody li {
+        font-size: 2em;
+        padding: 15px;
+        color: #F3EEE8;
         font-family: 'PretendardRegular';
-        font-size: 1.2rem;
-    }
-
-    .depth1 {
-        display: none;
-    }
-
-    .depth1 ul {
-        display: flex;
-        justify-content: space-evenly;
+        font-weight: bold;
     }
 
 
-    .depth1 {
-        display: none;
-    }
-
-
-    #topbar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+    .subtitle {
+        width: 230px;
+        margin-top: 65px;
+        margin-right: -10px;
     }
 
 
