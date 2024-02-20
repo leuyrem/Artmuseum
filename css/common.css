@@ -64,7 +64,7 @@
         }
 
         #toggle {
-                display: none;  
+                display: none;
         }
 
         #toggle:checked+.hamburger .topnav {
@@ -74,7 +74,7 @@
                 background-color: #F3EEE8;
                 z-index: 999;
                 position: fixed;
-                
+
         }
 
         #toggle:checked+.hamburger .middlenav {
@@ -95,16 +95,16 @@
 
 
         .menu-side {
-                 position: fixed;
-                 z-index: 998;
-                 right: -100vw;
-                 width: 30%;
-                 height: 100vh;
-                 background-color: #1A1A1A;
-                 padding: 30px;
-                 box-sizing: border-box;
-                 transition: 0.5s all ease-in-out;
-                 top: 0;
+                position: fixed;
+                z-index: 998;
+                right: -100vw;
+                width: 30%;
+                height: 100vh;
+                background-color: #1A1A1A;
+                padding: 30px;
+                box-sizing: border-box;
+                transition: 0.5s all ease-in-out;
+                top: 0;
         }
 
         .show {
@@ -113,17 +113,17 @@
                 transition: 0.5s all ease-in-out;
         }
 
-        
+
 
 
         .menubody {
                 position: absolute;
                 width: 500px;
                 padding-top: 100px;
-        
+
         }
 
-        
+
 
         .menubody li {
                 font-size: 2em;
@@ -152,7 +152,7 @@
         #menu li span {
                 color: #F3EEE8;
                 font-weight: bold;
-                
+
         }
 
         #menu .round {
@@ -304,7 +304,7 @@
         }
 
         #toggle {
-                display: none;  
+                display: none;
         }
 
         #toggle:checked+.hamburger .topnav {
@@ -314,13 +314,14 @@
                 background-color: #F3EEE8;
                 z-index: 999;
                 position: fixed;
-                
+
         }
 
         #toggle:checked+.hamburger .middlenav {
                 transform: rotate(-45deg);
                 margin-top: 22.5px;
-                margin-left: 55%;;
+                margin-left: 55%;
+                ;
                 background-color: #F3EEE8;
                 z-index: 999;
                 position: fixed;
@@ -335,16 +336,16 @@
 
 
         .menu-side {
-                 position: fixed;
-                 z-index: 998;
-                 right: -100vw;
-                 width: 30%;
-                 height: 100vh;
-                 background-color: #1A1A1A;
-                 padding: 30px;
-                 box-sizing: border-box;
-                 transition: 0.5s all ease-in-out;
-                 top: 0;
+                position: fixed;
+                z-index: 998;
+                right: -100vw;
+                width: 30%;
+                height: 100vh;
+                background-color: #1A1A1A;
+                padding: 30px;
+                box-sizing: border-box;
+                transition: 0.5s all ease-in-out;
+                top: 0;
         }
 
         .show {
@@ -353,7 +354,7 @@
                 transition: 0.5s all ease-in-out;
         }
 
-        
+
 
 
         .menubody {
@@ -362,7 +363,7 @@
                 padding-top: 100px;
         }
 
-        
+
 
         .menubody li {
                 font-size: 1.5em;
@@ -391,7 +392,7 @@
         #menu li span {
                 color: #F3EEE8;
                 font-weight: bold;
-                
+
         }
 
         #menu .round {
@@ -410,9 +411,9 @@
                 text-align: center;
         }
 
-        
 
- 
+
+
 
 
 
@@ -551,7 +552,7 @@
         }
 
         #toggle {
-                display: none;  
+                display: none;
         }
 
         #toggle:checked+.hamburger .topnav {
@@ -561,13 +562,14 @@
                 background-color: #F3EEE8;
                 z-index: 999;
                 position: fixed;
-                
+
         }
 
         #toggle:checked+.hamburger .middlenav {
                 transform: rotate(-45deg);
                 margin-top: 22.5px;
-                margin-left: 20%;;
+                margin-left: 20%;
+                ;
                 background-color: #F3EEE8;
                 z-index: 999;
                 position: fixed;
@@ -582,16 +584,16 @@
 
 
         .menu-side {
-                 position: fixed;
-                 z-index: 998;
-                 right: -100vw;
-                 width: 50%;
-                 height: 100vh;
-                 background-color: #1A1A1A;
-                 padding: 30px;
-                 box-sizing: border-box;
-                 transition: 0.5s all ease-in-out;
-                 top: 0;
+                position: fixed;
+                z-index: 998;
+                right: -100vw;
+                width: 50%;
+                height: 100vh;
+                background-color: #1A1A1A;
+                padding: 30px;
+                box-sizing: border-box;
+                transition: 0.5s all ease-in-out;
+                top: 0;
         }
 
         .show {
@@ -600,7 +602,7 @@
                 transition: 0.5s all ease-in-out;
         }
 
-        
+
 
 
         .menubody {
@@ -609,7 +611,7 @@
                 padding-top: 100px;
         }
 
-        
+
 
         .menubody li {
                 font-size: 1.5em;
@@ -638,7 +640,7 @@
         #menu li span {
                 color: #F3EEE8;
                 font-weight: bold;
-                
+
         }
 
         #menu .round {
@@ -790,7 +792,7 @@
         }
 
         #toggle {
-                display: none;  
+                display: none;
         }
 
         #toggle:checked+.hamburger .topnav {
@@ -800,7 +802,7 @@
                 background-color: #F3EEE8;
                 z-index: 999;
                 position: fixed;
-                
+
         }
 
         #toggle:checked+.hamburger .middlenav {
@@ -821,16 +823,16 @@
 
 
         .menu-side {
-                 position: fixed;
-                 z-index: 998;
-                 right: -100vw;
-                 width: 100%;
-                 height: 100vh;
-                 background-color: #1A1A1A;
-                 padding: 30px;
-                 box-sizing: border-box;
-                 transition: 0.5s all ease-in-out;
-                 top: 0;
+                position: fixed;
+                z-index: 998;
+                right: -100vw;
+                width: 100%;
+                height: 100vh;
+                background-color: #1A1A1A;
+                padding: 30px;
+                box-sizing: border-box;
+                transition: 0.5s all ease-in-out;
+                top: 0;
         }
 
         .show {
@@ -839,7 +841,7 @@
                 transition: 0.5s all ease-in-out;
         }
 
-        
+
 
 
         .menubody {
@@ -848,7 +850,7 @@
                 padding-top: 100px;
         }
 
-        
+
 
         .menubody li {
                 font-size: 1.5em;
@@ -879,21 +881,21 @@
 
         .biglogo1 {
                 color: #3E3E40;
-                font-size: 1.5em;
+                font-size: 1em;
                 font-weight: bold;
                 float: left;
                 position: absolute;
-                top: 300px;
-                left: 40px;
+                top: 307px;
+                left: 30px;
         }
 
         .biglogo2 {
                 color: #3E3E40;
-                font-size: 1.8em;
+                font-size: 1.3em;
                 font-weight: bold;
                 position: absolute;
                 top: 322px;
-                left: 335px;
+                left: 230px;
         }
 
 
@@ -903,13 +905,16 @@
                 color: #c2c2c2;
                 width: 300px;
                 display: flex;
+                margin: 0 auto;
+                margin-left: -5px;
+
         }
 
         .infotext li {
                 padding: 4px;
                 font-size: 0.5em;
                 font-family: 'PretendardRegular';
-                margin-right: 50px;
+                margin-right: 30px;
         }
 
         .fbox {
@@ -920,17 +925,17 @@
         .flogo img {
                 float: left;
                 width: 100px;
-                margin: -140px 0px 0 40px;
+                margin: -140px 0px 0 30px;
         }
 
         .flogo p {
                 float: left;
-                font-size: 0.3em;
+                font-size: 8px;
                 color: #3E3E40;
-                width: 300px;
+                width: 280px;
                 height: 30px;
                 font-family: 'PretendardRegular';
-                margin: -40px 0px 20px 38px;
+                margin: -50px 0px 20px 30px;
         }
 }
 
@@ -997,7 +1002,7 @@
         }
 
         #toggle {
-                display: none;  
+                display: none;
         }
 
         #toggle:checked+.hamburger .topnav {
@@ -1007,13 +1012,14 @@
                 background-color: #F3EEE8;
                 z-index: 999;
                 position: fixed;
-                
+
         }
 
         #toggle:checked+.hamburger .middlenav {
                 transform: rotate(-45deg);
                 margin-top: 22.5px;
-                margin-left: 0%;;
+                margin-left: 0%;
+                ;
                 background-color: #F3EEE8;
                 z-index: 999;
                 position: fixed;
@@ -1028,16 +1034,16 @@
 
 
         .menu-side {
-                 position: fixed;
-                 z-index: 998;
-                 right: -100vw;
-                 width: 100%;
-                 height: 100vh;
-                 background-color: #1A1A1A;
-                 padding: 30px;
-                 box-sizing: border-box;
-                 transition: 0.5s all ease-in-out;
-                 top: 0;
+                position: fixed;
+                z-index: 998;
+                right: -100vw;
+                width: 100%;
+                height: 100vh;
+                background-color: #1A1A1A;
+                padding: 30px;
+                box-sizing: border-box;
+                transition: 0.5s all ease-in-out;
+                top: 0;
         }
 
         .show {
@@ -1046,7 +1052,7 @@
                 transition: 0.5s all ease-in-out;
         }
 
-        
+
 
 
         .menubody {
@@ -1055,7 +1061,7 @@
                 padding-top: 100px;
         }
 
-        
+
 
         .menubody li {
                 font-size: 1.5em;
@@ -1107,6 +1113,7 @@
                 width: 300px;
                 display: flex;
                 margin: 0 auto;
+                margin-left: -5px;
 
         }
 
