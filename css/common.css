@@ -1163,7 +1163,7 @@
                 font-weight: bold;
                 position: absolute;
                 top: 322px;
-                left: 225px;
+                left: 230px;
         }
 
 
@@ -1197,7 +1197,7 @@
 
         .flogo p {
                 float: left;
-                font-size: 0.1em;
+                font-size: 8px;
                 color: #3E3E40;
                 width: 280px;
                 height: 30px;

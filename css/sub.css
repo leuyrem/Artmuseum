@@ -69,7 +69,7 @@
         width: 250px;
         font-size: 1.5rem;
         transform: rotate(-90deg);
-        margin: 420px 0 0 -110px;
+        margin: 390px 0 0 -110px;
     }
 
     .bottom2 {
@@ -80,24 +80,25 @@
     }
 
     .picture {
-        width: 680px;
-        height: 820px;
+        width: 660px;
+        height: 800px;
         margin: -590px 0px 0 122px;
         transform: translateX(20px);
         opacity: 0;
         transition: 1s ease-in-out;
         transition-delay: 0.5s;
+        float: right;
     }
 
     .picture img {
         width: 100%;
-        height: 100%;
     }
 
     #right {
-        width: 825px;
+        width: 800px;
         height: 900px;
         box-sizing: border-box;
+        padding-left: 2%;
     }
 
     .name {
@@ -208,7 +209,7 @@
     .explain {
         width: 380px;
         height: 420px;
-        margin: 0px 0 0 45px;
+        margin: 30px 0 0 45px;
         text-align: left;
         line-height: 2em;
         font-size: 0.8rem;
@@ -219,14 +220,14 @@
         font-size: 1rem;
         height: 20px;
         width: 100px;
-        margin: -460px 0px 0 545px;
+        margin: -40px 0px 0 545px;
         font-family: 'NanumMyeongjoOTF';
     }
 
     .navpicture {
         width: 140px;
         height: 170px;
-        margin: 80px 0 0 500px;
+        margin: -300px 0 0 500px;
     }
 
     .navpicture img {
@@ -247,10 +248,10 @@
 
     #right .bottommenu {
         width: 70px;
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         padding-top: 2%;
         padding-bottom: 1%;
-        margin: 160px 0 0 45px;
+        margin: 100px 0 0 45px;
         border-bottom: 1px solid #1A1A1A;
         text-align: center;
 
@@ -441,7 +442,7 @@
     }
 
     .noticetext li {
-        font-size: 26px;
+        font-size: 1.4em;
         padding-left: 170px;
         width: 800px;
         margin-left: 200px;
@@ -491,7 +492,7 @@
     }
 
     .addsub {
-        width: 70px;
+        width: 76px;
         text-align: center;
         border-bottom: 1px solid #1A1A1A;
         font-size: 14px;
@@ -504,7 +505,7 @@
 
 
 
-@media (min-width: 1100px) and (max-width: 1599px) {
+@media (min-width: 1200px) and (max-width: 1599px) {
 
     /* 슬라이더 */
     #slider {
@@ -519,7 +520,511 @@
     }
 
     #left {
-        width: 825px;
+        width: 55%;
+    }
+
+    .arrowleft1 {
+        position: relative;
+    }
+
+    .arrowleft1::after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        content: "";
+        width: 10px;
+        height: 10px;
+        border-top: 3px solid #1A1A1A;
+        border-right: 3px solid #1A1A1A;
+        transform: rotate(225deg);
+        margin-top: -5px;
+        margin-left: 5px;
+    }
+
+
+    .arrowleft2 {
+        height: 40px;
+        width: 20px;
+        border-top: 3px solid #1A1A1A;
+        margin-top: 180px;
+        margin-left: 6px;
+    }
+
+    .arrowleft {
+        position: relative;
+        cursor: pointer;
+    }
+
+
+    .arrowleft::after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        content: "";
+    }
+
+    .top {
+        width: 50px;
+        font-size: 1.3rem;
+        margin-top: 50px;
+    }
+
+    .bottom1 {
+        width: 250px;
+        font-size: 1.3rem;
+        transform: rotate(-90deg);
+        margin: 380px 0 0 -110px;
+    }
+
+    .bottom2 {
+        width: 300px;
+        font-size: 1.3rem;
+        transform: rotate(-90deg);
+        margin: -100px 0 0 -115px;
+    }
+
+    .picture {
+        width: 90%;
+        margin: -530px 0px 0 0;
+        transform: translateX(20px);
+        opacity: 0;
+        transition: 1s ease-in-out;
+        transition-delay: 0.5s;
+        float: right;
+    }
+
+    .picture img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #right {
+        width: 45%;
+        height: 900px;
+        box-sizing: border-box;
+    }
+
+    .name {
+        width: 80%;
+        height: 130px;
+        margin: 70px 0 0 45px;
+        padding-top: 70px;
+        position: relative;
+    }
+
+    .name:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        padding-top: 0%;
+        border-bottom: 2px solid #1A1A1A;
+        animation: border_anim 1.5s linear forwards;
+    }
+
+    .artist {
+        font-size: 2.7rem;
+        position: relative;
+    }
+
+    .artist:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        padding-top: 55px;
+        border-top: 2px solid #1A1A1A;
+        animation: border_anim 1.5s linear forwards;
+    }
+
+    @keyframes border_anim {
+        0% {
+            width: 0%;
+        }
+
+        100% {
+            width: 100%;
+        }
+    }
+
+    .circa {
+        height: 20px;
+        margin-top: 55px;
+        font-style: italic;
+        font-family: 'NanumMyeongjoOTF';
+    }
+
+    .arrowright1 {
+        position: relative;
+    }
+
+    .arrowright1::after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        content: "";
+        width: 18px;
+        height: 18px;
+        border-top: 2px solid #9585A0;
+        border-right: 2px solid #9585A0;
+        transform: rotate(135deg);
+        margin-left: 380px;
+        margin-top: -90px;
+
+    }
+
+    .arrowright2 {
+        height: 35px;
+        width: 40px;
+        border-right: 2px solid #9585A0;
+        margin-left: 349px;
+        margin-top: -103px;
+    }
+
+    #arrowright {
+        position: relative;
+        cursor: pointer;
+    }
+
+    #arrowright::after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        content: "";
+    }
+
+    .box {
+        transform: translateY(50px);
+        opacity: 0;
+        transition: 1s ease-in-out;
+        transition-delay: 0.5s;
+    }
+
+    .artname {
+        width: 120px;
+        margin: 30px 0 0 45px;
+        font-weight: bold;
+    }
+
+    .explain {
+        width: 380px;
+        height: 400px;
+        margin: 0px 0 0 45px;
+        text-align: left;
+        line-height: 2em;
+        font-size: 0.8rem;
+        font-family: 'NanumMyeongjoOTF';
+    }
+
+    .size {
+        font-size: 0.9rem;
+        height: 20px;
+        width: 100px;
+        margin: -40px 70px 0 0px;
+        font-family: 'NanumMyeongjoOTF';
+        float: right;
+    }
+
+    .navpicture {
+        width: 140px;
+        height: 170px;
+        margin: 80px 0 0 500px;
+        display: none;
+    }
+
+    .navpicture img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #right button {
+        border: none;
+        font-family: 'Ethereal Demo Font';
+        cursor: pointer;
+        background-color: #F3EEE8;
+    }
+
+    #right button:hover {
+        color: #9585A0;
+    }
+
+    #right .bottommenu {
+        width: 70px;
+        font-size: 0.9rem;
+        padding-top: 2%;
+        padding-bottom: 1%;
+        margin: -10px 0 0 45px;
+        border-bottom: 1px solid #1A1A1A;
+        text-align: center;
+
+    }
+
+
+
+
+    /* 미술관 */
+
+    #place {
+        height: 650px;
+        font-family: 'PretendardRegular';
+    }
+
+    .titlewrap {
+        border-top: 1px solid #1A1A1A;
+        padding: 40px 0;
+        font-size: 26px;
+        font-weight: bold;
+    }
+
+    .board ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .board ul li {
+        width: 23%;
+        height: 400px;
+    }
+
+    .museum img {
+        width: 100%;
+    }
+
+    .tit {
+        font-size: 22px;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .open {
+        font-size: 14px;
+    }
+
+    .type {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .type span {
+        height: 25px;
+        padding: 0 10px;
+        border: 1px solid #333;
+        border-radius: 13px;
+        line-height: 23px;
+        margin: 10px 5px 0px 0px;
+    }
+
+
+
+
+    /* 소장품 */
+    #collect {
+        height: 650px;
+        font-family: 'PretendardRegular';
+    }
+
+    .art img {
+        width: 100%;
+    }
+
+    .object1 {
+        font-size: 22px;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .object2 {
+        font-weight: bold;
+        color: #888888;
+        font-size: 14px;
+    }
+
+    .collectmore {
+        float: right;
+        font-size: 15px;
+        margin-top: 30px;
+    }
+
+
+
+
+    /* 디지털미술관 */
+    #digital {
+        height: 650px;
+        font-family: 'PretendardRegular';
+    }
+
+    .digiboard ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .digiboard ul li {
+        width: 32%;
+        height: 487px;
+    }
+
+    .digivideo img {
+        width: 100%;
+    }
+
+    .ch {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 25px;
+    }
+
+    .digitit {
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    .digitalmore {
+        float: right;
+        font-size: 15px;
+        margin-top: 30px;
+    }
+
+
+
+
+    /* 뉴스레더 */
+    #newsletter {
+        height: 700px;
+        font-family: 'PretendardRegular';
+    }
+
+    .letter img {
+        width: 100%;
+    }
+
+    .newstit {
+        padding-top: 20px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .subtit {
+        padding-top: 10px;
+        font-weight: bold;
+        font-size: 15px;
+        color: #888888;
+    }
+
+    .newslettermore {
+        float: right;
+        font-size: 15px;
+        margin-top: 30px;
+    }
+
+
+
+
+
+    /* 새소식 */
+    #notice {
+        height: 215px;
+        font-family: 'PretendardRegular';
+        padding-bottom: 40px;
+    }
+
+    .noticewrap {
+        padding: 45px 0;
+        border-top: 1px solid #1A1A1A;
+        border-bottom: 1px solid #1A1A1A;
+    }
+
+    .noticetitle {
+        font-size: 26px;
+        font-weight: bold;
+        width: 160px;
+    }
+
+    .noticetext ul {
+        margin-top: -40px;
+    }
+
+    .noticetext li {
+        font-size: 1.4em;
+        padding-left: 120px;
+        width: 700px;
+        margin-left: 120px;
+        padding: 10px;
+    }
+
+    .noticemore {
+        float: right;
+        margin: -160px 0 0 0;
+        font-size: 15px;
+    }
+
+
+
+
+    /* add */
+
+    #add {
+        height: 460px;
+        font-family: 'PretendardRegular';
+    }
+
+    .addboard {
+        padding: 60px;
+    }
+
+    .addboard ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .addboard ul li {
+        width: 23%;
+        height: 350px;
+
+    }
+
+    .addmore img {
+        width: 100%;
+    }
+
+    .addtit {
+        font-size: 22px;
+        font-weight: bold;
+        padding-top: 10px;
+    }
+
+    .addsub {
+        width: 70px;
+        text-align: center;
+        border-bottom: 1px solid #1A1A1A;
+        font-size: 12px;
+        margin-top: 10px;
+        margin-right: 1px;
+        float: left;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 1199px) {
+
+    /* 슬라이더 */
+    #slider {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .first {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #left {
+        width: 100%;
         height: 900px;
     }
 
@@ -565,51 +1070,52 @@
 
     .top {
         width: 50px;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         margin-top: 50px;
     }
 
     .bottom1 {
         width: 250px;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         transform: rotate(-90deg);
-        margin: 420px 0 0 -110px;
+        margin: 380px 0 0 -110px;
     }
 
     .bottom2 {
         width: 300px;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         transform: rotate(-90deg);
-        margin: -100px 0 0 -110px;
+        margin: -100px 0 0 -115px;
     }
 
     .picture {
-        width: 680px;
-        height: 820px;
-        margin: -590px 0px 0 122px;
+        width: 500px;
+        margin: 0px 0px 0 0;
         transform: translateX(20px);
         opacity: 0;
         transition: 1s ease-in-out;
         transition-delay: 0.5s;
+        margin: -530px auto 0;
+        padding-left: 14%;
     }
 
     .picture img {
         width: 100%;
-        height: 100%;
     }
 
     #right {
-        width: 825px;
-        height: 900px;
+        width: 80%;
+        height: 1000px;
         box-sizing: border-box;
+        margin: 0 auto;
     }
 
     .name {
-        width: 600px;
+        width: 80%;
         height: 190px;
-        margin: 40px 0 0 45px;
-        padding-top: 13%;
+        margin: 40px 0 0 70px;
         position: relative;
+        margin-top: 100px;
     }
 
     .name:before {
@@ -618,7 +1124,6 @@
         left: 0;
         bottom: 0;
         width: 0;
-        padding-top: 8%;
         border-bottom: 2px solid #1A1A1A;
         animation: border_anim 1.5s linear forwards;
     }
@@ -635,7 +1140,7 @@
         left: 0;
         bottom: 0;
         width: 0;
-        padding-top: 12%;
+        padding-top: 70px;
         border-top: 2px solid #1A1A1A;
         animation: border_anim 1.5s linear forwards;
     }
@@ -657,50 +1162,13 @@
         font-family: 'NanumMyeongjoOTF';
     }
 
-    .arrowright1 {
-        position: relative;
-    }
-
-    .arrowright1::after {
-        position: absolute;
-        left: 0;
-        top: 0;
-        content: "";
-        width: 20px;
-        height: 20px;
-        border-top: 2px solid #9585A0;
-        border-right: 2px solid #9585A0;
-        transform: rotate(135deg);
-        margin-left: 520px;
-        margin-top: -155px;
-
-    }
-
-    .arrowright2 {
-        height: 40px;
-        width: 50px;
-        border-right: 2px solid #9585A0;
-        margin-left: 480px;
-        margin-top: -170px;
-    }
-
-    #arrowright {
-        position: relative;
-        cursor: pointer;
-    }
-
-    #arrowright::after {
-        position: absolute;
-        left: 0;
-        top: 0;
-        content: "";
-    }
 
     .box {
         transform: translateY(50px);
         opacity: 0;
         transition: 1s ease-in-out;
         transition-delay: 0.5s;
+        margin-left: 20px;
     }
 
     .artname {
@@ -710,11 +1178,10 @@
     }
 
     .explain {
-        width: 380px;
-        height: 420px;
+        width: 80%;
         margin: 0px 0 0 45px;
         text-align: left;
-        line-height: 2em;
+        line-height: 2.6em;
         font-size: 0.8rem;
         font-family: 'NanumMyeongjoOTF';
     }
@@ -723,14 +1190,18 @@
         font-size: 1rem;
         height: 20px;
         width: 100px;
-        margin: -460px 0px 0 545px;
+        margin-top: -80px;
+        margin-right: 95px;
         font-family: 'NanumMyeongjoOTF';
+        float: right;
+
     }
 
     .navpicture {
         width: 140px;
         height: 170px;
         margin: 80px 0 0 500px;
+        display: none;
     }
 
     .navpicture img {
@@ -751,10 +1222,10 @@
 
     #right .bottommenu {
         width: 70px;
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         padding-top: 2%;
         padding-bottom: 1%;
-        margin: 160px 0 0 45px;
+        margin: 50px 0 0 45px;
         border-bottom: 1px solid #1A1A1A;
         text-align: center;
 
@@ -762,11 +1233,10 @@
 
 
 
-
     /* 미술관 */
 
     #place {
-        height: 650px;
+        height: auto;
         font-family: 'PretendardRegular';
     }
 
@@ -779,12 +1249,15 @@
 
     .board ul {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     .board ul li {
-        width: 23%;
-        height: 400px;
+        width: 400px;
+        margin-bottom: 60px;
+        margin-right: 60px;
+        margin-left: 60px;
     }
 
     .museum img {
@@ -818,7 +1291,7 @@
 
     /* 소장품 */
     #collect {
-        height: 650px;
+        height: auto;
         font-family: 'PretendardRegular';
     }
 
@@ -849,18 +1322,21 @@
 
     /* 디지털미술관 */
     #digital {
-        height: 650px;
+        height: auto;
         font-family: 'PretendardRegular';
     }
 
     .digiboard ul {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     .digiboard ul li {
-        width: 32%;
-        height: 487px;
+        width: 450px;
+        margin-bottom: 60px;
+        margin-right: 20px;
+        margin-left: 20px;
     }
 
     .digivideo img {
@@ -890,7 +1366,7 @@
 
     /* 뉴스레더 */
     #newsletter {
-        height: 700px;
+        height: auto;
         font-family: 'PretendardRegular';
     }
 
@@ -901,7 +1377,7 @@
     .newstit {
         padding-top: 20px;
         font-weight: bold;
-        font-size: 17px;
+        font-size: 1.2rem;
     }
 
     .subtit {
@@ -923,13 +1399,13 @@
 
     /* 새소식 */
     #notice {
-        height: 215px;
+        height: auto;
         font-family: 'PretendardRegular';
         padding-bottom: 40px;
     }
 
     .noticewrap {
-        padding: 45px 0;
+        padding: 40px 0;
         border-top: 1px solid #1A1A1A;
         border-bottom: 1px solid #1A1A1A;
     }
@@ -937,25 +1413,23 @@
     .noticetitle {
         font-size: 26px;
         font-weight: bold;
-        width: 500px;
+        width: 160px;
     }
 
-    .noticetext ul {
-        margin-top: -40px;
+    .noticetext {
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .noticetext li {
-        font-size: 26px;
-        padding-left: 170px;
-        width: 800px;
-        margin-left: 200px;
-        padding: 10px;
-
+        font-size: 1.1em;
+        padding: 8px;
     }
 
     .noticemore {
         float: right;
-        margin: -160px 0 0 0;
+        margin: -190px 0 0 0;
         font-size: 15px;
     }
 
@@ -965,7 +1439,7 @@
     /* add */
 
     #add {
-        height: 460px;
+        height: auto;
         font-family: 'PretendardRegular';
     }
 
@@ -975,13 +1449,15 @@
 
     .addboard ul {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     .addboard ul li {
-        width: 23%;
-        height: 350px;
-
+        width: 400px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 70px;
     }
 
     .addmore img {
@@ -989,7 +1465,7 @@
     }
 
     .addtit {
-        font-size: 26px;
+        font-size: 1.4em;
         font-weight: bold;
         padding-top: 10px;
     }
@@ -998,21 +1474,481 @@
         width: 70px;
         text-align: center;
         border-bottom: 1px solid #1A1A1A;
-        font-size: 14px;
-        margin-top: -25px;
+        font-size: 12px;
+        margin-top: 10px;
         margin-right: 1px;
-        float: right;
+        float: left;
     }
-}
-
-@media (min-width: 650px) and (max-width: 1099px) {
-
 }
 
 @media (min-width: 350px) and (max-width: 649px) {
 
+    /* 슬라이더 */
+    #slider {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .first {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #left {
+        width: 100%;
+        height: 800px;
+    }
+
+    .arrowleft1 {
+        position: relative;
+    }
+
+    .arrowleft1::after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        content: "";
+        width: 10px;
+        height: 10px;
+        border-top: 3px solid #1A1A1A;
+        border-right: 3px solid #1A1A1A;
+        transform: rotate(225deg);
+        margin-top: -5px;
+        margin-left: 5px;
+    }
+
+
+    .arrowleft2 {
+        height: 40px;
+        width: 20px;
+        border-top: 3px solid #1A1A1A;
+        margin-top: 100px;
+        margin-left: 6px;
+    }
+
+    .arrowleft {
+        position: relative;
+        cursor: pointer;
+    }
+
+
+    .arrowleft::after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        content: "";
+    }
+
+    .top {
+        width: 50px;
+        font-size: 1.3rem;
+        margin-top: 0px;
+    }
+
+    .bottom1 {
+        width: 250px;
+        font-size: 1.3rem;
+        transform: rotate(-90deg);
+        margin: 300px 0 0 -110px;
+    }
+
+    .bottom2 {
+        width: 300px;
+        font-size: 1.3rem;
+        transform: rotate(-90deg);
+        margin: -100px 0 0 -115px;
+    }
+
+    .picture {
+        width: 300px;
+        transform: translateX(20px);
+        opacity: 0;
+        transition: 1s ease-in-out;
+        transition-delay: 0.5s;
+        margin: -300px auto 0;
+        padding-left: 70px;
+    }
+
+    .picture img {
+        width: 100%;
+    }
+
+    #right {
+        width: 100%;
+        height: 1000px;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+
+    .name {
+        width: 80%;
+        height: 190px;
+        position: relative;
+        margin: 40px auto 0;
+    }
+
+    .name:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        border-bottom: 2px solid #1A1A1A;
+        animation: border_anim 1.5s linear forwards;
+    }
+
+    .artist {
+        font-size: 3rem;
+        position: relative;
+        margin-top: -0px;
+    }
+
+    .artist:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        padding-top: 70px;
+        border-top: 2px solid #1A1A1A;
+        animation: border_anim 1.5s linear forwards;
+    }
+
+    @keyframes border_anim {
+        0% {
+            width: 0%;
+        }
+
+        100% {
+            width: 100%;
+        }
+    }
+
+    .circa {
+        height: 20px;
+        margin-top: 110px;
+        font-style: italic;
+        font-family: 'NanumMyeongjoOTF';
+    }
+
+
+    .box {
+        transform: translateY(50px);
+        opacity: 0;
+        transition: 1s ease-in-out;
+        transition-delay: 0.5s;
+        margin: 0 auto;
+    }
+
+    .artname {
+        width: 120px;
+        margin: 45px 0 0 45px;
+        font-weight: bold;
+    }
+
+    .explain {
+        width: 80%;
+        margin: 0 auto;
+        text-align: left;
+        line-height: 2.6em;
+        font-size: 0.8rem;
+        font-family: 'NanumMyeongjoOTF';
+    }
+
+    .size {
+        font-size: 1rem;
+        height: 20px;
+        width: 100px;
+        margin-top: -85px;
+        margin-right: 50px;
+        font-family: 'NanumMyeongjoOTF';
+        float: right;
+
+    }
+
+    .navpicture {
+        width: 140px;
+        height: 170px;
+        margin: 80px 0 0 500px;
+        display: none;
+    }
+
+    .navpicture img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #right button {
+        border: none;
+        font-family: 'Ethereal Demo Font';
+        cursor: pointer;
+        background-color: #F3EEE8;
+    }
+
+    #right button:hover {
+        color: #9585A0;
+    }
+
+    #right .bottommenu {
+        width: 70px;
+        font-size: 0.8rem;
+        padding-top: 2%;
+        padding-bottom: 1%;
+        margin: 50px 0 0 45px;
+        border-bottom: 1px solid #1A1A1A;
+        text-align: center;
+
+    }
+
+
+
+    /* 미술관 */
+
+    #place {
+        height: auto;
+        font-family: 'PretendardRegular';
+    }
+
+    .titlewrap {
+        border-top: 1px solid #1A1A1A;
+        padding: 40px 0;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .board ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .board ul li {
+        width: 400px;
+        margin-bottom: 60px;
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+
+    .museum img {
+        width: 100%;
+    }
+
+    .tit {
+        font-size: 26px;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .type {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .type span {
+        height: 25px;
+        padding: 0 10px;
+        border: 1px solid #333;
+        border-radius: 13px;
+        line-height: 23px;
+        margin: 10px 5px 0px 0px;
+    }
+
+
+
+
+    /* 소장품 */
+    #collect {
+        height: auto;
+        font-family: 'PretendardRegular';
+    }
+
+    .art img {
+        width: 100%;
+    }
+
+    .object1 {
+        font-size: 26px;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .object2 {
+        font-weight: bold;
+        color: #888888;
+    }
+
+    .collectmore {
+        float: right;
+        font-size: 15px;
+        margin-top: 50px;
+    }
+
+
+
+
+    /* 디지털미술관 */
+    #digital {
+        height: auto;
+        font-family: 'PretendardRegular';
+    }
+
+    .digiboard ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .digiboard ul li {
+        width: 450px;
+        margin-bottom: 60px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .digivideo img {
+        width: 100%;
+    }
+
+    .ch {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 25px;
+    }
+
+    .digitit {
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    .digitalmore {
+        float: right;
+        font-size: 15px;
+        margin-top: 50px;
+    }
+
+
+
+
+    /* 뉴스레더 */
+    #newsletter {
+        height: auto;
+        font-family: 'PretendardRegular';
+    }
+
+    .letter img {
+        width: 100%;
+    }
+
+    .newstit {
+        padding-top: 20px;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    .subtit {
+        padding-top: 10px;
+        font-weight: bold;
+        font-size: 17px;
+        color: #888888;
+    }
+
+    .newslettermore {
+        float: right;
+        font-size: 15px;
+        margin-top: 50px;
+    }
+
+
+
+
+
+    /* 새소식 */
+    #notice {
+        height: auto;
+        font-family: 'PretendardRegular';
+        padding-bottom: 40px;
+    }
+
+    .noticewrap {
+        padding: 40px 0;
+        border-top: 1px solid #1A1A1A;
+        border-bottom: 1px solid #1A1A1A;
+    }
+
+    .noticetitle {
+        font-size: 24px;
+        font-weight: bold;
+        width: 160px;
+    }
+
+    .noticetext {
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .noticetext li {
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    .noticemore {
+        float: right;
+        margin: -150px 0 0 0;
+        font-size: 15px;
+    }
+
+
+
+
+    /* add */
+
+    #add {
+        height: auto;
+        font-family: 'PretendardRegular';
+    }
+
+    .addboard {
+        padding: 0px;
+    }
+
+    .addboard ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .addboard ul li {
+        width: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 70px;
+    }
+
+    .addmore img {
+        width: 100%;
+    }
+
+    .addtit {
+        font-size: 1.4em;
+        font-weight: bold;
+        padding-top: 10px;
+    }
+
+    .addsub {
+        width: 70px;
+        text-align: center;
+        border-bottom: 1px solid #1A1A1A;
+        font-size: 12px;
+        margin-top: 10px;
+        margin-right: 1px;
+        float: left;
+    }
 }
 
-@media (max-width: 349px) {
-    
-}
+@media (max-width: 349px) {}
