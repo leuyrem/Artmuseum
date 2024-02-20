@@ -860,42 +860,9 @@
 
 
         #menu {
-                width: 280px;
                 display: none;
         }
 
-        #menu ul {
-                overflow: hidden;
-        }
-
-
-        #menu li {
-                float: right;
-                margin: 60px 10px;
-                font-family: 'PretendardRegular';
-        }
-
-        #menu li span {
-                color: #F3EEE8;
-                font-weight: bold;
-                
-        }
-
-        #menu .round {
-                float: right;
-                background-color: #1A1A1A;
-                border-radius: 50%;
-                height: 90px;
-                width: 90px;
-                margin: 24px 13px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-        }
-
-        #menu .round a {
-                text-align: center;
-        }
 
 
 
@@ -1103,40 +1070,6 @@
                 width: 280px;
                 display: none;
         }
-
-        #menu ul {
-                overflow: hidden;
-        }
-
-
-        #menu li {
-                float: right;
-                margin: 60px 10px;
-                font-family: 'PretendardRegular';
-        }
-
-        #menu li span {
-                color: #F3EEE8;
-                font-weight: bold;
-                
-        }
-
-        #menu .round {
-                float: right;
-                background-color: #1A1A1A;
-                border-radius: 50%;
-                height: 90px;
-                width: 90px;
-                margin: 24px 13px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-        }
-
-        #menu .round a {
-                text-align: center;
-        }
-
 
 
 

@@ -1497,11 +1497,12 @@
 
     #left {
         width: 100%;
-        height: 800px;
+        height: 400px;
     }
 
     .arrowleft1 {
         position: relative;
+        display: none;
     }
 
     .arrowleft1::after {
@@ -1525,11 +1526,13 @@
         border-top: 3px solid #1A1A1A;
         margin-top: 100px;
         margin-left: 6px;
+        display: none;
     }
 
     .arrowleft {
         position: relative;
         cursor: pointer;
+        display: none;
     }
 
 
@@ -1542,32 +1545,32 @@
 
     .top {
         width: 50px;
-        font-size: 1.3rem;
-        margin-top: 0px;
+        font-size: 1rem;
+        margin-top: 80px;
     }
 
     .bottom1 {
         width: 250px;
-        font-size: 1.3rem;
+        font-size: 1rem;
         transform: rotate(-90deg);
-        margin: 300px 0 0 -110px;
+        margin: 120px 0 0 -115px;
     }
 
     .bottom2 {
         width: 300px;
-        font-size: 1.3rem;
+        font-size: 1rem;
         transform: rotate(-90deg);
-        margin: -100px 0 0 -115px;
+        margin: 0px 0 0 -125px;
     }
 
     .picture {
-        width: 300px;
+        width: 250px;
         transform: translateX(20px);
         opacity: 0;
         transition: 1s ease-in-out;
         transition-delay: 0.5s;
-        margin: -300px auto 0;
-        padding-left: 70px;
+        margin: -200px 25px 0 0;
+        float: right;
     }
 
     .picture img {
@@ -1579,13 +1582,14 @@
         height: 1000px;
         box-sizing: border-box;
         margin: 0 auto;
+        padding-top: 100px;
     }
 
     .name {
         width: 80%;
-        height: 190px;
+        height: 130px;
         position: relative;
-        margin: 40px auto 0;
+        margin: 30px auto 0;
     }
 
     .name:before {
@@ -1599,7 +1603,7 @@
     }
 
     .artist {
-        font-size: 3rem;
+        font-size: 2rem;
         position: relative;
         margin-top: -0px;
     }
@@ -1610,7 +1614,7 @@
         left: 0;
         bottom: 0;
         width: 0;
-        padding-top: 70px;
+        padding-top: 50px;
         border-top: 2px solid #1A1A1A;
         animation: border_anim 1.5s linear forwards;
     }
@@ -1627,9 +1631,10 @@
 
     .circa {
         height: 20px;
-        margin-top: 110px;
+        margin-top: 70px;
         font-style: italic;
         font-family: 'NanumMyeongjoOTF';
+        font-size: 13px;
     }
 
 
@@ -1643,25 +1648,26 @@
 
     .artname {
         width: 120px;
-        margin: 45px 0 0 45px;
+        margin: 30px 0 0 35px;
         font-weight: bold;
+        font-size: 15px;
     }
 
     .explain {
         width: 80%;
         margin: 0 auto;
         text-align: left;
-        line-height: 2.6em;
+        line-height: 2em;
         font-size: 0.8rem;
         font-family: 'NanumMyeongjoOTF';
     }
 
     .size {
-        font-size: 1rem;
+        font-size: 13px;
         height: 20px;
         width: 100px;
-        margin-top: -85px;
-        margin-right: 50px;
+        margin-top: -70px;
+        margin-right: 20px;
         font-family: 'NanumMyeongjoOTF';
         float: right;
 
@@ -1695,9 +1701,10 @@
         font-size: 0.8rem;
         padding-top: 2%;
         padding-bottom: 1%;
-        margin: 50px 0 0 45px;
+        margin: 50px 50px 0 0px;
         border-bottom: 1px solid #1A1A1A;
         text-align: center;
+        float: right;
 
     }
 
@@ -1724,10 +1731,10 @@
     }
 
     .board ul li {
-        width: 400px;
+        width: 350px;
         margin-bottom: 60px;
-        margin-right: 60px;
-        margin-left: 60px;
+        margin-right: 30px;
+        margin-left: 30px;
     }
 
     .museum img {
@@ -1735,7 +1742,7 @@
     }
 
     .tit {
-        font-size: 26px;
+        font-size: 24px;
         font-weight: bold;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -1770,7 +1777,7 @@
     }
 
     .object1 {
-        font-size: 26px;
+        font-size: 24px;
         font-weight: bold;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -1814,13 +1821,13 @@
     }
 
     .ch {
-        font-size: 18px;
+        font-size: 17px;
         font-weight: bold;
         margin-top: 25px;
     }
 
     .digitit {
-        font-size: 22px;
+        font-size: 21px;
         font-weight: bold;
         margin-top: 10px;
     }
@@ -1858,9 +1865,10 @@
     }
 
     .newslettermore {
-        float: right;
         font-size: 15px;
-        margin-top: 50px;
+        float: left;
+        margin-top: 15px;
+        padding-bottom: 5px;
     }
 
 
@@ -1871,36 +1879,36 @@
     #notice {
         height: auto;
         font-family: 'PretendardRegular';
-        padding-bottom: 40px;
     }
 
     .noticewrap {
-        padding: 40px 0;
         border-top: 1px solid #1A1A1A;
-        border-bottom: 1px solid #1A1A1A;
+        padding: 40px 0;
+        font-weight: bold;
     }
 
     .noticetitle {
         font-size: 24px;
         font-weight: bold;
-        width: 160px;
+        padding-bottom: 10px;
     }
 
     .noticetext {
-        margin-top: 20px;
+        margin-top: 15px;
         display: flex;
         flex-wrap: wrap;
     }
 
     .noticetext li {
         font-size: 13px;
-        padding: 8px;
+        padding: 7px;
     }
 
     .noticemore {
-        float: right;
-        margin: -150px 0 0 0;
         font-size: 15px;
+        float: right;
+        margin-top: -215px;
+        padding-bottom: 50px;
     }
 
 
@@ -1914,7 +1922,8 @@
     }
 
     .addboard {
-        padding: 0px;
+        border-top: 1px solid #1A1A1A;
+        padding: 50px;
     }
 
     .addboard ul {
@@ -1924,9 +1933,7 @@
     }
 
     .addboard ul li {
-        width: 300px;
-        margin-left: 20px;
-        margin-right: 20px;
+        width: auto;
         margin-bottom: 70px;
     }
 
@@ -1951,4 +1958,479 @@
     }
 }
 
-@media (max-width: 349px) {}
+@media (max-width: 349px) {
+
+        /* 슬라이더 */
+        #slider {
+            width: 100%;
+            margin: 0 auto;
+        }
+    
+        .first {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    
+        #left {
+            width: 100%;
+            height: 400px;
+        }
+    
+        .arrowleft1 {
+            position: relative;
+            display: none;
+        }
+    
+        .arrowleft1::after {
+            position: absolute;
+            left: 0;
+            top: 0;
+            content: "";
+            width: 10px;
+            height: 10px;
+            border-top: 3px solid #1A1A1A;
+            border-right: 3px solid #1A1A1A;
+            transform: rotate(225deg);
+            margin-top: -5px;
+            margin-left: 5px;
+        }
+    
+    
+        .arrowleft2 {
+            height: 40px;
+            width: 20px;
+            border-top: 3px solid #1A1A1A;
+            margin-top: 100px;
+            margin-left: 6px;
+            display: none;
+        }
+    
+        .arrowleft {
+            position: relative;
+            cursor: pointer;
+            display: none;
+        }
+    
+    
+        .arrowleft::after {
+            position: absolute;
+            left: 0;
+            top: 0;
+            content: "";
+        }
+    
+        .top {
+            width: 50px;
+            font-size: 0.8rem;
+            margin-top: 80px;
+        }
+    
+        .bottom1 {
+            width: 250px;
+            font-size: 0.8rem;
+            transform: rotate(-90deg);
+            margin: 0px 0 0 -115px;
+        }
+    
+        .bottom2 {
+            width: 300px;
+            font-size: 0.8rem;
+            transform: rotate(-90deg);
+            margin: 0px 0 0 -129px;
+        }
+    
+        .picture {
+            width: 200px;
+            transform: translateX(20px);
+            opacity: 0;
+            transition: 1s ease-in-out;
+            transition-delay: 0.5s;
+            margin: -80px 0px 0 0;
+            float: right;
+        }
+    
+        .picture img {
+            width: 100%;
+        }
+    
+        #right {
+            width: 100%;
+            height: 1200px;
+            box-sizing: border-box;
+            margin: 0 auto;
+            padding-top: 100px;
+        }
+    
+        .name {
+            width: 80%;
+            height: 130px;
+            position: relative;
+            margin: 30px auto 0;
+        }
+    
+        .name:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 0;
+            border-bottom: 2px solid #1A1A1A;
+            animation: border_anim 1.5s linear forwards;
+        }
+    
+        .artist {
+            font-size: 2rem;
+            position: relative;
+            margin-top: -0px;
+        }
+    
+        .artist:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 0;
+            padding-top: 50px;
+            border-top: 2px solid #1A1A1A;
+            animation: border_anim 1.5s linear forwards;
+        }
+    
+        @keyframes border_anim {
+            0% {
+                width: 0%;
+            }
+    
+            100% {
+                width: 100%;
+            }
+        }
+    
+        .circa {
+            height: 20px;
+            margin-top: 70px;
+            font-style: italic;
+            font-family: 'NanumMyeongjoOTF';
+            font-size: 13px;
+        }
+    
+    
+        .box {
+            transform: translateY(50px);
+            opacity: 0;
+            transition: 1s ease-in-out;
+            transition-delay: 0.5s;
+            margin: 0 auto;
+        }
+    
+        .artname {
+            width: 120px;
+            margin: 30px 0 0 35px;
+            font-weight: bold;
+            font-size: 15px;
+        }
+    
+        .explain {
+            width: 80%;
+            margin: 0 auto;
+            text-align: left;
+            line-height: 2em;
+            font-size: 0.8rem;
+            font-family: 'NanumMyeongjoOTF';
+        }
+    
+        .size {
+            font-size: 13px;
+            height: 20px;
+            width: 100px;
+            margin-top: -70px;
+            margin-right: 20px;
+            font-family: 'NanumMyeongjoOTF';
+            float: right;
+    
+        }
+    
+        .navpicture {
+            width: 140px;
+            height: 170px;
+            margin: 80px 0 0 500px;
+            display: none;
+        }
+    
+        .navpicture img {
+            width: 100%;
+            height: 100%;
+        }
+    
+        #right button {
+            border: none;
+            font-family: 'Ethereal Demo Font';
+            cursor: pointer;
+            background-color: #F3EEE8;
+        }
+    
+        #right button:hover {
+            color: #9585A0;
+        }
+    
+        #right .bottommenu {
+            width: 70px;
+            font-size: 0.8rem;
+            padding-top: 2%;
+            padding-bottom: 1%;
+            margin: 50px 50px 0 0px;
+            border-bottom: 1px solid #1A1A1A;
+            text-align: center;
+            float: right;
+    
+        }
+    
+    
+    
+        /* 미술관 */
+    
+        #place {
+            height: auto;
+            font-family: 'PretendardRegular';
+        }
+    
+        .titlewrap {
+            border-top: 1px solid #1A1A1A;
+            padding: 40px 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+    
+        .board ul {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    
+        .board ul li {
+            width: 350px;
+            margin-bottom: 60px;
+            margin-right: 30px;
+            margin-left: 30px;
+        }
+    
+        .museum img {
+            width: 100%;
+        }
+    
+        .tit {
+            font-size: 22px;
+            font-weight: bold;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    
+        .type {
+            display: flex;
+            flex-wrap: wrap;
+    
+        }
+    
+        .type span {
+            height: 25px;
+            padding: 0 10px;
+            border: 1px solid #333;
+            border-radius: 13px;
+            line-height: 23px;
+            margin: 10px 5px 0px 0px;
+        }
+    
+    
+    
+    
+        /* 소장품 */
+        #collect {
+            height: auto;
+            font-family: 'PretendardRegular';
+        }
+    
+        .art img {
+            width: 100%;
+        }
+    
+        .object1 {
+            font-size: 22px;
+            font-weight: bold;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    
+        .object2 {
+            font-weight: bold;
+            color: #888888;
+        }
+    
+        .collectmore {
+            float: right;
+            font-size: 15px;
+            margin-top: 50px;
+        }
+    
+    
+    
+    
+        /* 디지털미술관 */
+        #digital {
+            height: auto;
+            font-family: 'PretendardRegular';
+        }
+    
+        .digiboard ul {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    
+        .digiboard ul li {
+            width: 450px;
+            margin-bottom: 60px;
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+    
+        .digivideo img {
+            width: 100%;
+        }
+    
+        .ch {
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 25px;
+        }
+    
+        .digitit {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    
+        .digitalmore {
+            float: left;
+            font-size: 15px;
+            margin-top: 15px;
+        }
+    
+    
+    
+    
+        /* 뉴스레더 */
+        #newsletter {
+            height: auto;
+            font-family: 'PretendardRegular';
+        }
+    
+        .letter img {
+            width: 100%;
+        }
+    
+        .newstit {
+            padding-top: 20px;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+    
+        .subtit {
+            padding-top: 10px;
+            font-weight: bold;
+            font-size: 17px;
+            color: #888888;
+        }
+    
+        .newslettermore {
+            font-size: 15px;
+            float: left;
+            margin-top: 15px;
+            padding-bottom: 5px;
+        }
+    
+    
+    
+    
+    
+        /* 새소식 */
+        #notice {
+            height: auto;
+            font-family: 'PretendardRegular';
+        }
+    
+        .noticewrap {
+            border-top: 1px solid #1A1A1A;
+            padding: 40px 0;
+            font-weight: bold;
+        }
+    
+        .noticetitle {
+            font-size: 24px;
+            font-weight: bold;
+            padding-bottom: 10px;
+        }
+    
+        .noticetext {
+            margin-top: 15px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+    
+        .noticetext li {
+            font-size: 13px;
+            padding: 7px;
+        }
+    
+        .noticemore {
+            font-size: 15px;
+            float: right;
+            margin-top: -215px;
+            padding-bottom: 50px;
+        }
+    
+    
+    
+    
+        /* add */
+    
+        #add {
+            height: auto;
+            font-family: 'PretendardRegular';
+        }
+    
+        .addboard {
+            border-top: 1px solid #1A1A1A;
+            padding: 50px 20px;
+        }
+    
+        .addboard ul {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    
+        .addboard ul li {
+            width: auto;
+            margin-bottom: 70px;
+        }
+    
+        .addmore img {
+            width: 100%;
+        }
+    
+        .addtit {
+            font-size: 1.4em;
+            font-weight: bold;
+            padding-top: 10px;
+        }
+    
+        .addsub {
+            width: 70px;
+            text-align: center;
+            border-bottom: 1px solid #1A1A1A;
+            font-size: 12px;
+            margin-top: 10px;
+            margin-right: 1px;
+            float: left;
+        }
+}
