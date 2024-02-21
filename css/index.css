@@ -4525,32 +4525,37 @@
         /* 슬라이더 */
         #slider {
                 background-color: #1A1A1A;
-                height: 680px;
-                margin: 0 auto;
+                height: 800px;
+
+        }
+
+        .sliderbox {
                 display: flex;
+                flex-wrap: wrap;
                 justify-content: center;
         }
 
         .text1 {
                 color: #F3EEE8;
-                font-size: 0.9em;
-                padding: 90px 0 20px 0px;
+                font-size: 1em;
+                padding: 90px 0 10px 0px;
                 transform: translateX(-100px);
                 opacity: 0;
                 transition: 1s ease-in-out;
                 transition-delay: 0.5s;
                 text-align: center;
+                width: 300px;
         }
 
         .text2 {
                 color: #9585A0;
-                font-size: 1.1em;
-                margin: 10px 0 30px 0;
+                font-size: 1.3em;
                 transform: translateX(-100px);
                 opacity: 0;
                 transition: 1s ease-in-out;
                 transition-delay: 1s;
-                width: 295px;
+                width: 350px;
+                margin-bottom: 25px;
         }
 
         .text3 {
@@ -4559,29 +4564,31 @@
                 opacity: 0;
                 transition: 1s ease-in-out;
                 transition-delay: 1.1s;
-                font-size: 0.8em;
+                font-size: 1em;
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;
         }
 
         #slider img {
-                height: 30%;
-                margin: 0;
+                width: 80%;
         }
 
         .text3 .eng {
-                font-size: 1.2em;
-                padding: 20px;
+                width: 300px;
+                margin-top: 30px;
+                text-align: center;
         }
 
         .text3 .k {
-                font-size: 1em;
+                width: 300px;
+                margin-top: 20px;
+                margin-bottom: 30px;
+                text-align: center;
         }
 
         .click {
                 display: flex;
-                margin: 30px auto;
                 padding: 5px 15px;
                 border: 2px solid #9585A0;
                 border-radius: 60px;

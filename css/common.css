@@ -846,20 +846,50 @@
 
         .menubody {
                 position: absolute;
-                width: 500px;
-                padding-top: 100px;
+                width: 90%;
+                padding-top: 70px;
         }
 
 
 
-        .menubody li {
-                font-size: 1.5em;
-                padding: 15px;
-                color: #F3EEE8;
+        .menubody>li {
+                font-size: 1.4em;
+                padding: 20px 0 ;
                 font-family: 'PretendardRegular';
                 font-weight: bold;
+                border-bottom: #F3EEE8 1px solid;
         }
 
+        .menubody>li>a {
+                color: #F3EEE8;
+        }
+
+        .menubody>li:hover>a {
+                color: #9585A0;
+        }
+
+
+
+        .menusub {
+                width: 100%;
+                display: none;
+        }
+
+        .menusub>li {
+                margin-top: 15px;
+        }
+
+
+
+        .menusub>li>a {
+                color: #F3EEE8;
+                font-size: 20px;
+                margin-bottom: 20px;
+        }
+
+        .menusub>li:hover a {
+                border-bottom: #9585A0 2px solid;
+        }
 
         #menu {
                 display: none;

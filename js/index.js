@@ -5,6 +5,14 @@ $(document).ready(function () {
     });
 });
 
+//햄버거버튼sub
+$(function(){
+    $('.menubody>li').click(function(){
+        $('.menusub').stop().slideUp();
+        $(this).find('.menusub').stop().slideToggle();
+    });
+});
+
 
 // 헤더 아래에서
 $(document).ready(function () {
