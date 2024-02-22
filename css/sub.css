@@ -19,11 +19,11 @@
         height: 900px;
     }
 
-    .arrowleft1 {
+    #arrowleft1 {
         position: relative;
     }
 
-    .arrowleft1::after {
+    #arrowleft1::after {
         position: absolute;
         left: 0;
         top: 0;
@@ -38,7 +38,7 @@
     }
 
 
-    .arrowleft2 {
+    #arrowleft2 {
         height: 40px;
         width: 20px;
         border-top: 3px solid #1A1A1A;
@@ -154,11 +154,11 @@
         font-family: 'NanumMyeongjoOTF';
     }
 
-    .arrowright1 {
+    #arrowright1 {
         position: relative;
     }
 
-    .arrowright1::after {
+    #arrowright1::after {
         position: absolute;
         left: 0;
         top: 0;
@@ -173,7 +173,7 @@
 
     }
 
-    .arrowright2 {
+    #arrowright2 {
         height: 40px;
         width: 50px;
         border-right: 2px solid #9585A0;
@@ -181,12 +181,12 @@
         margin-top: -170px;
     }
 
-    #arrowright {
+    .arrowright {
         position: relative;
         cursor: pointer;
     }
 
-    #arrowright::after {
+    .arrowright::after {
         position: absolute;
         left: 0;
         top: 0;
@@ -523,11 +523,11 @@
         width: 55%;
     }
 
-    .arrowleft1 {
+    #arrowleft1 {
         position: relative;
     }
 
-    .arrowleft1::after {
+    #arrowleft1::after {
         position: absolute;
         left: 0;
         top: 0;
@@ -542,7 +542,7 @@
     }
 
 
-    .arrowleft2 {
+    #arrowleft2 {
         height: 40px;
         width: 20px;
         border-top: 3px solid #1A1A1A;
@@ -656,11 +656,11 @@
         font-family: 'NanumMyeongjoOTF';
     }
 
-    .arrowright1 {
+    #arrowright1 {
         position: relative;
     }
 
-    .arrowright1::after {
+    #arrowright1::after {
         position: absolute;
         left: 0;
         top: 0;
@@ -675,7 +675,7 @@
 
     }
 
-    .arrowright2 {
+    #arrowright2 {
         height: 35px;
         width: 40px;
         border-right: 2px solid #9585A0;
@@ -683,12 +683,12 @@
         margin-top: -103px;
     }
 
-    #arrowright {
+    .arrowright {
         position: relative;
         cursor: pointer;
     }
 
-    #arrowright::after {
+    .arrowright::after {
         position: absolute;
         left: 0;
         top: 0;
@@ -1028,11 +1028,11 @@
         height: 900px;
     }
 
-    .arrowleft1 {
+    #arrowleft1 {
         position: relative;
     }
 
-    .arrowleft1::after {
+    #arrowleft1::after {
         position: absolute;
         left: 0;
         top: 0;
@@ -1047,7 +1047,7 @@
     }
 
 
-    .arrowleft2 {
+    #arrowleft2 {
         height: 40px;
         width: 20px;
         border-top: 3px solid #1A1A1A;
@@ -1502,12 +1502,12 @@
 
     }
 
-    .arrowleft1 {
+    #arrowleft1 {
         position: relative;
         display: none;
     }
 
-    .arrowleft1::after {
+    #arrowleft1::after {
         position: absolute;
         left: 0;
         top: 0;
@@ -1522,7 +1522,7 @@
     }
 
 
-    .arrowleft2 {
+    #arrowleft2 {
         height: 40px;
         width: 20px;
         border-top: 3px solid #1A1A1A;
@@ -1979,12 +1979,12 @@
             height: 450px;
         }
     
-        .arrowleft1 {
+        #arrowleft1 {
             position: relative;
             display: none;
         }
     
-        .arrowleft1::after {
+        #arrowleft1::after {
             position: absolute;
             left: 0;
             top: 0;
@@ -1999,7 +1999,7 @@
         }
     
     
-        .arrowleft2 {
+        #arrowleft2 {
             height: 40px;
             width: 20px;
             border-top: 3px solid #1A1A1A;

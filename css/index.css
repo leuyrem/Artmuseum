@@ -648,7 +648,7 @@
                 padding-top: 30px;
         }
 
-        nav #btn {
+        nav .btn {
                 border: 3px solid #1A1A1A;
         }
 
@@ -673,7 +673,7 @@
 
         }
 
-        nav .ch {
+        nav #ch {
                 width: 200px;
         }
 
@@ -1411,7 +1411,7 @@
                 padding-top: 30px;
         }
 
-        nav #btn {
+        nav .btn {
                 border: 3px solid #1A1A1A;
         }
 
@@ -1436,7 +1436,7 @@
 
         }
 
-        nav .ch {
+        nav #ch {
                 width: 200px;
         }
 
@@ -2154,7 +2154,7 @@
                 padding-top: 30px;
         }
 
-        nav #btn {
+        nav .btn {
                 border: 3px solid #1A1A1A;
         }
 
@@ -2179,7 +2179,7 @@
 
         }
 
-        nav .ch {
+        nav #ch {
                 width: 200px;
         }
 
@@ -2890,7 +2890,7 @@
                 padding-top: 30px;
         }
 
-        nav #btn {
+        nav .btn {
                 border: 3px solid #1A1A1A;
         }
 
@@ -2915,7 +2915,7 @@
 
         }
 
-        nav .ch {
+        nav #ch {
                 width: 150px;
         }
 
@@ -3627,7 +3627,7 @@
                 padding-top: 30px;
         }
 
-        nav #btn {
+        nav .btn {
                 border: 3px solid #1A1A1A;
         }
 
@@ -3652,7 +3652,7 @@
 
         }
 
-        nav .ch {
+        nav #ch {
                 width: 140px;
         }
 
@@ -4363,7 +4363,7 @@
                 margin-right: 60px;
         }
 
-        nav #btn {
+        nav .btn {
                 border: 3px solid #1A1A1A;
         }
 
@@ -4388,7 +4388,7 @@
 
         }
 
-        nav .ch {
+        nav #ch {
                 width: 140px;
         }
 
@@ -5117,7 +5117,7 @@
                 margin-right: 40px;
         }
 
-        nav #btn {
+        nav .btn {
                 border: 3px solid #1A1A1A;
         }
 
@@ -5142,7 +5142,7 @@
 
         }
 
-        nav .ch {
+        nav #ch {
                 width: 140px;
         }
 
@@ -5860,7 +5860,7 @@
                 margin-right: 40px;
         }
 
-        nav #btn {
+        nav .btn {
                 border: 3px solid #1A1A1A;
         }
 
@@ -5885,7 +5885,7 @@
 
         }
 
-        nav .ch {
+        nav #ch {
                 width: 120px;
         }
 
