@@ -4549,7 +4549,7 @@
 
         .text2 {
                 color: #9585A0;
-                font-size: 1.3em;
+                font-size: 1.2em;
                 transform: translateX(-100px);
                 opacity: 0;
                 transition: 1s ease-in-out;
