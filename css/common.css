@@ -53,7 +53,7 @@
                 justify-items: center;
         }
 
-        .hamburger div {
+        .hamburger span {
                 background-color: #1A1A1A;
                 position: relative;
                 width: 35px;
@@ -322,7 +322,7 @@
                 justify-items: center;
         }
 
-        .hamburger div {
+        .hamburger span {
                 background-color: #1A1A1A;
                 position: relative;
                 width: 35px;
@@ -538,7 +538,7 @@
                 width: 400px;
                 height: 30px;
                 font-family: 'PretendardRegular';
-                margin: -49px 10px 0px 0px;
+                margin: -49px 50px 0px 0px;
                 float: right;
         }
 }
@@ -599,7 +599,7 @@
                 justify-items: center;
         }
 
-        .hamburger div {
+        .hamburger span {
                 background-color: #1A1A1A;
                 position: relative;
                 width: 35px;
@@ -871,7 +871,7 @@
                 justify-items: center;
         }
 
-        .hamburger div {
+        .hamburger span {
                 background-color: #1A1A1A;
                 position: relative;
                 width: 35px;
@@ -1108,7 +1108,7 @@
                 justify-items: center;
         }
 
-        .hamburger div {
+        .hamburger span {
                 background-color: #1A1A1A;
                 position: relative;
                 width: 30px;

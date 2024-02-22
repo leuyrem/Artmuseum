@@ -52,7 +52,7 @@
         justify-items: center;
     }
 
-    .hamburger div {
+    .hamburger span {
         background-color: #1A1A1A;
         position: relative;
         width: 35px;
@@ -185,19 +185,19 @@
         font-weight: bold;
         float: left;
         position: absolute;
-        top: 243px;
+        top: 230px;
         left: 70px;
 
-    }
+}
 
-    .biglogo2 {
+.biglogo2 {
         color: #3E3E40;
         font-size: 6em;
         font-weight: bold;
         position: absolute;
-        top: 292px;
-        left: 870px;
-    }
+        top: 280px;
+        left: 850px;
+}
 
 
 
@@ -220,10 +220,6 @@
     }
 
 
-
-
-
-
     .flogo img {
         float: right;
         width: 188px;
@@ -236,7 +232,7 @@
         float: right;
         font-size: 1em;
         color: #3E3E40;
-        width: 450px;
+        width: 500px;
         height: 30px;
         font-family: 'PretendardRegular';
         float: right;
@@ -245,6 +241,7 @@
     }
 
 }
+
 
 @media (min-width: 1500px) and (max-width: 1834px) {
 
@@ -298,7 +295,7 @@
         justify-items: center;
     }
 
-    .hamburger div {
+    .hamburger span {
         background-color: #1A1A1A;
         position: relative;
         width: 35px;
@@ -540,7 +537,7 @@
         justify-items: center;
     }
 
-    .hamburger div {
+    .hamburger span {
         background-color: #1A1A1A;
         position: relative;
         width: 35px;
@@ -774,7 +771,7 @@
 
     }
 
-    .hamburger div {
+    .hamburger span {
         background-color: #1A1A1A;
         position: relative;
         width: 35px;
@@ -1014,7 +1011,7 @@
 
     }
 
-    .hamburger div {
+    .hamburger span {
         background-color: #1A1A1A;
         position: relative;
         width: 35px;
@@ -1253,7 +1250,7 @@
         justify-items: center;
     }
 
-    .hamburger div {
+    .hamburger span {
         background-color: #1A1A1A;
         position: relative;
         width: 30px;
