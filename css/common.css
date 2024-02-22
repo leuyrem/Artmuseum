@@ -123,15 +123,44 @@
 
         }
 
-
-
-        .menubody li {
+        .menubody>li {
                 font-size: 2em;
                 padding: 15px;
                 color: #F3EEE8;
                 font-family: 'PretendardRegular';
                 font-weight: bold;
+                border-bottom: #F3EEE8 1px solid;
         }
+
+        .menubody>li>a {
+                color: #F3EEE8;
+        }
+
+        .menubody>li:hover>a {
+                color: #9585A0;
+        }
+
+
+
+        .menusub {
+                width: 100%;
+                display: none;
+        }
+
+        .menusub>li {
+                margin-top: 15px;
+        }
+
+        .menusub>li>a {
+                color: #F3EEE8;
+                font-size: 20px;
+                margin-bottom: 20px;
+        }
+
+        .menusub>li:hover a {
+                border-bottom: #9585A0 2px solid;
+        }
+
 
 
         #menu {
@@ -359,19 +388,48 @@
 
         .menubody {
                 position: absolute;
-                width: 500px;
+                width: 88%;
                 padding-top: 100px;
         }
 
-
-
-        .menubody li {
+        .menubody>li {
                 font-size: 1.5em;
                 padding: 15px;
                 color: #F3EEE8;
                 font-family: 'PretendardRegular';
                 font-weight: bold;
+                border-bottom: #F3EEE8 1px solid;
         }
+
+        .menubody>li>a {
+                color: #F3EEE8;
+        }
+
+        .menubody>li:hover>a {
+                color: #9585A0;
+        }
+
+
+
+        .menusub {
+                width: 100%;
+                display: none;
+        }
+
+        .menusub>li {
+                margin-top: 15px;
+        }
+
+        .menusub>li>a {
+                color: #F3EEE8;
+                font-size: 20px;
+                margin-bottom: 20px;
+        }
+
+        .menusub>li:hover a {
+                border-bottom: #9585A0 2px solid;
+        }
+
 
 
         #menu {
@@ -607,19 +665,51 @@
 
         .menubody {
                 position: absolute;
-                width: 500px;
+                width: 88%;
                 padding-top: 100px;
         }
 
 
 
-        .menubody li {
+        .menubody>li {
                 font-size: 1.5em;
                 padding: 15px;
                 color: #F3EEE8;
                 font-family: 'PretendardRegular';
                 font-weight: bold;
+                border-bottom: #F3EEE8 1px solid;
         }
+
+        .menubody>li>a {
+                color: #F3EEE8;
+        }
+
+        .menubody>li:hover>a {
+                color: #9585A0;
+        }
+
+
+
+        .menusub {
+                width: 100%;
+                display: none;
+        }
+
+        .menusub>li {
+                margin-top: 15px;
+        }
+
+        .menusub>li>a {
+                color: #F3EEE8;
+                font-size: 20px;
+                margin-bottom: 20px;
+        }
+
+        .menusub>li:hover a {
+                border-bottom: #9585A0 2px solid;
+        }
+
+
 
 
         #menu {
@@ -846,11 +936,9 @@
 
         .menubody {
                 position: absolute;
-                width: 90%;
+                width: 88%;
                 padding-top: 70px;
         }
-
-
 
         .menubody>li {
                 font-size: 1.4em;
@@ -878,8 +966,6 @@
         .menusub>li {
                 margin-top: 15px;
         }
-
-
 
         .menusub>li>a {
                 color: #F3EEE8;
@@ -1049,7 +1135,6 @@
                 transform: rotate(-45deg);
                 margin-top: 22.5px;
                 margin-left: 0%;
-                ;
                 background-color: #F3EEE8;
                 z-index: 999;
                 position: fixed;
@@ -1070,7 +1155,6 @@
                 width: 100%;
                 height: 100vh;
                 background-color: #1A1A1A;
-                padding: 30px;
                 box-sizing: border-box;
                 transition: 0.5s all ease-in-out;
                 top: 0;
@@ -1087,23 +1171,52 @@
 
         .menubody {
                 position: absolute;
-                width: 500px;
+                width: 80%;
                 padding-top: 100px;
         }
 
 
 
-        .menubody li {
-                font-size: 1.5em;
+        .menubody>li {
+                font-size: 1.4em;
                 padding: 15px;
                 color: #F3EEE8;
                 font-family: 'PretendardRegular';
                 font-weight: bold;
+                border-bottom: #F3EEE8 1px solid;
+        }
+
+        .menubody>li>a {
+                color: #F3EEE8;
+        }
+
+        .menubody>li:hover>a {
+                color: #9585A0;
+        }
+
+
+
+        .menusub {
+                width: 100%;
+                display: none;
+        }
+
+        .menusub>li {
+                margin-top: 15px;
+        }
+
+        .menusub>li>a {
+                color: #F3EEE8;
+                font-size: 20px;
+                margin-bottom: 20px;
+        }
+
+        .menusub>li:hover a {
+                border-bottom: #9585A0 2px solid;
         }
 
 
         #menu {
-                width: 280px;
                 display: none;
         }
 

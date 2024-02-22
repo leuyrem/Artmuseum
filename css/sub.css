@@ -2043,17 +2043,17 @@
         }
     
         .picture {
-            width: 200px;
+            width: 180px;
             transform: translateX(20px);
             opacity: 0;
             transition: 1s ease-in-out;
             transition-delay: 0.5s;
-            margin: -110px 20px 0 0;
+            margin: -110px 45px 0 0;
             float: right;
         }
     
         .picture img {
-            width: 95%;
+            width: 100%;
         }
     
         #right {

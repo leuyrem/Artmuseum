@@ -2371,7 +2371,7 @@
                 border: 2px solid #9585A0;
                 border-radius: 60px;
                 background-color: #9585A0;
-                margin: -170px 250px 0px 0;
+                margin: -150px 250px 0px 0;
         }
 
         .arrow {
@@ -3104,11 +3104,11 @@
                 float: right;
                 display: flex;
                 margin: 0;
-                padding: 10px 25px 10px 25px;
+                padding: 8px 25px 8px 25px;
                 border: 2px solid #9585A0;
                 border-radius: 60px;
                 background-color: #9585A0;
-                margin: -120px 180px 0px 0;
+                margin: -100px 180px 0px 0;
         }
 
         .arrow {
@@ -5315,7 +5315,7 @@
         }
 
         #slider img {
-                height: 25%;
+                width: 80%;
                 margin: 50px 0px 0 25px;
         }
 
