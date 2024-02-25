@@ -5,6 +5,8 @@ $(document).ready(function () {
     });
 });
 
+
+
 //햄버거버튼sub
 $(function(){
     $('.menubody>li').click(function(){
@@ -14,11 +16,14 @@ $(function(){
 });
 
 
+
 // 헤더 아래에서
 $(document).ready(function () {
     $(".small p").css({ transform: "translateY(0px)", opacity: 1 })
     $(".big").css({ transform: "translateY(0px)", opacity: 1 })
 });
+
+
 
 // 슬라이더
 $(window).scroll(function () {
@@ -41,8 +46,6 @@ $(window).scroll(function () {
 
 
 
-
-
     // 섹션
     var first = $('.first').offset().top;
     if (ws > first - 700) {
@@ -58,8 +61,6 @@ $(window).scroll(function () {
     if (ws > third - 700) {
         $('.third').css("transform", "translateY(0px)").css("opacity", "1");
     }
-
-
 
 
 
@@ -107,13 +108,7 @@ $(window).scroll(function () {
         $('.p2box').css("animation", "border_anim 1.5s linear forwards");
         $('.p3box').css("animation", "border_anim 1.5s linear forwards");
     }
-
-
-
-
 });
-
-
 
 
 
@@ -128,7 +123,51 @@ $(function () {
 });
 
 
+// $(function() {
 
+//     $('button:nth-of-type(1)').click(function() {
+
+//         $("#all").fadeIn();
+
+//         $("#seo").hide();
+
+//         $("#gwa").hide();
+
+//         $("#deok").hide();
+        
+//         $("#cheong").hide();
+
+//         $("#child").hide();
+
+//     });
+
+
+
+
+
+//     $('button:nth-of-type(2)').click(function() {
+
+//         $("#div2").fadeIn();
+
+//         $("#div1").hide();
+
+//         $("#div3").hide();
+
+//     });
+
+
+
+//     $('button:nth-of-type(3)').click(function() {
+
+//         $("#div3").fadeIn();
+
+//         $("#div1").hide();
+
+//         $("#div2").hide();
+
+//     });
+
+// });
 
 
 

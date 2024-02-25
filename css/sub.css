@@ -169,7 +169,7 @@
         border-right: 2px solid #9585A0;
         transform: rotate(135deg);
         margin-left: 520px;
-        margin-top: -155px;
+        margin-top: 15px;
 
     }
 
@@ -216,6 +216,19 @@
         font-family: 'NanumMyeongjoOTF';
     }
 
+    .explain2 {
+        width: 380px;
+        height: 420px;
+        margin: 30px 0 0 45px;
+        text-align: left;
+        line-height: 2em;
+        font-size: 0.8rem;
+        font-family: 'NanumMyeongjoOTF';
+        display: none;
+    }
+
+    
+
     .size {
         font-size: 1rem;
         height: 20px;
@@ -246,7 +259,7 @@
         color: #9585A0;
     }
 
-    #right .bottommenu {
+    #right .buttonmenu {
         width: 70px;
         font-size: 0.9rem;
         padding-top: 2%;
@@ -257,7 +270,16 @@
 
     }
 
-
+    #right .buttonmenu2 {
+        width: 70px;
+        font-size: 0.9rem;
+        padding-top: 2%;
+        padding-bottom: 1%;
+        margin: 100px 0 0 45px;
+        border-bottom: 1px solid #1A1A1A;
+        text-align: center;
+        display: none;
+    }
 
 
     /* 미술관 */
@@ -341,6 +363,9 @@
         margin-top: 30px;
     }
 
+    .collectmore:hover {
+        color: #9585A0;
+    }
 
 
 
@@ -376,13 +401,63 @@
         margin-top: 10px;
     }
 
+    .triangle1 {
+        width: 0px;
+        height: 0;
+        border-style: solid;
+        border-width: 20px 0 20px 40px;
+        border-color: transparent transparent transparent #9585A0;
+        opacity: 0.8;
+        position: absolute;
+        margin-top: -300px;
+        margin-left: 240px;
+    }
+
+    .triangle1:hover {
+        opacity: 1;
+    }
+
+    .triangle2 {
+        width: 0px;
+        height: 0;
+        border-style: solid;
+        border-width: 20px 0 20px 40px;
+        border-color: transparent transparent transparent #9585A0;
+        margin-top: -265px;
+        margin-left: 240px;
+        opacity: 0.8;
+        position: absolute;
+    }
+
+    .triangle2:hover {
+        opacity: 1;
+    }
+
+    .triangle3 {
+        width: 0px;
+        height: 0;
+        border-style: solid;
+        border-width: 20px 0 20px 40px;
+        border-color: transparent transparent transparent #9585A0;
+        margin-top: -290px;
+        margin-left: 240px;
+        opacity: 0.8;
+        position: absolute;
+    }
+
+    .triangle3:hover {
+        opacity: 1;
+    }
+
     .digitalmore {
         float: right;
         font-size: 15px;
         margin-top: 30px;
     }
 
-
+    .digitalmore:hover {
+        color: #9585A0;
+    }
 
 
     /* 뉴스레더 */
@@ -414,7 +489,9 @@
         margin-top: 30px;
     }
 
-
+    .newslettermore:hover {
+        color: #9585A0;
+    }
 
 
 
@@ -452,11 +529,13 @@
 
     .noticemore {
         float: right;
-        margin: -160px 0 0 0;
+        margin: -180px 0 0 0;
         font-size: 15px;
     }
 
-
+    .noticemore:hover {
+        color: #9585A0;
+    }
 
 
     /* add */
@@ -499,6 +578,11 @@
         margin-top: -25px;
         margin-right: 1px;
         float: right;
+    }
+
+    .addsub:hover {
+        color: #9585A0;
+        border-bottom: 1px solid #9585A0;
     }
 }
 
@@ -671,7 +755,7 @@
         border-right: 2px solid #9585A0;
         transform: rotate(135deg);
         margin-left: 380px;
-        margin-top: -90px;
+        margin-top: 14px;
 
     }
 
@@ -718,6 +802,17 @@
         font-family: 'NanumMyeongjoOTF';
     }
 
+    .explain2 {
+        width: 380px;
+        height: 400px;
+        margin: 0px 0 0 45px;
+        text-align: left;
+        line-height: 2em;
+        font-size: 0.8rem;
+        font-family: 'NanumMyeongjoOTF';
+        display: none;
+    }
+
     .size {
         font-size: 0.9rem;
         height: 20px;
@@ -750,7 +845,7 @@
         color: #9585A0;
     }
 
-    #right .bottommenu {
+    #right .buttonmenu {
         width: 70px;
         font-size: 0.9rem;
         padding-top: 2%;
@@ -761,7 +856,16 @@
 
     }
 
-
+    #right .buttonmenu2 {
+        width: 70px;
+        font-size: 0.9rem;
+        padding-top: 2%;
+        padding-bottom: 1%;
+        margin: -10px 0 0 45px;
+        border-bottom: 1px solid #1A1A1A;
+        text-align: center;
+        display: none;
+    }
 
 
     /* 미술관 */
@@ -849,7 +953,9 @@
         margin-top: 30px;
     }
 
-
+    .collectmore:hover {
+        color: #9585A0;
+    }
 
 
     /* 디지털미술관 */
@@ -884,13 +990,63 @@
         margin-top: 10px;
     }
 
+    .triangle1 {
+        width: 0px;
+        height: 0;
+        border-style: solid;
+        border-width: 20px 0 20px 40px;
+        border-color: transparent transparent transparent #9585A0;
+        opacity: 0.8;
+        position: absolute;
+        margin-top: -240px;
+        margin-left: 170px;
+    }
+
+    .triangle1:hover {
+        opacity: 1;
+    }
+
+    .triangle2 {
+        width: 0px;
+        height: 0;
+        border-style: solid;
+        border-width: 20px 0 20px 40px;
+        border-color: transparent transparent transparent #9585A0;
+        margin-top: -210px;
+        margin-left: 170px;
+        opacity: 0.8;
+        position: absolute;
+    }
+
+    .triangle2:hover {
+        opacity: 1;
+    }
+
+    .triangle3 {
+        width: 0px;
+        height: 0;
+        border-style: solid;
+        border-width: 20px 0 20px 40px;
+        border-color: transparent transparent transparent #9585A0;
+        margin-top: -240px;
+        margin-left: 170px;
+        opacity: 0.8;
+        position: absolute;
+    }
+
+    .triangle3:hover {
+        opacity: 1;
+    }
+
     .digitalmore {
         float: right;
         font-size: 15px;
         margin-top: 30px;
     }
 
-
+    .digitalmore:hover {
+        color: #9585A0;
+    }
 
 
     /* 뉴스레더 */
@@ -922,7 +1078,9 @@
         margin-top: 30px;
     }
 
-
+    .newslettermore:hover {
+        color: #9585A0;
+    }
 
 
 
@@ -963,7 +1121,9 @@
         font-size: 15px;
     }
 
-
+    .noticemore:hover {
+        color: #9585A0;
+    }
 
 
     /* add */
@@ -1006,6 +1166,11 @@
         margin-top: 10px;
         margin-right: 1px;
         float: left;
+    }
+
+    .addsub:hover {
+        color: #9585A0;
+        border-bottom: 1px solid #9585A0;
     }
 }
 
@@ -1186,6 +1351,16 @@
         font-family: 'NanumMyeongjoOTF';
     }
 
+    .explain2 {
+        width: 80%;
+        margin: 0px 0 0 45px;
+        text-align: left;
+        line-height: 2.6em;
+        font-size: 0.8rem;
+        font-family: 'NanumMyeongjoOTF';
+        display: none;
+    }
+
     .size {
         font-size: 1rem;
         height: 20px;
@@ -1214,24 +1389,30 @@
         font-family: 'Ethereal Demo Font';
         cursor: pointer;
         background-color: #F3EEE8;
+        border-bottom: 1px solid #1A1A1A;
+        padding-bottom: 1%;
     }
 
     #right button:hover {
         color: #9585A0;
     }
 
-    #right .bottommenu {
+    #right .buttonmenu {
         width: 70px;
         font-size: 0.8rem;
         padding-top: 2%;
-        padding-bottom: 1%;
         margin: 50px 0 0 45px;
-        border-bottom: 1px solid #1A1A1A;
         text-align: center;
-
     }
 
-
+    #right .buttonmenu2 {
+        width: 70px;
+        font-size: 0.8rem;
+        padding-top: 2%;
+        margin: 50px 0 0 45px;
+        text-align: center;
+        display: none;
+    }
 
     /* 미술관 */
 
@@ -1317,6 +1498,9 @@
         margin-top: 30px;
     }
 
+    .collectmore:hover {
+        color: #9585A0;
+    }
 
 
 
@@ -1355,13 +1539,63 @@
         margin-top: 10px;
     }
 
+    .triangle1 {
+        width: 0px;
+        height: 0;
+        border-style: solid;
+        border-width: 20px 0 20px 40px;
+        border-color: transparent transparent transparent #9585A0;
+        opacity: 0.8;
+        position: absolute;
+        margin-top: -280px;
+        margin-left: 210px;
+    }
+
+    .triangle1:hover {
+        opacity: 1;
+    }
+
+    .triangle2 {
+        width: 0px;
+        height: 0;
+        border-style: solid;
+        border-width: 20px 0 20px 40px;
+        border-color: transparent transparent transparent #9585A0;
+        margin-top: -250px;
+        margin-left: 210px;
+        opacity: 0.8;
+        position: absolute;
+    }
+
+    .triangle2:hover {
+        opacity: 1;
+    }
+
+    .triangle3 {
+        width: 0px;
+        height: 0;
+        border-style: solid;
+        border-width: 20px 0 20px 40px;
+        border-color: transparent transparent transparent #9585A0;
+        margin-top: -280px;
+        margin-left: 210px;
+        opacity: 0.8;
+        position: absolute;
+    }
+
+    .triangle3:hover {
+        opacity: 1;
+    }
+
     .digitalmore {
         float: right;
         font-size: 15px;
         margin-top: 30px;
     }
 
-
+    .digitalmore:hover {
+        color: #9585A0;
+    }
 
 
     /* 뉴스레더 */
@@ -1393,7 +1627,9 @@
         margin-top: 30px;
     }
 
-
+    .newslettermore:hover {
+        color: #9585A0;
+    }
 
 
 
@@ -1433,7 +1669,9 @@
         font-size: 15px;
     }
 
-
+    .noticemore:hover {
+        color: #9585A0;
+    }
 
 
     /* add */
@@ -1478,6 +1716,11 @@
         margin-top: 10px;
         margin-right: 1px;
         float: left;
+    }
+
+    .addsub:hover {
+        color: #9585A0;
+        border-bottom: 1px solid #9585A0;
     }
 }
 
@@ -1664,6 +1907,16 @@
         font-family: 'NanumMyeongjoOTF';
     }
 
+    .explain2 {
+        width: 80%;
+        margin: 0 auto;
+        text-align: left;
+        line-height: 2em;
+        font-size: 0.8rem;
+        font-family: 'NanumMyeongjoOTF';
+        display: none;
+    }
+
     .size {
         font-size: 13px;
         height: 20px;
@@ -1698,7 +1951,7 @@
         color: #9585A0;
     }
 
-    #right .bottommenu {
+    #right .buttonmenu {
         width: 70px;
         font-size: 0.8rem;
         padding-top: 2%;
@@ -1707,10 +1960,19 @@
         border-bottom: 1px solid #1A1A1A;
         text-align: center;
         float: right;
-
     }
 
-
+    #right .buttonmenu2 {
+        width: 70px;
+        font-size: 0.8rem;
+        padding-top: 2%;
+        padding-bottom: 1%;
+        margin: 50px 50px 0 0px;
+        border-bottom: 1px solid #1A1A1A;
+        text-align: center;
+        float: right;
+        display: none;
+    }
 
     /* 미술관 */
 
@@ -1796,6 +2058,9 @@
         margin-top: 50px;
     }
 
+    .collectmore:hover {
+        color: #9585A0;
+    }
 
 
 
@@ -1834,13 +2099,63 @@
         margin-top: 10px;
     }
 
+    .triangle1 {
+        width: 0px;
+        height: 0;
+        border-style: solid;
+        border-width: 20px 0 20px 40px;
+        border-color: transparent transparent transparent #9585A0;
+        opacity: 0.8;
+        position: absolute;
+        margin-top: -230px;
+        margin-left: 140px;
+    }
+
+    .triangle1:hover {
+        opacity: 1;
+    }
+
+    .triangle2 {
+        width: 0px;
+        height: 0;
+        border-style: solid;
+        border-width: 20px 0 20px 40px;
+        border-color: transparent transparent transparent #9585A0;
+        margin-top: -200px;
+        margin-left: 140px;
+        opacity: 0.8;
+        position: absolute;
+    }
+
+    .triangle2:hover {
+        opacity: 1;
+    }
+
+    .triangle3 {
+        width: 0px;
+        height: 0;
+        border-style: solid;
+        border-width: 20px 0 20px 40px;
+        border-color: transparent transparent transparent #9585A0;
+        margin-top: -230px;
+        margin-left: 140px;
+        opacity: 0.8;
+        position: absolute;
+    }
+
+    .triangle3:hover {
+        opacity: 1;
+    }
+
     .digitalmore {
         float: right;
         font-size: 15px;
         margin-top: 50px;
     }
 
-
+    .digitalmore:hover {
+        color: #9585A0;
+    }
 
 
     /* 뉴스레더 */
@@ -1873,7 +2188,9 @@
         padding-bottom: 5px;
     }
 
-
+    .newslettermore:hover {
+        color: #9585A0;
+    }
 
 
 
@@ -1913,7 +2230,9 @@
         padding-bottom: 50px;
     }
 
-
+    .noticemore:hover {
+        color: #9585A0;
+    }
 
 
     /* add */
@@ -1958,481 +2277,565 @@
         margin-right: 1px;
         float: left;
     }
+
+    .addsub:hover {
+        color: #9585A0;
+        border-bottom: 1px solid #9585A0;
+    }
 }
 
 @media (max-width: 349px) {
 
-        /* 슬라이더 */
-        #slider {
-            width: 100%;
-            margin: 0 auto;
+    /* 슬라이더 */
+    #slider {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .first {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #left {
+        width: 100%;
+        height: 450px;
+    }
+
+    #arrowleft1 {
+        position: relative;
+        display: none;
+    }
+
+    #arrowleft1::after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        content: "";
+        width: 10px;
+        height: 10px;
+        border-top: 3px solid #1A1A1A;
+        border-right: 3px solid #1A1A1A;
+        transform: rotate(225deg);
+        margin-top: -5px;
+        margin-left: 5px;
+    }
+
+
+    #arrowleft2 {
+        height: 40px;
+        width: 20px;
+        border-top: 3px solid #1A1A1A;
+        margin-top: 100px;
+        margin-left: 6px;
+        display: none;
+    }
+
+    .arrowleft {
+        position: relative;
+        cursor: pointer;
+        display: none;
+    }
+
+
+    .arrowleft::after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        content: "";
+    }
+
+    .top {
+        width: 50px;
+        font-size: 0.8rem;
+        margin-top: 100px;
+    }
+
+    .bottom1 {
+        width: 250px;
+        font-size: 0.8rem;
+        transform: rotate(-90deg);
+        margin: 50px 0 0 -115px;
+    }
+
+    .bottom2 {
+        width: 300px;
+        font-size: 0.8rem;
+        transform: rotate(-90deg);
+        margin: 0px 0 0 -129px;
+    }
+
+    .picture {
+        width: 180px;
+        transform: translateX(20px);
+        opacity: 0;
+        transition: 1s ease-in-out;
+        transition-delay: 0.5s;
+        margin: -110px 45px 0 0;
+        float: right;
+    }
+
+    .picture img {
+        width: 100%;
+    }
+
+    #right {
+        width: 100%;
+        height: 1200px;
+        box-sizing: border-box;
+        margin: 0 auto;
+        padding-top: 100px;
+    }
+
+    .name {
+        width: 80%;
+        height: 130px;
+        position: relative;
+        margin: 30px auto 0;
+    }
+
+    .name:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        border-bottom: 2px solid #1A1A1A;
+        animation: border_anim 1.5s linear forwards;
+    }
+
+    .artist {
+        font-size: 2rem;
+        position: relative;
+        margin-top: -0px;
+    }
+
+    .artist:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        padding-top: 50px;
+        border-top: 2px solid #1A1A1A;
+        animation: border_anim 1.5s linear forwards;
+    }
+
+    @keyframes border_anim {
+        0% {
+            width: 0%;
         }
-    
-        .first {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-    
-        #left {
-            width: 100%;
-            height: 450px;
-        }
-    
-        #arrowleft1 {
-            position: relative;
-            display: none;
-        }
-    
-        #arrowleft1::after {
-            position: absolute;
-            left: 0;
-            top: 0;
-            content: "";
-            width: 10px;
-            height: 10px;
-            border-top: 3px solid #1A1A1A;
-            border-right: 3px solid #1A1A1A;
-            transform: rotate(225deg);
-            margin-top: -5px;
-            margin-left: 5px;
-        }
-    
-    
-        #arrowleft2 {
-            height: 40px;
-            width: 20px;
-            border-top: 3px solid #1A1A1A;
-            margin-top: 100px;
-            margin-left: 6px;
-            display: none;
-        }
-    
-        .arrowleft {
-            position: relative;
-            cursor: pointer;
-            display: none;
-        }
-    
-    
-        .arrowleft::after {
-            position: absolute;
-            left: 0;
-            top: 0;
-            content: "";
-        }
-    
-        .top {
-            width: 50px;
-            font-size: 0.8rem;
-            margin-top: 100px;
-        }
-    
-        .bottom1 {
-            width: 250px;
-            font-size: 0.8rem;
-            transform: rotate(-90deg);
-            margin: 50px 0 0 -115px;
-        }
-    
-        .bottom2 {
-            width: 300px;
-            font-size: 0.8rem;
-            transform: rotate(-90deg);
-            margin: 0px 0 0 -129px;
-        }
-    
-        .picture {
-            width: 180px;
-            transform: translateX(20px);
-            opacity: 0;
-            transition: 1s ease-in-out;
-            transition-delay: 0.5s;
-            margin: -110px 45px 0 0;
-            float: right;
-        }
-    
-        .picture img {
-            width: 100%;
-        }
-    
-        #right {
-            width: 100%;
-            height: 1200px;
-            box-sizing: border-box;
-            margin: 0 auto;
-            padding-top: 100px;
-        }
-    
-        .name {
-            width: 80%;
-            height: 130px;
-            position: relative;
-            margin: 30px auto 0;
-        }
-    
-        .name:before {
-            content: "";
-            position: absolute;
-            left: 0;
-            bottom: 0;
-            width: 0;
-            border-bottom: 2px solid #1A1A1A;
-            animation: border_anim 1.5s linear forwards;
-        }
-    
-        .artist {
-            font-size: 2rem;
-            position: relative;
-            margin-top: -0px;
-        }
-    
-        .artist:before {
-            content: "";
-            position: absolute;
-            left: 0;
-            bottom: 0;
-            width: 0;
-            padding-top: 50px;
-            border-top: 2px solid #1A1A1A;
-            animation: border_anim 1.5s linear forwards;
-        }
-    
-        @keyframes border_anim {
-            0% {
-                width: 0%;
-            }
-    
-            100% {
-                width: 100%;
-            }
-        }
-    
-        .circa {
-            height: 20px;
-            margin-top: 70px;
-            font-style: italic;
-            font-family: 'NanumMyeongjoOTF';
-            font-size: 13px;
-        }
-    
-    
-        .box {
-            transform: translateY(50px);
-            opacity: 0;
-            transition: 1s ease-in-out;
-            transition-delay: 0.5s;
-            margin: 0 auto;
-        }
-    
-        .artname {
-            width: 120px;
-            margin: 30px 0 0 35px;
-            font-weight: bold;
-            font-size: 15px;
-        }
-    
-        .explain {
-            width: 80%;
-            margin: 0 auto;
-            text-align: left;
-            line-height: 2em;
-            font-size: 0.8rem;
-            font-family: 'NanumMyeongjoOTF';
-        }
-    
-        .size {
-            font-size: 13px;
-            height: 20px;
-            width: 100px;
-            margin-top: -70px;
-            margin-right: 20px;
-            font-family: 'NanumMyeongjoOTF';
-            float: right;
-    
-        }
-    
-        .navpicture {
-            width: 140px;
-            height: 170px;
-            margin: 80px 0 0 500px;
-            display: none;
-        }
-    
-        .navpicture img {
-            width: 100%;
-            height: 100%;
-        }
-    
-        #right button {
-            border: none;
-            font-family: 'Ethereal Demo Font';
-            cursor: pointer;
-            background-color: #F3EEE8;
-        }
-    
-        #right button:hover {
-            color: #9585A0;
-        }
-    
-        #right .bottommenu {
-            width: 70px;
-            font-size: 0.8rem;
-            padding-top: 2%;
-            padding-bottom: 1%;
-            margin: 50px 50px 0 0px;
-            border-bottom: 1px solid #1A1A1A;
-            text-align: center;
-            float: right;
-    
-        }
-    
-    
-    
-        /* 미술관 */
-    
-        #place {
-            height: auto;
-            font-family: 'PretendardRegular';
-        }
-    
-        .titlewrap {
-            border-top: 1px solid #1A1A1A;
-            padding: 40px 0;
-            font-size: 24px;
-            font-weight: bold;
-        }
-    
-        .board ul {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-    
-        .board ul li {
-            width: 350px;
-            margin-bottom: 60px;
-            margin-right: 30px;
-            margin-left: 30px;
-        }
-    
-        .museum img {
+
+        100% {
             width: 100%;
         }
+    }
+
+    .circa {
+        height: 20px;
+        margin-top: 70px;
+        font-style: italic;
+        font-family: 'NanumMyeongjoOTF';
+        font-size: 13px;
+    }
+
+
+    .box {
+        transform: translateY(50px);
+        opacity: 0;
+        transition: 1s ease-in-out;
+        transition-delay: 0.5s;
+        margin: 0 auto;
+    }
+
+    .artname {
+        width: 120px;
+        margin: 30px 0 0 35px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .explain {
+        width: 80%;
+        margin: 0 auto;
+        text-align: left;
+        line-height: 2em;
+        font-size: 0.8rem;
+        font-family: 'NanumMyeongjoOTF';
+    }
+
+    .explain2 {
+        width: 80%;
+        margin: 0 auto;
+        text-align: left;
+        line-height: 2em;
+        font-size: 0.8rem;
+        font-family: 'NanumMyeongjoOTF';
+        display: none;
+    }
+
+    .size {
+        font-size: 13px;
+        height: 20px;
+        width: 100px;
+        margin-top: -70px;
+        margin-right: 20px;
+        font-family: 'NanumMyeongjoOTF';
+        float: right;
+
+    }
+
+    .navpicture {
+        width: 140px;
+        height: 170px;
+        margin: 80px 0 0 500px;
+        display: none;
+    }
+
+    .navpicture img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #right button {
+        border: none;
+        font-family: 'Ethereal Demo Font';
+        cursor: pointer;
+        background-color: #F3EEE8;
+    }
+
+    #right button:hover {
+        color: #9585A0;
+    }
+
+    #right .buttonmenu {
+        width: 70px;
+        font-size: 0.8rem;
+        padding-top: 2%;
+        padding-bottom: 1%;
+        margin: 50px 50px 0 0px;
+        border-bottom: 1px solid #1A1A1A;
+        text-align: center;
+        float: right;
+    }
+
+    #right .buttonmenu2 {
+        width: 70px;
+        font-size: 0.8rem;
+        padding-top: 2%;
+        padding-bottom: 1%;
+        margin: 20px 50px 0 0px;
+        border-bottom: 1px solid #1A1A1A;
+        text-align: center;
+        float: right;
+        display: none;
+    }
+
+
+    /* 미술관 */
+
+    #place {
+        height: auto;
+        font-family: 'PretendardRegular';
+    }
+
+    .titlewrap {
+        border-top: 1px solid #1A1A1A;
+        padding: 40px 0;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .board ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .board ul li {
+        width: 350px;
+        margin-bottom: 60px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .museum img {
+        width: 100%;
+    }
+
+    .tit {
+        font-size: 22px;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .type {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .type span {
+        height: 25px;
+        padding: 0 10px;
+        border: 1px solid #333;
+        border-radius: 13px;
+        line-height: 23px;
+        margin: 10px 5px 0px 0px;
+    }
+
+
+
+
+    /* 소장품 */
+    #collect {
+        height: auto;
+        font-family: 'PretendardRegular';
+    }
+
+    .art img {
+        width: 100%;
+    }
+
+    .object1 {
+        font-size: 22px;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .object2 {
+        font-weight: bold;
+        color: #888888;
+    }
+
+    .collectmore {
+        float: right;
+        font-size: 15px;
+        margin-top: 50px;
+    }
+
+
+
+
+    /* 디지털미술관 */
+    #digital {
+        height: auto;
+        font-family: 'PretendardRegular';
+    }
+
+    .digiboard ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .digiboard ul li {
+        width: 450px;
+        margin-bottom: 60px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .digivideo img {
+        width: 100%;
+    }
+
+    .ch {
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 25px;
+    }
+
+    .digitit {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    .triangle1 {
+        width: 0px;
+        height: 0;
+        border-style: solid;
+        border-width: 20px 0 20px 40px;
+        border-color: transparent transparent transparent #9585A0;
+        opacity: 0.8;
+        position: absolute;
+        margin-top: -220px;
+        margin-left: 100px;
+    }
+
+    .triangle1:hover {
+        opacity: 1;
+    }
+
+    .triangle2 {
+        width: 0px;
+        height: 0;
+        border-style: solid;
+        border-width: 20px 0 20px 40px;
+        border-color: transparent transparent transparent #9585A0;
+        margin-top: -190px;
+        margin-left: 100px;
+        opacity: 0.8;
+        position: absolute;
+    }
+
+    .triangle2:hover {
+        opacity: 1;
+    }
+
+    .triangle3 {
+        width: 0px;
+        height: 0;
+        border-style: solid;
+        border-width: 20px 0 20px 40px;
+        border-color: transparent transparent transparent #9585A0;
+        margin-top: -190px;
+        margin-left: 100px;
+        opacity: 0.8;
+        position: absolute;
+    }
+
+    .triangle3:hover {
+        opacity: 1;
+    }
+
+    .digitalmore {
+        float: left;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    .digitalmore:hover {
+        color: #9585A0;
+    }
+
+
+    /* 뉴스레더 */
+    #newsletter {
+        height: auto;
+        font-family: 'PretendardRegular';
+    }
+
+    .letter img {
+        width: 100%;
+    }
+
+    .newstit {
+        padding-top: 20px;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    .subtit {
+        padding-top: 10px;
+        font-weight: bold;
+        font-size: 17px;
+        color: #888888;
+    }
+
+    .newslettermore {
+        font-size: 15px;
+        float: left;
+        margin-top: 15px;
+        padding-bottom: 5px;
+    }
+
+    .newslettermore:hover {
+        color: #9585A0;
+    }
+
+
+
+    /* 새소식 */
+    #notice {
+        height: auto;
+        font-family: 'PretendardRegular';
+    }
+
+    .noticewrap {
+        border-top: 1px solid #1A1A1A;
+        padding: 40px 0;
+        font-weight: bold;
+    }
+
+    .noticetitle {
+        font-size: 24px;
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
+
+    .noticetext {
+        margin-top: 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .noticetext li {
+        font-size: 13px;
+        padding: 7px;
+    }
+
+    .noticemore {
+        font-size: 15px;
+        float: right;
+        margin-top: -215px;
+        padding-bottom: 50px;
+    }
+
+    .noticemore:hover {
+        color: #9585A0;
+    }
+
+
+    /* add */
+
+    #add {
+        height: auto;
+        font-family: 'PretendardRegular';
+    }
+
+    .addboard {
+        border-top: 1px solid #1A1A1A;
+        padding: 50px 20px;
+    }
+
+    .addboard ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .addboard ul li {
+        width: auto;
+        margin-bottom: 70px;
+    }
+
+    .addmore img {
+        width: 100%;
+    }
+
+    .addtit {
+        font-size: 1.4em;
+        font-weight: bold;
+        padding-top: 10px;
+    }
+
+    .addsub {
+        width: 70px;
+        text-align: center;
+        border-bottom: 1px solid #1A1A1A;
+        font-size: 12px;
+        margin-top: 10px;
+        margin-right: 1px;
+        float: left;
+    }
     
-        .tit {
-            font-size: 22px;
-            font-weight: bold;
-            padding-top: 10px;
-            padding-bottom: 10px;
-        }
-    
-        .type {
-            display: flex;
-            flex-wrap: wrap;
-    
-        }
-    
-        .type span {
-            height: 25px;
-            padding: 0 10px;
-            border: 1px solid #333;
-            border-radius: 13px;
-            line-height: 23px;
-            margin: 10px 5px 0px 0px;
-        }
-    
-    
-    
-    
-        /* 소장품 */
-        #collect {
-            height: auto;
-            font-family: 'PretendardRegular';
-        }
-    
-        .art img {
-            width: 100%;
-        }
-    
-        .object1 {
-            font-size: 22px;
-            font-weight: bold;
-            padding-top: 10px;
-            padding-bottom: 10px;
-        }
-    
-        .object2 {
-            font-weight: bold;
-            color: #888888;
-        }
-    
-        .collectmore {
-            float: right;
-            font-size: 15px;
-            margin-top: 50px;
-        }
-    
-    
-    
-    
-        /* 디지털미술관 */
-        #digital {
-            height: auto;
-            font-family: 'PretendardRegular';
-        }
-    
-        .digiboard ul {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-    
-        .digiboard ul li {
-            width: 450px;
-            margin-bottom: 60px;
-            margin-right: 20px;
-            margin-left: 20px;
-        }
-    
-        .digivideo img {
-            width: 100%;
-        }
-    
-        .ch {
-            font-size: 16px;
-            font-weight: bold;
-            margin-top: 25px;
-        }
-    
-        .digitit {
-            font-size: 20px;
-            font-weight: bold;
-            margin-top: 10px;
-        }
-    
-        .digitalmore {
-            float: left;
-            font-size: 15px;
-            margin-top: 15px;
-        }
-    
-    
-    
-    
-        /* 뉴스레더 */
-        #newsletter {
-            height: auto;
-            font-family: 'PretendardRegular';
-        }
-    
-        .letter img {
-            width: 100%;
-        }
-    
-        .newstit {
-            padding-top: 20px;
-            font-weight: bold;
-            font-size: 1.2rem;
-        }
-    
-        .subtit {
-            padding-top: 10px;
-            font-weight: bold;
-            font-size: 17px;
-            color: #888888;
-        }
-    
-        .newslettermore {
-            font-size: 15px;
-            float: left;
-            margin-top: 15px;
-            padding-bottom: 5px;
-        }
-    
-    
-    
-    
-    
-        /* 새소식 */
-        #notice {
-            height: auto;
-            font-family: 'PretendardRegular';
-        }
-    
-        .noticewrap {
-            border-top: 1px solid #1A1A1A;
-            padding: 40px 0;
-            font-weight: bold;
-        }
-    
-        .noticetitle {
-            font-size: 24px;
-            font-weight: bold;
-            padding-bottom: 10px;
-        }
-    
-        .noticetext {
-            margin-top: 15px;
-            display: flex;
-            flex-wrap: wrap;
-        }
-    
-        .noticetext li {
-            font-size: 13px;
-            padding: 7px;
-        }
-    
-        .noticemore {
-            font-size: 15px;
-            float: right;
-            margin-top: -215px;
-            padding-bottom: 50px;
-        }
-    
-    
-    
-    
-        /* add */
-    
-        #add {
-            height: auto;
-            font-family: 'PretendardRegular';
-        }
-    
-        .addboard {
-            border-top: 1px solid #1A1A1A;
-            padding: 50px 20px;
-        }
-    
-        .addboard ul {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-    
-        .addboard ul li {
-            width: auto;
-            margin-bottom: 70px;
-        }
-    
-        .addmore img {
-            width: 100%;
-        }
-    
-        .addtit {
-            font-size: 1.4em;
-            font-weight: bold;
-            padding-top: 10px;
-        }
-    
-        .addsub {
-            width: 70px;
-            text-align: center;
-            border-bottom: 1px solid #1A1A1A;
-            font-size: 12px;
-            margin-top: 10px;
-            margin-right: 1px;
-            float: left;
-        }
+    .addsub:hover {
+        color: #9585A0;
+        border-bottom: 1px solid #9585A0;
+    }
 }
