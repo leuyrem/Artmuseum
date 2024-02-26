@@ -114,7 +114,7 @@ $(window).scroll(function () {
 
 //전시 정보
 $(function () {
-    $('button').click(function () {
+    $('#select li').click(function () {
         let idx = $(this).index();
         $('.art').hide();
         $(".art").eq(idx).fadeIn().css("display", "flex");
@@ -123,51 +123,7 @@ $(function () {
 });
 
 
-// $(function() {
 
-//     $('button:nth-of-type(1)').click(function() {
-
-//         $("#all").fadeIn();
-
-//         $("#seo").hide();
-
-//         $("#gwa").hide();
-
-//         $("#deok").hide();
-        
-//         $("#cheong").hide();
-
-//         $("#child").hide();
-
-//     });
-
-
-
-
-
-//     $('button:nth-of-type(2)').click(function() {
-
-//         $("#div2").fadeIn();
-
-//         $("#div1").hide();
-
-//         $("#div3").hide();
-
-//     });
-
-
-
-//     $('button:nth-of-type(3)').click(function() {
-
-//         $("#div3").fadeIn();
-
-//         $("#div1").hide();
-
-//         $("#div2").hide();
-
-//     });
-
-// });
 
 
 
