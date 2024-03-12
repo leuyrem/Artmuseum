@@ -55,7 +55,7 @@
         }
 
         .text1 {
-                color: #F3EEE8;
+                color: #f3eee8;
                 font-size: 2em;
                 padding: 130px 0 0px 100px;
                 transform: translateX(-100px);
@@ -105,7 +105,7 @@
                 display: flex;
                 margin: 0;
                 padding: 15px 50px 15px 50px;
-                border: 2px solid #9585A0;
+                border: 2px solid #9585a0;
                 border-radius: 60px;
                 background-color: #9585A0;
                 margin: 350px -215px 0px 0px;
@@ -474,7 +474,7 @@
 
         .p1 {
                 width: 343px;
-                height: 420px;
+                height: 700px;
                 padding-bottom: 20px;
                 line-height: 2.5em;
                 position: relative;
@@ -497,7 +497,7 @@
 
         .p2 {
                 width: 320px;
-                height: 420px;
+                height: 700px;
                 padding-bottom: 20px;
                 line-height: 2.5em;
                 position: relative;
@@ -1234,7 +1234,7 @@
 
         .p1 {
                 width: 343px;
-                height: 420px;
+                height: 700px;
                 padding-bottom: 20px;
                 line-height: 2.5em;
                 position: relative;
@@ -1256,7 +1256,7 @@
 
         .p2 {
                 width: 320px;
-                height: 420px;
+                height: 700px;
                 padding-bottom: 20px;
                 line-height: 2.5em;
                 position: relative;
